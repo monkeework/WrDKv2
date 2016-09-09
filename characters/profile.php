@@ -1600,7 +1600,7 @@ function getImgGallery($imgID = '', $CodeName = '', $str = '', $imgHero = '', $m
 								<!-- Wrapper for slides -->
 								<div class="carousel-inner">';
 
-/*
+
 
 // create an array to hold directory list
 	$results = array();
@@ -1652,12 +1652,12 @@ function getImgGallery($imgID = '', $CodeName = '', $str = '', $imgHero = '', $m
 
 	}
 
-*/
 
 
+/*
 		$str .=  '<div class="item active">
 		 <img class="img-responsive" src="../uploads/' . $imgID . '-1g.jpg" alt="...">
-			<div class="carousel-caption">' . $CodeName . ' (1/3)</div>
+			<div class="carousel-caption">'. $imgID . ' -- '  . $CodeName . ' (1/3)</div>
 		</div>
 
 		<div class="item">
@@ -1669,18 +1669,7 @@ function getImgGallery($imgID = '', $CodeName = '', $str = '', $imgHero = '', $m
 			<img class="img-responsive" src="../uploads/' . $imgID . '-3g.jpg" alt="...">
 			<div class="carousel-caption">' . $CodeName . ' (3/3)</div>
 		</div>';
-
-
-
-
-
-
-
-
-
-
-
-
+*/
 
 
 									$str .= '</div>
@@ -1708,8 +1697,7 @@ function getImgGallery($imgID = '', $CodeName = '', $str = '', $imgHero = '', $m
 
 
 
-
-#scripts must site outside php so the browser can properly read the script tags
+//scripts must site outside php so the browser can properly read the script tags
 ?>
 
 <script type="text/javascript" src="./../_js/jquery.ddslick.js"></script>

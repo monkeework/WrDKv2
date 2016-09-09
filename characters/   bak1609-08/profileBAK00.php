@@ -323,7 +323,6 @@ switch ($myAction)
 		</style>
 		';
 
-
 		#character identifiers
 		echo varChekDisplay('full name', $FullName, $Gender);
 		echo varChekDisplay('availability', $StatusID, $aarStatus);
@@ -932,6 +931,63 @@ function getThumbs($imgID, $name){ #create 4 random thumbnails
 	if(($_REQUEST['act']) == 'show'){
 		#make gallery of 4 random images
 
+				$str .= '
+
+		<div class="container text-center">
+
+			<!-- Large modal -->
+			<button class="btn btn-default" data-toggle="modal" data-target=".bs-example-modal-lg">Large modal</button>
+
+			<div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+				<div class="modal-dialog modal-lg">
+					<div class="modal-content">
+						<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+
+
+
+				<!-- Wrapper for slides -->
+				<div class="carousel-inner">
+					<div class="item active">
+					 <img class="img-responsive" src="http://placehold.it/1200x600/555/000&text=One" alt="...">
+						<div class="carousel-caption">
+							One Image
+						</div>
+					</div>
+					<div class="item">
+						<img class="img-responsive" src="http://placehold.it/1200x600/fffccc/000&text=Two" alt="...">
+						<div class="carousel-caption">
+							Another Image
+						</div>
+					</div>
+					 <div class="item">
+						<img class="img-responsive" src="http://placehold.it/1200x600/fcf00c/000&text=Three" alt="...">
+						<div class="carousel-caption">
+							Another Image
+						</div>
+					</div>
+				</div>
+
+				<!-- Controls -->
+				<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+					<span class="glyphicon glyphicon-chevron-left"></span>
+				</a>
+				<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+					<span class="glyphicon glyphicon-chevron-right"></span>
+				</a>
+			</div>
+					</div>
+				</div>
+			</div>
+			</div>
+
+
+			<div class="clearfix"></div>
+			';
+
+
+
+
+
 
 		while($x <= 4) {
 			$imgPath = '../uploads/' . $imgID . '-' . rand(1,6) . 't.jpg';
@@ -1126,13 +1182,26 @@ function getJumbotron($myID ='', $CodeName=''){
 				</div>';
 			}
 
+			echo '<h1 class="col-sm-8 vertical-align"><b>' . $CodeName . '</b></h1>
+
+			<!-- image gallery here -->
+			<div class"col-sm-2 vertical-align pull-right .vertical-align">
+
+			<div class" pull-right">';
+
+			echo getThumbs($myID, $CodeName) . '</div>
+			<br />
+
+			<div col-sm-2 pull-right">
+				<img src="' . getHero($myID) . '" alt="' . $CodeName . '"
+					class="img-thumbnail pull-right" width="170" height="170">
+			</div>
+
+		</div>
+		<!--END IMAGES-->
 
 
-
-
-	echo getImgGallery($myID, $CodeName); #CharID needed, returns array to build image gallery with
-
-	echo '</div>
+	</div>
 	<!--END JUMBO-->'; #END jumbo
 }
 
@@ -1547,166 +1616,6 @@ function handlerDropDown($PlayerName, $HandlerUserID, $myDropdown = ''){//Select
 	}
 	@mysqli_free_result($result); # We're done with the data!
 }
-
-
-
-function getImgGallery($imgID = '', $CodeName = '', $str = '', $imgHero = '', $modal = FALSE){
-/**
-	* Take CharID, check upload __DIR__, return all images found meeint criteria of search given
-	*
-	**/
-
-	$str .= '<h1 class="col-sm-8 vertical-align"><b>' . $CodeName . '</b></h1>
-
-		<!-- image gallery here -->
-		<div class"col-sm-2 vertical-align pull-right .vertical-align">
-
-		<div class="  pull-right">';
-			#echo getThumbs($myID, $CodeName) . '</div>
-			$str .= '<br />
-			<div col-sm-2 pull-right">
-				<!-- Large modal -->
-				<a href="#" class="btn " data-toggle="modal" data-target=".bs-example-modal-lg">
-					<img src="';
-
-
-					$imgPath = '../uploads/' . $imgID . '-0.jpg';
-
-					if(($_REQUEST['act']) == 'show'){
-						#make gallery of 4 random images
-
-						if(file_exists($imgPath)){
-							$imgHero = $imgPath;
-							$modal = TRUE;
-						}else{ #show static
-							$imgHero = VIRTUAL_PATH . '_img/_static/static---00' . rand(1,9). '.gif';
-							#no image, no modal
-						}
-					}
-
-				$str .= $imgHero . '" alt="'
-				. $CodeName . '"
-					class="img-thumbnail pull-right" width="170" height="170">
-				</a>';
-
-
-				if($modal){
-
-					$str .= '<div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-					<div class="modal-dialog modal-lg">
-						<div class="modal-content">
-							<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-
-								<!-- Wrapper for slides -->
-								<div class="carousel-inner">';
-
-/*
-
-// create an array to hold directory list
-	$results = array();
-
-	// create a handler for the directory
-	$directory = '../uploads/';
-	$handler = opendir($directory);
-
-	// open directory and walk through the filenames
-	while ($file = readdir($handler)) {
-		// if file isn't this directory or its parent, add it to the results
-		if ($file != "." && $file != "..") {
-			// check with regex that the file format is what we're expecting and not something else
-			//start of line, start of string, begins with $myID plus a single dash then whatever and is 'g.jpg'
-			if(preg_match('#\d?' . $imgID . '-\dg#', $file)) {
-				// add to our file array for later use
-				$results[] .= $file;
-			}
-			#$cars=array("Volvo","BMW","Toyota");
-		}
-	}
-	#var_dump ($results);
-	$tot = count($results);
-	$num = 1;
-
-
-
-	foreach ($results as $result){
-
-		#var_dump ($result);
-
-		if($num = 1){
-			//first one has a class of active on it
-			$str .= '<div class="item active">
-		 <img class="img-responsive" src="../uploads/' . $result . '" alt="...">
-			<div class="carousel-caption">' . $CodeName . ' (' . $num++ . '/' . $tot . ')</div>
-		</div>';
-
-
-		}else{
-			//all others don't have class active on them
-			$str .= '<div class="item">
-		 <img class="img-responsive" src="../uploads/' . $result  . '" alt="...">
-			<div class="carousel-caption">' . $CodeName . ' (' . $num++ . '/' . $tot . ')</div>
-		</div>';
-
-		}
-
-
-	}
-
-*/
-
-
-		$str .=  '<div class="item active">
-		 <img class="img-responsive" src="../uploads/' . $imgID . '-1g.jpg" alt="...">
-			<div class="carousel-caption">' . $CodeName . ' (1/3)</div>
-		</div>
-
-		<div class="item">
-			<img class="img-responsive" src="../uploads/' . $imgID . '-2g.jpg" alt="...">
-			<div class="carousel-caption">' . $CodeName . ' (2/3)</div>
-		</div>
-
-		 <div class="item">
-			<img class="img-responsive" src="../uploads/' . $imgID . '-3g.jpg" alt="...">
-			<div class="carousel-caption">' . $CodeName . ' (3/3)</div>
-		</div>';
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-									$str .= '</div>
-
-								<!-- Controls -->
-								<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-									<span class="glyphicon glyphicon-chevron-left"></span>
-								</a>
-								<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-									<span class="glyphicon glyphicon-chevron-right"></span>
-								</a>
-							</div>
-						</div>
-					</div>
-				</div>';
-				} //END Modal Image Gallery
-
-			$str .= '</div>
-
-			<div class="clearfix"></div>
-		</div></div><!--END IMAGES-->';
-
-	return $str;
-}
-
-
 
 
 #scripts must site outside php so the browser can properly read the script tags

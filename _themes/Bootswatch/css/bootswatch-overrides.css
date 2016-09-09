@@ -1,0 +1,136 @@
+/*
+bootswatch-overrides.css
+
+Use this file to do quick over-rides on
+key classes, etc.
+
+Place in the following folder:
+
+themes/bootswatch/css
+
+reference the file inside header_inc.php thus:
+
+<link rel="stylesheet" href="<?=THEME_PATH;?>css/bootswatch-overrides.css">
+*/
+
+
+
+/*
+	style my personal postit notes
+*/
+.maxIt {
+	margin: 0 0 20px 0;
+	padding: 10px 20px;
+	background-color: #FFFF66;
+
+	-webkit-transform: rotate(-5deg);
+	-moz-transform: rotate(-5deg);
+	-ms-transform: rotate(-5deg);
+	-o-transform: rotate(-5deg);
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+
+	left: 40px;
+	top: 100px;
+	position: absolute;
+
+	box-shadow: 0 0 30px black;
+	}
+
+/* for accordians */
+.bs-example{
+	margin: 20px;
+	}
+
+/* Hexigon Images */
+.clip-svg { width: 0; height: 0; }
+
+.polygon-clip-hexagon {
+	-webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+	clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+	-webkit-clip-path: url("#polygon-clip-hexagon");
+	clip-path: url("#polygon-clip-hexagon");
+	}
+
+img.polygon-clip-hexagon{
+	max-width: 100%;
+	height: auto;
+	margin-top: -40px;
+	}
+
+
+
+/*
+override the width of the container, or use LESS?
+http://stackoverflow.com/questions/15884102/bootstrap-how-do-i-change-the-width-of-the-container
+*/
+@media (min-width: 1200px) {
+.container{
+		max-width: 970px;
+}
+
+
+.btn-primary {
+	color: #333;
+	background-color: #e7e7e7;
+	border-color: #dadada;
+	}
+
+.btn-primary:hover, .btn-primary:focus,
+.btn-primary:active, .btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+	color: #fff;
+	background-color: #33a3C8;
+	border-color: #dadada;
+	}
+
+.btn-primary:hover {
+	color: #eee;
+	background-color: #70BED8;
+	border-color: #dadada;
+	}
+
+
+
+
+/*customizing tooltip color*/
+/*right tooltip*/
+.bs-example{margin: 20px;}
+
+.tooltip{
+		min-width: 100px;
+		max-width: 100%;
+		}
+
+.tooltip.right > .tooltip-arrow {
+	border-right-color: dodgerblue;
+}
+
+.tooltip.bottom > .tooltip-arrow {
+	border-bottom-color: dodgerblue;
+}
+
+.tooltip.top > .tooltip-arrow {
+	border-top-color: dodgerblue;
+}
+
+.tooltip.left > .tooltip-arrow {
+	border-left-color: dodgerblue;
+}
+
+.tooltip > .tooltip-inner {
+	background-color: dodgerblue;
+	text-shadow: 0 1px 1px #000;
+	font-weight: normal;
+}
+
+
+/*customizing Navbar Hovers*/
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus, .navbar-inverse .navbar-nav > li > a.active{
+background-color: #5C0000;
+color: #FFFFFF;
+}
+
+
+/* Navbar Active Link */
+li a.nav-item.active {background-color: #000;}
+

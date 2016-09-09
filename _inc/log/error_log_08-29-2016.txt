@@ -1,0 +1,27 @@
+
+[Aug-29-2016 12:06:57] Undefined property: stdClass::$adminDashboard in /Applications/AMPPS/www/WrDK/users/validateUser.php on line 82
+[Aug-29-2016 13:02:22] Undefined property: stdClass::$adminDashboard in /Applications/AMPPS/www/WrDK/users/validateUser.php on line 82
+[Aug-29-2016 13:29:32] Undefined property: stdClass::$adminDashboard in /Applications/AMPPS/www/WrDK/users/validateUser.php on line 86
+[Aug-29-2016 13:39:22] Undefined property: stdClass::$adminDashboard in /Applications/AMPPS/www/WrDK/users/validateUser.php on line 86
+[Aug-29-2016 13:40:15] Undefined property: stdClass::$adminDashboard in /Applications/AMPPS/www/WrDK/users/validateUser.php on line 86
+[Aug-29-2016 16:07:00] Undefined property: stdClass::$adminDashboard in /Applications/AMPPS/www/WrDK/users/validateUser.php on line 86
+[Aug-29-2016 16:17:54] Use of undefined constant SITE_ABBR - assumed 'SITE_ABBR' in /Applications/AMPPS/www/WrDK/_inc/aarContent-inc.php on line 16
+[Aug-29-2016 16:17:54] Use of undefined constant SITE_ABBR - assumed 'SITE_ABBR' in /Applications/AMPPS/www/WrDK/_inc/aarContent-inc.php on line 16
+[Aug-29-2016 16:17:54] Use of undefined constant SITE_ABBR - assumed 'SITE_ABBR' in /Applications/AMPPS/www/WrDK/_inc/aarContent-inc.php on line 16
+[Aug-29-2016 16:17:54] Use of undefined constant SITE_ABBR - assumed 'SITE_ABBR' in /Applications/AMPPS/www/WrDK/_inc/aarContent-inc.php on line 18
+[Aug-29-2016 16:17:54] Use of undefined constant SITE_ABBR - assumed 'SITE_ABBR' in /Applications/AMPPS/www/WrDK/_inc/aarContent-inc.php on line 18
+[Aug-29-2016 16:17:54] Use of undefined constant SITE_ABBR - assumed 'SITE_ABBR' in /Applications/AMPPS/www/WrDK/_inc/aarContent-inc.php on line 18
+[Aug-29-2016 16:17:54] Use of undefined constant SITE_ABBR - assumed 'SITE_ABBR' in /Applications/AMPPS/www/WrDK/_inc/aarContent-inc.php on line 18
+[Aug-29-2016 16:17:54] Use of undefined constant SITE_ABBR - assumed 'SITE_ABBR' in /Applications/AMPPS/www/WrDK/_inc/aarContent-inc.php on line 18
+[Aug-29-2016 16:46:31] Undefined index: g in /Applications/AMPPS/www/WrDK/uploads/viewPlayby.php on line 182
+[Aug-29-2016 16:46:31] Undefined index: d in /Applications/AMPPS/www/WrDK/uploads/viewPlayby.php on line 183
+[Aug-29-2016 16:46:31] Undefined index: i in /Applications/AMPPS/www/WrDK/uploads/viewPlayby.php on line 184
+[Aug-29-2016 16:46:31] scandir(_/): failed to open dir: No such file or directory in /Applications/AMPPS/www/WrDK/uploads/viewPlayby.php on line 200
+[Aug-29-2016 16:46:31] scandir(): (errno 2): No such file or directory in /Applications/AMPPS/www/WrDK/uploads/viewPlayby.php on line 200
+[Aug-29-2016 16:46:31] Invalid argument supplied for foreach() in /Applications/AMPPS/www/WrDK/uploads/viewPlayby.php on line 202
+[Aug-29-2016 16:46:37] Undefined index: g in /Applications/AMPPS/www/WrDK/uploads/viewPlayby.php on line 182
+[Aug-29-2016 16:46:37] Undefined index: d in /Applications/AMPPS/www/WrDK/uploads/viewPlayby.php on line 183
+[Aug-29-2016 16:46:37] Undefined index: i in /Applications/AMPPS/www/WrDK/uploads/viewPlayby.php on line 184
+[Aug-29-2016 16:46:37] scandir(_/): failed to open dir: No such file or directory in /Applications/AMPPS/www/WrDK/uploads/viewPlayby.php on line 200
+[Aug-29-2016 16:46:37] scandir(): (errno 2): No such file or directory in /Applications/AMPPS/www/WrDK/uploads/viewPlayby.php on line 200
+[Aug-29-2016 16:46:37] Invalid argument supplied for foreach() in /Applications/AMPPS/www/WrDK/uploads/viewPlayby.php on line 202

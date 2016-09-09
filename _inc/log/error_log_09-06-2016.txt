@@ -1,0 +1,65 @@
+[Sep-06-2016 0:01:21] Undefined index: AccessTwo in /Applications/AMPPS/www/WrDKv2/characters/index.php on line 420
+[Sep-06-2016 0:02:35] Undefined index: AccessTwo in /Applications/AMPPS/www/WrDKv2/characters/index.php on line 420
+[Sep-06-2016 0:04:52] Undefined index: AccessTwo in /Applications/AMPPS/www/WrDKv2/characters/index.php on line 420
+[Sep-06-2016 0:09:41] Undefined index: AccessTwo in /Applications/AMPPS/www/WrDKv2/characters/indexxx.php on line 420
+[Sep-06-2016 9:29:57] Undefined index: AccessTwo in /Applications/AMPPS/www/WrDKv2/characters/indexxx.php on line 409
+[Sep-06-2016 9:50:28] Undefined property: stdClass::$adminDashboard in /Applications/AMPPS/www/WrDKv2/users/validateUser.php on line 86
+[Sep-06-2016 9:50:34] Unknown column 'FirstName' in 'field list' in /Applications/AMPPS/www/WrDKv2/characters/profileAdd.php on line 305
+[Sep-06-2016 10:51:32] include(): http:// wrapper is disabled in the server configuration by allow_url_include=0 in /Applications/AMPPS/www/WrDKv2/characters/index.php on line 70
+[Sep-06-2016 10:51:32] include(http://localhost/WrDKv2/_css/maxStrap.css): failed to open stream: no suitable wrapper could be found in /Applications/AMPPS/www/WrDKv2/characters/index.php on line 70
+[Sep-06-2016 10:51:32] include(): Failed opening 'http://localhost/WrDKv2/_css/maxStrap.css' for inclusion (include_path='.:') in /Applications/AMPPS/www/WrDKv2/characters/index.php on line 70
+[Sep-06-2016 10:51:47] include(): http:// wrapper is disabled in the server configuration by allow_url_include=0 in /Applications/AMPPS/www/WrDKv2/characters/index.php on line 70
+[Sep-06-2016 10:51:47] include(http://localhost/WrDKv2/_css/maxStrap.css): failed to open stream: no suitable wrapper could be found in /Applications/AMPPS/www/WrDKv2/characters/index.php on line 70
+[Sep-06-2016 10:51:47] include(): Failed opening 'http://localhost/WrDKv2/_css/maxStrap.css' for inclusion (include_path='.:') in /Applications/AMPPS/www/WrDKv2/characters/index.php on line 70
+[Sep-06-2016 11:02:06] Use of undefined constant TRUE_NAME - assumed 'TRUE_NAME' in /Applications/AMPPS/www/WrDKv2/characters/index.php on line 60
+[Sep-06-2016 11:22:20] Unknown column 'FirstName' in 'field list' in /Applications/AMPPS/www/WrDKv2/characters/index.php on line 197
+[Sep-06-2016 11:22:21] Unknown column 'FirstName' in 'field list' in /Applications/AMPPS/www/WrDKv2/characters/index.php on line 197
+[Sep-06-2016 11:23:15] Unknown column 'FirstName' in 'order clause' in /Applications/AMPPS/www/WrDKv2/characters/index.php on line 190
+[Sep-06-2016 11:23:33] Unknown column 'FirstName' in 'order clause' in /Applications/AMPPS/www/WrDKv2/characters/index.php on line 191
+[Sep-06-2016 11:47:19] Unknown column 'FirstName' in 'order clause' in /Applications/AMPPS/www/WrDKv2/characters/index.php on line 191
+[Sep-06-2016 11:48:13] Unknown column 'FirstName' in 'order clause' in /Applications/AMPPS/www/WrDKv2/characters/index.php on line 191
+[Sep-06-2016 11:48:40] Undefined index: FirstName in /Applications/AMPPS/www/WrDKv2/characters/index.php on line 224
+[Sep-06-2016 11:48:40] Undefined index: FirstName in /Applications/AMPPS/www/WrDKv2/characters/index.php on line 224
+[Sep-06-2016 11:48:40] Undefined index: FirstName in /Applications/AMPPS/www/WrDKv2/characters/index.php on line 224
+[Sep-06-2016 11:48:40] Undefined index: FirstName in /Applications/AMPPS/www/WrDKv2/characters/index.php on line 224
+[Sep-06-2016 11:48:40] Undefined index: FirstName in /Applications/AMPPS/www/WrDKv2/characters/index.php on line 224
+[Sep-06-2016 11:48:40] Undefined index: FirstName in /Applications/AMPPS/www/WrDKv2/characters/index.php on line 224
+[Sep-06-2016 11:48:40] Undefined index: FirstName in /Applications/AMPPS/www/WrDKv2/characters/index.php on line 224
+[Sep-06-2016 11:49:05] Undefined index: FirstName in /Applications/AMPPS/www/WrDKv2/characters/index.php on line 223
+[Sep-06-2016 11:49:05] Undefined index: FirstName in /Applications/AMPPS/www/WrDKv2/characters/index.php on line 223
+[Sep-06-2016 11:49:05] Undefined index: FirstName in /Applications/AMPPS/www/WrDKv2/characters/index.php on line 223
+[Sep-06-2016 11:49:05] Undefined index: FirstName in /Applications/AMPPS/www/WrDKv2/characters/index.php on line 223
+[Sep-06-2016 11:49:05] Undefined index: FirstName in /Applications/AMPPS/www/WrDKv2/characters/index.php on line 223
+[Sep-06-2016 11:49:05] Undefined index: FirstName in /Applications/AMPPS/www/WrDKv2/characters/index.php on line 223
+[Sep-06-2016 11:49:05] Undefined index: FirstName in /Applications/AMPPS/www/WrDKv2/characters/index.php on line 223
+[Sep-06-2016 12:15:27] Unknown column 'FirstName' in 'field list' in /Applications/AMPPS/www/WrDKv2/characters/index.php on line 242
+[Sep-06-2016 12:22:53] Undefined variable: x in /Applications/AMPPS/www/WrDKv2/characters/index.php on line 221
+[Sep-06-2016 12:22:53] Undefined variable: x in /Applications/AMPPS/www/WrDKv2/characters/index.php on line 221
+[Sep-06-2016 12:22:53] Undefined variable: x in /Applications/AMPPS/www/WrDKv2/characters/index.php on line 221
+[Sep-06-2016 12:22:53] Undefined variable: x in /Applications/AMPPS/www/WrDKv2/characters/index.php on line 221
+[Sep-06-2016 12:22:53] Undefined variable: x in /Applications/AMPPS/www/WrDKv2/characters/index.php on line 221
+[Sep-06-2016 12:22:53] Undefined variable: x in /Applications/AMPPS/www/WrDKv2/characters/index.php on line 221
+[Sep-06-2016 12:22:53] Undefined variable: x in /Applications/AMPPS/www/WrDKv2/characters/index.php on line 221
+[Sep-06-2016 12:22:53] Undefined variable: x in /Applications/AMPPS/www/WrDKv2/characters/index.php on line 221
+[Sep-06-2016 12:22:53] Undefined variable: x in /Applications/AMPPS/www/WrDKv2/characters/index.php on line 221
+[Sep-06-2016 12:22:53] Undefined variable: x in /Applications/AMPPS/www/WrDKv2/characters/index.php on line 221
+[Sep-06-2016 12:22:53] Undefined variable: x in /Applications/AMPPS/www/WrDKv2/characters/index.php on line 221
+[Sep-06-2016 12:22:53] Undefined variable: x in /Applications/AMPPS/www/WrDKv2/characters/index.php on line 221
+[Sep-06-2016 12:22:53] Undefined variable: x in /Applications/AMPPS/www/WrDKv2/characters/index.php on line 221
+[Sep-06-2016 12:22:53] Undefined variable: x in /Applications/AMPPS/www/WrDKv2/characters/index.php on line 221
+[Sep-06-2016 13:23:30] Undefined variable: cbLnk in /Applications/AMPPS/www/WrDKv2/characters/index.php on line 306
+[Sep-06-2016 13:23:30] Undefined variable: cbLnk in /Applications/AMPPS/www/WrDKv2/characters/index.php on line 306
+[Sep-06-2016 13:23:30] Undefined variable: cbLnk in /Applications/AMPPS/www/WrDKv2/characters/index.php on line 306
+[Sep-06-2016 13:23:30] Undefined variable: cbLnk in /Applications/AMPPS/www/WrDKv2/characters/index.php on line 306
+[Sep-06-2016 13:23:30] Undefined variable: cbLnk in /Applications/AMPPS/www/WrDKv2/characters/index.php on line 306
+[Sep-06-2016 13:23:30] Undefined variable: cbLnk in /Applications/AMPPS/www/WrDKv2/characters/index.php on line 306
+[Sep-06-2016 15:25:55] Undefined index: Privilege in /Applications/AMPPS/www/WrDKv2/_inc/custom_inc.php on line 38
+[Sep-06-2016 16:38:13] Undefined property: stdClass::$adminDashboard in /Applications/AMPPS/www/WrDKv2/users/validateUser.php on line 86
+[Sep-06-2016 16:38:17] Unknown column 'FirstName' in 'field list' in /Applications/AMPPS/www/WrDKv2/characters/profileAdd.php on line 305
+[Sep-06-2016 16:39:59] Undefined index: FirstName in /Applications/AMPPS/www/WrDKv2/characters/profileAdd.php on line 310
+[Sep-06-2016 16:39:59] Undefined index: FirstName in /Applications/AMPPS/www/WrDKv2/characters/profileAdd.php on line 310
+[Sep-06-2016 16:39:59] Undefined index: FirstName in /Applications/AMPPS/www/WrDKv2/characters/profileAdd.php on line 310
+[Sep-06-2016 16:39:59] Undefined index: FirstName in /Applications/AMPPS/www/WrDKv2/characters/profileAdd.php on line 310
+[Sep-06-2016 16:39:59] Undefined index: FirstName in /Applications/AMPPS/www/WrDKv2/characters/profileAdd.php on line 310
+[Sep-06-2016 16:39:59] Undefined index: FirstName in /Applications/AMPPS/www/WrDKv2/characters/profileAdd.php on line 310
+[Sep-06-2016 16:39:59] Undefined index: FirstName in /Applications/AMPPS/www/WrDKv2/characters/profileAdd.php on line 310

@@ -1,0 +1,6 @@
+[Aug-30-2016 8:06:49] Undefined property: stdClass::$adminDashboard in /Applications/AMPPS/www/WrDK/users/validateUser.php on line 86
+[Aug-30-2016 8:07:25] Undefined property: stdClass::$adminDashboard in /Applications/AMPPS/www/WrDK/users/validateUser.php on line 86
+[Aug-30-2016 8:10:30] Undefined property: stdClass::$adminDashboard in /Applications/AMPPS/www/WrDK/users/validateUser.php on line 86
+[Aug-30-2016 9:45:24] Undefined property: stdClass::$adminDashboard in /Applications/AMPPS/www/WrDKv2/users/validateUser.php on line 86
+[Aug-30-2016 9:58:01] Use of undefined constant PHP_SELF - assumed 'PHP_SELF' in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/bootswatch_functions.php on line 304
+[Aug-30-2016 10:01:10] Use of undefined constant PHP_SELF - assumed 'PHP_SELF' in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/bootswatch_functions.php on line 302

@@ -1,0 +1,5 @@
+[Sep-07-2016 14:10:30] Undefined index: Privilege in /Applications/AMPPS/www/WrDKv2/_inc/custom_inc.php on line 38
+[Sep-07-2016 16:10:05] Undefined property: stdClass::$adminDashboard in /Applications/AMPPS/www/WrDKv2/users/validateUser.php on line 86
+[Sep-07-2016 16:11:13] Undefined index: Privilege in /Applications/AMPPS/www/WrDKv2/_inc/custom_inc.php on line 38
+[Sep-07-2016 16:11:34] Undefined property: stdClass::$adminDashboard in /Applications/AMPPS/www/WrDKv2/users/validateUser.php on line 86
+[Sep-07-2016 17:14:43] Undefined index: Privilege in /Applications/AMPPS/www/WrDKv2/_inc/custom_inc.php on line 38

@@ -1,0 +1,57 @@
+/*!
+ * MaxStrap v0.0.3 (http://getbootstrap.com)
+ * Copyright 2013 Twitter, Inc.
+ * Licensed under http://www.apache.org/licenses/LICENSE-2.0
+ */
+
+/*! normalize.css v2.1.3 | MIT License | git.io/normalize */
+
+
+
+/* Characters Index.php */
+.divThumbs {
+	width: 170px;
+	float: left;
+	}
+
+img.imgThumbs {
+	margin-top: 15px;
+
+	height: 150px;
+	width:  150px;
+
+	background-color: #678;
+	border: 4px solid #678;
+
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	}
+
+.boldOrange { color: orange; }
+.thumbSM {
+	display: inline;
+	height: 50px;
+	width:  50px;
+	margin-right: 1em;
+	float: left;
+
+	background-color: #678;
+	border: 1px solid #678;
+
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+
+	}
+
+
+/*maxTweak to images*/
+.img-review {
+		width: 150px;
+		margin: 10px;
+		border: 10px solid orange;
+		border-radius: 500px;
+		-webkit-border-radius: 500px;
+		-moz-border-radius: 500px;
+}

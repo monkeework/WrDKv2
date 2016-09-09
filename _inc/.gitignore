@@ -1,0 +1,10 @@
+#Ignore these directories
+____ignore-files
+
+#ignore these files
+credentials_inc-SERVER.php
+credentials_inc.php
+
+#Ignore these directories
+_inc/credentials_inc-SERVER.php
+_inc/credentials_inc.php

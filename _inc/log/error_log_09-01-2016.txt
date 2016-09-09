@@ -1,0 +1,6 @@
+[Sep-01-2016 10:47:18] Undefined property: stdClass::$adminDashboard in /Applications/AMPPS/www/WrDKv2/users/validateUser.php on line 86
+[Sep-01-2016 10:48:04] Undefined property: stdClass::$adminDashboard in /Applications/AMPPS/www/WrDKv2/users/validateUser.php on line 86
+[Sep-01-2016 12:40:34] Undefined property: stdClass::$adminDashboard in /Applications/AMPPS/www/WrDKv2/users/validateUser.php on line 86
+[Sep-01-2016 12:43:22] Undefined variable: privCheck in /Applications/AMPPS/www/WrDKv2/_inc/custom_inc.php on line 64
+[Sep-01-2016 12:44:17] Undefined variable: privCheck in /Applications/AMPPS/www/WrDKv2/_inc/custom_inc.php on line 64
+[Sep-01-2016 15:12:22] Undefined property: stdClass::$adminDashboard in /Applications/AMPPS/www/WrDKv2/users/validateUser.php on line 86

@@ -14,23 +14,18 @@ function maxDoc_themes_header_testBoard_themes(){
 }
 
 include 'functions-themes.php';
-
-
-#http://localhost/WrDKv2/users/css/bootstrap.min.css
-
-
+include './../_inc/arrays-inc.php';
 
 ?>
-
-
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
 	<meta charset="utf-8">
-	<title>Dashboard | Marvel Champions</title>
+	<?php
+		$uPriv = $_SESSION['Privilege'];
+		echo "<title>" . ucwords($aarPrivilege[$uPriv]) . "'s Dashboard | Marvel Champions</title>";
+	?>
 	<meta name="generator" content="Bootply" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<link href="<?=THEME_PATH;?>css/bootstrap.min.css" rel="stylesheet">
@@ -41,6 +36,7 @@ include 'functions-themes.php';
 </head>
 
 <body>
+
 	<!-- BEGIN body -->
 	<!-- BEGIN nav -->
 	<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
@@ -59,7 +55,7 @@ include 'functions-themes.php';
 					<li><a href="#"><?=$_SESSION['UserName']; ?>'s Dashboard</a></li>
 
 			<?php
-				#echo bootstrapAdmin(); //right aligned Admin link - see bootswatch_functions.php
+				echo bootstrapAdmin(); //right aligned Admin link - see bootswatch_functions.php
 			?>
 
 				<!--

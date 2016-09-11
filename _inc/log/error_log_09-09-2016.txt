@@ -1,0 +1,24 @@
+[Sep-09-2016 14:39:46] Undefined index: Privilege in /Applications/AMPPS/www/WrDKv2/_inc/custom_inc.php on line 38
+[Sep-09-2016 14:39:46] mysqli_connect(): (HY000/2002): Can't connect to local MySQL server through socket '/Applications/AMPPS/var/mysql.sock' (2) in /Applications/AMPPS/www/WrDKv2/_inc/common_inc.php on line 1341
+[Sep-09-2016 14:39:46] Can't connect to local MySQL server through socket '/Applications/AMPPS/var/mysql.sock' (2) in /Applications/AMPPS/www/WrDKv2/_inc/common_inc.php on line 1341
+[Sep-09-2016 14:39:46] mysqli_connect(): (HY000/2002): Can't connect to local MySQL server through socket '/Applications/AMPPS/var/mysql.sock' (2) in /Applications/AMPPS/www/WrDKv2/_inc/common_inc.php on line 1341
+[Sep-09-2016 14:39:46] Can't connect to local MySQL server through socket '/Applications/AMPPS/var/mysql.sock' (2) in /Applications/AMPPS/www/WrDKv2/_inc/common_inc.php on line 1341
+[Sep-09-2016 14:39:46] Undefined index: Privilege in /Applications/AMPPS/www/WrDKv2/_inc/custom_inc.php on line 38
+[Sep-09-2016 14:39:46] mysqli_connect(): (HY000/2002): Can't connect to local MySQL server through socket '/Applications/AMPPS/var/mysql.sock' (2) in /Applications/AMPPS/www/WrDKv2/_inc/common_inc.php on line 1341
+[Sep-09-2016 14:39:46] Can't connect to local MySQL server through socket '/Applications/AMPPS/var/mysql.sock' (2) in /Applications/AMPPS/www/WrDKv2/_inc/common_inc.php on line 1341
+[Sep-09-2016 14:39:46] mysqli_connect(): (HY000/2002): Can't connect to local MySQL server through socket '/Applications/AMPPS/var/mysql.sock' (2) in /Applications/AMPPS/www/WrDKv2/_inc/common_inc.php on line 1341
+[Sep-09-2016 14:39:46] Can't connect to local MySQL server through socket '/Applications/AMPPS/var/mysql.sock' (2) in /Applications/AMPPS/www/WrDKv2/_inc/common_inc.php on line 1341
+[Sep-09-2016 14:39:46] mysqli_connect(): (HY000/2002): Can't connect to local MySQL server through socket '/Applications/AMPPS/var/mysql.sock' (2) in /Applications/AMPPS/www/WrDKv2/_inc/common_inc.php on line 1341
+[Sep-09-2016 14:39:46] Can't connect to local MySQL server through socket '/Applications/AMPPS/var/mysql.sock' (2) in /Applications/AMPPS/www/WrDKv2/_inc/common_inc.php on line 1341
+[Sep-09-2016 16:02:39] Undefined index: Privilege in /Applications/AMPPS/www/WrDKv2/_inc/custom_inc.php on line 38
+[Sep-09-2016 16:03:48] Undefined index: Privilege in /Applications/AMPPS/www/WrDKv2/_inc/custom_inc.php on line 38
+[Sep-09-2016 16:04:07] Undefined property: stdClass::$adminDashboard in /Applications/AMPPS/www/WrDKv2/users/validateUser.php on line 94
+[Sep-09-2016 18:26:35] Table 'matest.ma_admin' doesn't exist in /Applications/AMPPS/www/WrDKv2/users/resetUser.php on line 271
+[Sep-09-2016 18:30:13] Undefined variable: UserPW in /Applications/AMPPS/www/WrDKv2/users/resetUser.php on line 269
+[Sep-09-2016 19:36:50] Undefined property: stdClass::$adminDashboard in /Applications/AMPPS/www/WrDKv2/users/validateUser.php on line 94
+[Sep-09-2016 19:41:19] Undefined property: stdClass::$adminDashboard in /Applications/AMPPS/www/WrDKv2/users/validateUser.php on line 94
+[Sep-09-2016 19:41:29] Undefined index: Privilege in /Applications/AMPPS/www/WrDKv2/_inc/custom_inc.php on line 38
+[Sep-09-2016 19:43:14] Undefined variable: Name in /Applications/AMPPS/www/WrDKv2/users/resetUser.php on line 210
+[Sep-09-2016 19:43:14] Undefined variable: Email in /Applications/AMPPS/www/WrDKv2/users/resetUser.php on line 211
+[Sep-09-2016 19:43:14] Undefined variable: Privilege in /Applications/AMPPS/www/WrDKv2/users/resetUser.php on line 212
+[Sep-09-2016 19:43:39] Undefined property: stdClass::$adminDashboard in /Applications/AMPPS/www/WrDKv2/users/validateUser.php on line 94

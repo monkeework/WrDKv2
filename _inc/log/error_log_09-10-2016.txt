@@ -1,0 +1,75 @@
+[Sep-10-2016 1:41:27] Undefined variable: acess in /Applications/AMPPS/www/WrDKv2/_inc/admin_only_inc.php on line 40
+[Sep-10-2016 1:56:03] Undefined property: stdClass::$adminDashboard in /Applications/AMPPS/www/WrDKv2/users/validateUser.php on line 94
+[Sep-10-2016 9:18:11] Undefined index: Privilege in /Applications/AMPPS/www/WrDKv2/users/resetUser.php on line 33
+[Sep-10-2016 9:18:48] Undefined property: stdClass::$adminDashboard in /Applications/AMPPS/www/WrDKv2/users/validateUser.php on line 94
+[Sep-10-2016 9:24:57] Undefined index: Privilege in /Applications/AMPPS/www/WrDKv2/users/resetUser.php on line 33
+[Sep-10-2016 9:25:10] Undefined property: stdClass::$adminDashboard in /Applications/AMPPS/www/WrDKv2/users/validateUser.php on line 94
+[Sep-10-2016 9:40:11] Undefined index: CustomerID in /Applications/AMPPS/www/WrDKv2/_test/edit.php on line 119
+[Sep-10-2016 9:40:42] Undefined index: AdminID in /Applications/AMPPS/www/WrDKv2/users/editUser.php on line 127
+[Sep-10-2016 9:40:42] Undefined property: stdClass::$adminReset in /Applications/AMPPS/www/WrDKv2/users/editUser.php on line 132
+[Sep-10-2016 11:30:06] include(./../../_inc/arrays-inc.php): failed to open stream: No such file or directory in /Applications/AMPPS/www/WrDKv2/_themes/testBoard/header_inc.php on line 17
+[Sep-10-2016 11:30:06] include(): Failed opening './../../_inc/arrays-inc.php' for inclusion (include_path='.:') in /Applications/AMPPS/www/WrDKv2/_themes/testBoard/header_inc.php on line 17
+[Sep-10-2016 11:30:06] Undefined variable: aarPrivilege in /Applications/AMPPS/www/WrDKv2/_themes/testBoard/header_inc.php on line 27
+[Sep-10-2016 11:30:36] include(./../../../_inc/arrays-inc.php): failed to open stream: No such file or directory in /Applications/AMPPS/www/WrDKv2/_themes/testBoard/header_inc.php on line 17
+[Sep-10-2016 11:30:36] include(): Failed opening './../../../_inc/arrays-inc.php' for inclusion (include_path='.:') in /Applications/AMPPS/www/WrDKv2/_themes/testBoard/header_inc.php on line 17
+[Sep-10-2016 11:30:36] Undefined variable: aarPrivilege in /Applications/AMPPS/www/WrDKv2/_themes/testBoard/header_inc.php on line 27
+[Sep-10-2016 12:11:29] Undefined index: CustomerID in /Applications/AMPPS/www/WrDKv2/users/userPrefs.php on line 137
+[Sep-10-2016 12:11:29] Undefined index: CustomerID in /Applications/AMPPS/www/WrDKv2/users/userPrefs.php on line 138
+[Sep-10-2016 12:11:29] Undefined index: FirstName in /Applications/AMPPS/www/WrDKv2/users/userPrefs.php on line 139
+[Sep-10-2016 12:11:29] Undefined index: LastName in /Applications/AMPPS/www/WrDKv2/users/userPrefs.php on line 140
+[Sep-10-2016 12:11:29] Undefined index: CustomerID in /Applications/AMPPS/www/WrDKv2/users/userPrefs.php on line 137
+[Sep-10-2016 12:11:29] Undefined index: CustomerID in /Applications/AMPPS/www/WrDKv2/users/userPrefs.php on line 138
+[Sep-10-2016 12:11:29] Undefined index: FirstName in /Applications/AMPPS/www/WrDKv2/users/userPrefs.php on line 139
+[Sep-10-2016 12:11:29] Undefined index: LastName in /Applications/AMPPS/www/WrDKv2/users/userPrefs.php on line 140
+[Sep-10-2016 12:11:29] Undefined index: CustomerID in /Applications/AMPPS/www/WrDKv2/users/userPrefs.php on line 137
+[Sep-10-2016 12:11:29] Undefined index: CustomerID in /Applications/AMPPS/www/WrDKv2/users/userPrefs.php on line 138
+[Sep-10-2016 12:11:29] Undefined index: FirstName in /Applications/AMPPS/www/WrDKv2/users/userPrefs.php on line 139
+[Sep-10-2016 12:11:29] Undefined index: LastName in /Applications/AMPPS/www/WrDKv2/users/userPrefs.php on line 140
+[Sep-10-2016 12:11:29] Undefined index: CustomerID in /Applications/AMPPS/www/WrDKv2/users/userPrefs.php on line 137
+[Sep-10-2016 12:11:29] Undefined index: CustomerID in /Applications/AMPPS/www/WrDKv2/users/userPrefs.php on line 138
+[Sep-10-2016 12:11:29] Undefined index: FirstName in /Applications/AMPPS/www/WrDKv2/users/userPrefs.php on line 139
+[Sep-10-2016 12:11:29] Undefined index: LastName in /Applications/AMPPS/www/WrDKv2/users/userPrefs.php on line 140
+[Sep-10-2016 12:11:29] Undefined index: CustomerID in /Applications/AMPPS/www/WrDKv2/users/userPrefs.php on line 137
+[Sep-10-2016 12:11:29] Undefined index: CustomerID in /Applications/AMPPS/www/WrDKv2/users/userPrefs.php on line 138
+[Sep-10-2016 12:11:29] Undefined index: FirstName in /Applications/AMPPS/www/WrDKv2/users/userPrefs.php on line 139
+[Sep-10-2016 12:11:29] Undefined index: LastName in /Applications/AMPPS/www/WrDKv2/users/userPrefs.php on line 140
+[Sep-10-2016 12:11:29] Undefined index: CustomerID in /Applications/AMPPS/www/WrDKv2/users/userPrefs.php on line 137
+[Sep-10-2016 12:11:29] Undefined index: CustomerID in /Applications/AMPPS/www/WrDKv2/users/userPrefs.php on line 138
+[Sep-10-2016 12:11:29] Undefined index: FirstName in /Applications/AMPPS/www/WrDKv2/users/userPrefs.php on line 139
+[Sep-10-2016 12:11:29] Undefined index: LastName in /Applications/AMPPS/www/WrDKv2/users/userPrefs.php on line 140
+[Sep-10-2016 12:11:29] Undefined index: CustomerID in /Applications/AMPPS/www/WrDKv2/users/userPrefs.php on line 137
+[Sep-10-2016 12:11:29] Undefined index: CustomerID in /Applications/AMPPS/www/WrDKv2/users/userPrefs.php on line 138
+[Sep-10-2016 12:11:29] Undefined index: FirstName in /Applications/AMPPS/www/WrDKv2/users/userPrefs.php on line 139
+[Sep-10-2016 12:11:29] Undefined index: LastName in /Applications/AMPPS/www/WrDKv2/users/userPrefs.php on line 140
+[Sep-10-2016 12:11:29] Undefined index: CustomerID in /Applications/AMPPS/www/WrDKv2/users/userPrefs.php on line 137
+[Sep-10-2016 12:11:29] Undefined index: CustomerID in /Applications/AMPPS/www/WrDKv2/users/userPrefs.php on line 138
+[Sep-10-2016 12:11:29] Undefined index: FirstName in /Applications/AMPPS/www/WrDKv2/users/userPrefs.php on line 139
+[Sep-10-2016 12:11:29] Undefined index: LastName in /Applications/AMPPS/www/WrDKv2/users/userPrefs.php on line 140
+[Sep-10-2016 12:11:29] Undefined index: CustomerID in /Applications/AMPPS/www/WrDKv2/users/userPrefs.php on line 137
+[Sep-10-2016 12:11:29] Undefined index: CustomerID in /Applications/AMPPS/www/WrDKv2/users/userPrefs.php on line 138
+[Sep-10-2016 12:11:29] Undefined index: FirstName in /Applications/AMPPS/www/WrDKv2/users/userPrefs.php on line 139
+[Sep-10-2016 12:11:29] Undefined index: LastName in /Applications/AMPPS/www/WrDKv2/users/userPrefs.php on line 140
+[Sep-10-2016 12:11:29] Undefined index: CustomerID in /Applications/AMPPS/www/WrDKv2/users/userPrefs.php on line 137
+[Sep-10-2016 12:11:29] Undefined index: CustomerID in /Applications/AMPPS/www/WrDKv2/users/userPrefs.php on line 138
+[Sep-10-2016 12:11:29] Undefined index: FirstName in /Applications/AMPPS/www/WrDKv2/users/userPrefs.php on line 139
+[Sep-10-2016 12:11:29] Undefined index: LastName in /Applications/AMPPS/www/WrDKv2/users/userPrefs.php on line 140
+[Sep-10-2016 12:11:29] Undefined index: CustomerID in /Applications/AMPPS/www/WrDKv2/users/userPrefs.php on line 137
+[Sep-10-2016 12:11:29] Undefined index: CustomerID in /Applications/AMPPS/www/WrDKv2/users/userPrefs.php on line 138
+[Sep-10-2016 12:11:29] Undefined index: FirstName in /Applications/AMPPS/www/WrDKv2/users/userPrefs.php on line 139
+[Sep-10-2016 12:11:29] Undefined index: LastName in /Applications/AMPPS/www/WrDKv2/users/userPrefs.php on line 140
+[Sep-10-2016 12:12:45] Undefined index: CustomerID in /Applications/AMPPS/www/WrDKv2/users/userPrefs.php on line 138
+[Sep-10-2016 12:12:45] Undefined index: CustomerID in /Applications/AMPPS/www/WrDKv2/users/userPrefs.php on line 138
+[Sep-10-2016 12:12:45] Undefined index: CustomerID in /Applications/AMPPS/www/WrDKv2/users/userPrefs.php on line 138
+[Sep-10-2016 12:12:45] Undefined index: CustomerID in /Applications/AMPPS/www/WrDKv2/users/userPrefs.php on line 138
+[Sep-10-2016 12:12:45] Undefined index: CustomerID in /Applications/AMPPS/www/WrDKv2/users/userPrefs.php on line 138
+[Sep-10-2016 12:12:45] Undefined index: CustomerID in /Applications/AMPPS/www/WrDKv2/users/userPrefs.php on line 138
+[Sep-10-2016 12:12:45] Undefined index: CustomerID in /Applications/AMPPS/www/WrDKv2/users/userPrefs.php on line 138
+[Sep-10-2016 12:12:45] Undefined index: CustomerID in /Applications/AMPPS/www/WrDKv2/users/userPrefs.php on line 138
+[Sep-10-2016 12:12:45] Undefined index: CustomerID in /Applications/AMPPS/www/WrDKv2/users/userPrefs.php on line 138
+[Sep-10-2016 12:12:45] Undefined index: CustomerID in /Applications/AMPPS/www/WrDKv2/users/userPrefs.php on line 138
+[Sep-10-2016 12:12:45] Undefined index: CustomerID in /Applications/AMPPS/www/WrDKv2/users/userPrefs.php on line 138
+[Sep-10-2016 12:22:02] Undefined variable: uID in /Applications/AMPPS/www/WrDKv2/users/userPrefs.php on line 114
+[Sep-10-2016 12:22:02] You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /Applications/AMPPS/www/WrDKv2/users/userPrefs.php on line 115
+[Sep-10-2016 12:22:33] Missing argument 1 for selectFirst(), called in /Applications/AMPPS/www/WrDKv2/users/userPrefs.php on line 98 and defined in /Applications/AMPPS/www/WrDKv2/users/userPrefs.php on line 101
+[Sep-10-2016 12:22:33] Undefined variable: uID in /Applications/AMPPS/www/WrDKv2/users/userPrefs.php on line 114
+[Sep-10-2016 12:22:33] You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /Applications/AMPPS/www/WrDKv2/users/userPrefs.php on line 115

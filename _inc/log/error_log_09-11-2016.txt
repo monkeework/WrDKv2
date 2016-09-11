@@ -1,0 +1,14 @@
+[Sep-11-2016 9:07:30] Undefined index: uStart in /Applications/AMPPS/www/WrDKv2/users/userPrefs.php on line 31
+[Sep-11-2016 9:07:30] Undefined variable: row in /Applications/AMPPS/www/WrDKv2/users/userPrefs.php on line 121
+[Sep-11-2016 9:07:58] Undefined index: uStart in /Applications/AMPPS/www/WrDKv2/users/userPrefs.php on line 31
+[Sep-11-2016 9:07:58] Undefined variable: row in /Applications/AMPPS/www/WrDKv2/users/userPrefs.php on line 121
+[Sep-11-2016 9:08:34] Undefined index: UserID in /Applications/AMPPS/www/WrDKv2/users/userPrefs.php on line 28
+[Sep-11-2016 9:08:34] Undefined index: UserName in /Applications/AMPPS/www/WrDKv2/users/userPrefs.php on line 29
+[Sep-11-2016 9:08:34] Undefined index: Privilege in /Applications/AMPPS/www/WrDKv2/users/userPrefs.php on line 30
+[Sep-11-2016 9:08:34] Undefined index: uStart in /Applications/AMPPS/www/WrDKv2/users/userPrefs.php on line 31
+[Sep-11-2016 9:08:34] Undefined index: Privilege in /Applications/AMPPS/www/WrDKv2/_inc/custom_inc.php on line 37
+[Sep-11-2016 9:08:50] Undefined index: uStart in /Applications/AMPPS/www/WrDKv2/users/validateUser.php on line 64
+[Sep-11-2016 9:08:50] Undefined property: stdClass::$adminDashboard in /Applications/AMPPS/www/WrDKv2/users/validateUser.php on line 102
+[Sep-11-2016 9:08:58] Undefined index: CustomerID in /Applications/AMPPS/www/WrDKv2/users/userPrefs.php on line 207
+[Sep-11-2016 9:08:58] Undefined variable: row in /Applications/AMPPS/www/WrDKv2/users/userPrefs.php on line 121
+[Sep-11-2016 9:10:18] Undefined variable: row in /Applications/AMPPS/www/WrDKv2/users/userPrefs.php on line 136

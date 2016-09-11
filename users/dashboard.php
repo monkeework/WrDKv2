@@ -22,22 +22,23 @@ function maxDoc_users_dashboard(){
 }
 
 require '../_inc/config_inc.php'; //provides configuration, et al.
+//include INCLUDE_PATH . 'arrays-inc.php';
+
+$uID 	 = $_SESSION['UserID'];
+$uName = $_SESSION['UserName'];
+$uPriv = $_SESSION['Privilege'];
 
 //set access priv needed for this page by member
-chekPrivies(1); //known guest+
+chekPrivies(1); //known guest (1+)
 
-$config->titleTag = 'User/Admin Dashboard'; //Fills <title> tag. If left empty will fallback to $config->titleTag in config_inc.php
-$config->metaRobots = 'no index, no follow';//never index admin pages
-$server = 'localhost'; //CHANGE TO YOUR MYSQL HOST!!
-$username='root'; //CHANGE TO YOUR MYSQL USERNAME!!
+//Do I need diss?
+//$server = 'localhost'; //CHANGE TO YOUR MYSQL HOST!!
+//$username='root'; //CHANGE TO YOUR MYSQL USERNAME!!
 
 //to switch theme from Yeti to testBoard
 $config->theme = 'testBoard'; //default theme (header/footer combo) see 'Themes' folder for others and info
 $config->style = 'testBoard.css'; //currently only Bootswatch Theme uses style to switch look & feel
 
-$uID 	 = $_SESSION['UserID'];
-$uName = $_SESSION['UserName'];
-$uPriv = $_SESSION['Privilege'];
 
 //END CONFIG AREA ----------------------------------------------------------
 $access = "admin"; //admin or higher level can view this page
@@ -49,7 +50,7 @@ if(isset($_GET['msg']))
 	switch($_GET['msg'])
 	{
 			case 1:
-				 $feedback = "Your administrative permissions don't allow access to that page.";
+				 $feedback = "Your permissions don't allow access to that page.";
 				 break;
 		default:
 				 $feedback = "";
@@ -66,55 +67,12 @@ get_header('testBoard'); //defaults to theme header or header_inc.php
 <div class="container-fluid">
 
 <?php
-	//echo bootswatchFeedback();  //feedback on form operations - see bootswatch_functions.php
+	echo bootswatchFeedback();  //feedback on form operations - see bootswatch_functions.php
+	echo getSidebar($uName, $uID, $uPriv);// see custom-inc.php to edit
 ?>
 
 
-	<!-- BEGIN row -->
-	<div class="row row-offcanvas row-offcanvas-left">
-		 <div class="col-sm-3 col-md-2 sidebar-offcanvas" id="sidebar" role="navigation">
 
-				<ul class="nav nav-sidebar">
-					<li class="active"><a href="//"><?=$uName; ?>'s Homepage</a></li>
-					<!-- <li><a href="//" target="_ext">My Characters</a></li> -->
-
-					<li class="text-muted">&nbsp; &nbsp; &nbsp; My Posts*</li>
-					<li class="text-muted">&nbsp; &nbsp; &nbsp; My Tags*</li>
-						<li class="divider"></li>
-					<li class="text-muted">&nbsp; &nbsp; &nbsp; My Profile*</li>
-					<li class="text-muted">&nbsp; &nbsp; &nbsp; My Preferences*</li>
-				</ul>
-
-				<?php
-					 $priv = $_SESSION['Privilege'];
-					if($priv >= 4){
-						echo'<h4>Moderator Tools</h4>';
-						echo '<ul class="nav nav-sidebar">
-						<li class="text-muted">&nbsp; &nbsp; &nbsp; Members*</li>
-						<li class="text-muted">&nbsp; &nbsp; &nbsp; Characters*</li>
-						<li class="text-muted">&nbsp; &nbsp; &nbsp; Posts*</li>
-						<li class="text-muted">&nbsp; &nbsp; &nbsp; Pages*</li>
-						<li class="text-danger"><a href="' . VIRTUAL_PATH . 'users/addUser.php">Add User</a></li>
-						<li class="text-danger"><a href="' . VIRTUAL_PATH . 'users/editUser.php">Edit User</a></li>
-						<li class="text-muted">&nbsp; &nbsp; &nbsp; Ban User*</li>
-					</ul>';
-					}
-				?>
-
-				<?php
-					 $priv = $_SESSION['Privilege'];
-					if($priv == 7){
-						echo '<h4>Monkee Tools</h4>';
-						echo '<ul class="nav nav-sidebar">
-								<li><a href="' . VIRTUAL_PATH . 'users/adminer.php">Adminer</a></li>
-								<li><a href="' . VIRTUAL_PATH . 'users/cleanSessions.php">Session Nuke</a></li>
-								<li><a href="' . VIRTUAL_PATH . 'users/info.php">PHP_INFO</a></li>
-								<li><a href="' . VIRTUAL_PATH . 'users/users/viewLogs.php">View Logs</a></li>
-							</ul>';
-					}
-				?>
-
-		</div><!--/span-->
 
 		<div class="col-sm-9 col-md-10 main">
 			<!--toggle sidebar button-->
@@ -128,6 +86,7 @@ get_header('testBoard'); //defaults to theme header or header_inc.php
 			<div class="row placeholders">
 
 			<?php
+
 //BEGIN user's character que
 				$sql = " SELECT UserID, CodeName, FirstName, LastName, MiddleName, CharID, StatusID, Playby, Gender FROM ma_Characters WHERE UserID = $uID ORDER BY CodeName;";
 

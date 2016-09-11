@@ -44,7 +44,7 @@ function maxDoc_themes_footer_inc(){
 <!-- END content / THEMES / Footer_inc -->
 
 
-<script type="text/javascript" src="' . VIRTUAL_PATH . '_js/util.js"></script>
+<script type="text/javascript" src="<?=VIRTUAL_PATH; ?>_js/util.js"></script>
 		<!-- Edit Required Form Elements via JavaScript Here -->
 	<script type="text/javascript">
 		//here we make sure the user has entered valid data

@@ -1,4 +1,20 @@
 <?php
+
+/*
+ GOALS:
+
+	- If standard user comes to page (prefs 1-4, let them edit their password only)
+	- if admin comes - let them edit any any user under their pref setting 5
+	- if owner comes - let edit anyone under their pref set                6
+	- if dev come    - edit anyone                                         7
+	*/
+
+
+
+
+
+
+function maxDoc_users_resetUser(){
 /**
  * resetUser.php allows an administrator to reset (reselect) a password
  *
@@ -13,42 +29,54 @@
  * @license http://www.apche.org/licenses/LICENSE-2.0
  */
 
+ # '../' works for a sub-folder.  use './' for the root
+}
+
 require '../_inc/config_inc.php'; #provides configuration, et al.
 
-$config->titleTag = 'Reset Admin Password'; #Fills <title> tag. If left empty will fallback to $config->titleTag in config_inc.php
+$config->titleTag = 'Reset User Password'; #Fills <title> tag. If left empty will fallback to $config->titleTag in config_inc.php
 $config->metaRobots = 'no index, no follow';#never index admin pages
 
 //END CONFIG AREA ----------------------------------------------------------
 
-$access = "admin"; #admin can reset own password, superadmin can reset others
+//$access = "admin"; #admin can reset own password, superadmin can reset others
+//User Priv eqal to their session setting
+
+//admin      (priv == 5) can reset own password,
+//superadmin (priv == 6) can reset others passw
+$access = (int)$_SESSION["Privilege"]; //cast as int
+
+
 include_once INCLUDE_PATH . 'admin_only_inc.php'; #session protected page - level is defined in $access var
 
 # Read the value of 'action' whether it is passed via $_POST or $_GET with $_REQUEST
 if(isset($_REQUEST['act'])){$myAction = (trim($_REQUEST['act']));}else{$myAction = "";}
+
 switch ($myAction)
 {//check for type of process
 	case "edit": //2) show password change form
 		 editDisplay();
 		 break;
+
 	case "update": //3) change password, feedback to user
 		updateExecute();
 		break;
+
 	default: //1)Select Administrator
 		 selectAdmin();
 }
 
 
-function selectAdmin()
-{//Select administrator
+function selectAdmin(){//Select administrator
 	global $config;
 
-	if(isset($_SESSION["Privilege"]) && $_SESSION["Privilege"] == "admin")
-	{#redirect if logged in only as admin
+	//	if(isset($_SESSION["Privilege"]) && $_SESSION["Privilege"] == "admin"){#redirect if logged in only as admin
+	if(isset($_SESSION["Privilege"]) && $_SESSION["Privilege"] > 4){#redirect if logged in only as admin
 		myRedirect(THIS_PAGE . "?act=edit");
 	}
 
 	$config->loadhead='
-	<script type="text/javascript" src="' . VIRTUAL_PATH . 'include/util.js"></script>
+	<script type="text/javascript" src="' . VIRTUAL_PATH . '_inc/util.js"></script>
 	<script type="text/javascript">
 			function checkForm(thisForm)
 			{//check form data for valid info
@@ -56,20 +84,27 @@ function selectAdmin()
 				return true;//if all is passed, submit!
 			}
 	</script>';
+
 	get_header();
-	echo '<h3 align="center">Reset User Password</h3>';
-	if($_SESSION["Privilege"] != "admin")
-	{# must be greater than admin level to have  choice of selection
+
+	echo '<h3 align="center">Reset User Password (SelectAdmin)</h3>';
+
+	//if($_SESSION["Privilege"] >= "admin")
+	if($_SESSION["Privilege"] > 4){# must be greater than admin level to have  choice of selection
 		echo '<p align="center">Select a user, to reset their password:</p>';
 	}
 	echo '<form action="' . $config->userReset . '" method="post" onsubmit="return checkForm(this);">';
 	$iConn = IDB::conn();
-	$sql = "select UserID,UserName,LastName,Email,Privilege,LastLogin,NumLogins from " . PREFIX . "Users";
-	if($_SESSION["Privilege"] == "admin")
-	{# limit access to the individual, if admin level
+	$sql = "select UserID, UserName, Email, Privilege, LastLogin, NumLogins from " . PREFIX . "Users";
+
+
+
+	//if($_SESSION["Privilege"] == "admin")
+	if($_SESSION["Privilege"] >= 1){# limit access to the individual, if admin level
 		$sql .= " where UserID=" . $_SESSION["UserID"];
 	}
 	$result = @mysqli_query($iConn,$sql) or die(trigger_error(mysqli_error($iConn), E_USER_ERROR));
+
 	if (mysqli_num_rows($result) > 0)//at least one record!
 	{//show results
 		echo '
@@ -82,6 +117,7 @@ function selectAdmin()
 				<th>Privilege</th>
 			</tr>
 		';
+
 		while ($row = mysqli_fetch_array($result))
 		{//dbOut() function is a 'wrapper' designed to strip slashes, etc. of data leaving db
 				 echo '
@@ -90,27 +126,29 @@ function selectAdmin()
 						<input type="radio" name="UserID" value="' . dbOut($row['UserID']) . '"> &nbsp; '
 							. dbOut($row['UserID']) . '
 					</td>
-					<td>' . dbOut($row['UserName']) . ' ' . dbOut($row['LastName']) . '</td>
+					<td>' . dbOut($row['UserName']) . '</td>
 					<td>' . dbOut($row['Email']) . '</td>
 						 <td>' . dbOut($row['Privilege']) . '</td>
 					 </tr>
 				 ';
 		}
+
 		echo '
 			<input type="hidden" name="act" value="edit" />
 			<tr>
 				<td align="center" colspan="4">
-					<input type="submit" value="Choose Admin!" />
+					<input type="submit" value="Choose User!" />
 				</td>
 			</tr>
 		</table>
 		</form>
 		';
+
 	}else{//no records
 			//put links on page to reset form, exit
-			echo '<div align="center"><h3>Currently No Administrators in Database.</h3></div>';
+			echo '<div align="center"><h3>Currently No User in Database.</h3></div>';
 	}
-	 echo '<div align="center"><a href="' . $config->userDashboard . '">Exit To Admin</a></div>';
+	 echo '<div align="center"><a href="' . $config->userDashboard . '">Exit To Dashboard</a></div>';
 	@mysqli_free_result($result); //free resources
 	get_footer();
 }
@@ -118,7 +156,9 @@ function selectAdmin()
 function editDisplay()
 {
 	global $config;
-	if($_SESSION["Privilege"] == "admin")
+
+	//if($_SESSION["Privilege"] == "admin")
+	if($_SESSION["Privilege"] > 4)
 	{#use session data if logged in as admin only
 		$myID = (int)$_SESSION['UserID'];
 	}else{
@@ -131,7 +171,7 @@ function editDisplay()
 		}
 	}
 	$config->loadhead = '
-	<script type="text/javascript" src="' . VIRTUAL_PATH . 'include/util.js"></script>
+	<script type="text/javascript" src="' . VIRTUAL_PATH . '_inc/util.js"></script>
 	<script type="text/javascript">
 			function checkForm(thisForm)
 			{//check form data for valid info
@@ -151,25 +191,28 @@ function editDisplay()
 	';
 	get_header();
 	$iConn = IDB::conn();
-	$sql = sprintf("select UserID,UserName,LastName,Email,Privilege from " . PREFIX . "Users WHERE UserID=%d",$myID);
+
+	//	$sql = sprintf("select UserID, UserName, LastName, Email, Privilege from " . PREFIX . "Users WHERE UserID=%d",$myID);
+	$sql = sprintf("select UserID, UserName, Email, Privilege from " . PREFIX . "Users WHERE UserID=%d",$myID);
 	$result = @mysqli_query($iConn,$sql) or die(trigger_error(mysqli_error($iConn), E_USER_ERROR));
 	if(mysqli_num_rows($result) > 0)//at least one record!
 	{//show results
 		while ($row = mysqli_fetch_array($result))
 		{//dbOut() function is a 'wrapper' designed to strip slashes, etc. of data leaving db
-				 $Name = dbOut($row['UserName']) . ' ' . dbOut($row['LastName']);
+				 $Name = dbOut($row['UserName']);
 				 $Email = dbOut($row['Email']);
 				 $Privilege = dbOut($row['Privilege']);
 		}
 	}else{//no records
 			//put links on page to reset form, exit
 			echo '
-				<div align="center"><h3>No such administrator.</h3></div>
-				<div align="center"><a href="' . $config->userDashboard . '">Exit To Admin</a></div>
+				<div align="center"><h3>No such member.</h3></div>
+				<div align="center"><a href="' . $config->userDashboard . '">Exit To Dashboard</a></div>
 				';
 	}
+
 	echo '
-	<h3 align="center">Reset Administrator Password</h3>
+	<h3 align="center">Reset User PasswordXXX</h3>
 	<p align="center">
 		Admin: <font color="red"><b>' . $Name . '</b></font>
 		Email: <font color="red"><b>' . $Email . '</b></font>
@@ -202,7 +245,7 @@ function editDisplay()
 			 </tr>
 	</table>
 	</form>
-	<div align="center"><a href="' . $config->userDashboard . '">Exit To Admin</a></div>
+	<div align="center"><a href="' . $config->userDashboard . '">Exit To Dashboard</a></div>
 	';
 	@mysqli_free_result($result); #free resources
 	get_footer();
@@ -211,11 +254,11 @@ function editDisplay()
 function updateExecute()
 {
 	global $config;
-	if(isset($_POST['AdminID']) && (int)$_POST['AdminID'] > 0)
+	if(isset($_POST['UserID']) && (int)$_POST['UserID'] > 0)
 	{
-		 $myID = (int)$_POST['AdminID']; #Convert to integer, will equate to zero if fails
+		 $myID = (int)$_POST['UserID']; #Convert to integer, will equate to zero if fails
 	}else{
-		feedback("AdminID not numeric","warning");
+		feedback("UserID not numeric","warning");
 		myRedirect($config->userReset);
 	}
 
@@ -226,11 +269,11 @@ function updateExecute()
 	}
 	$iConn = IDB::conn();
 	$redirect = $config->userReset; # global var used for following iformReq redirection on failure
-	$AdminID = iformReq('UserID',$iConn);  # calls dbIn internally, to check form data
-	$AdminPW = iformReq('PWord1',$iConn);
+	$UserID = iformReq('UserID',$iConn);  # calls dbIn internally, to check form data
+	$UserPW = iformReq('PWord1',$iConn);
 
 	 # SHA() is the MySQL function that encrypts the password
-	$sql = sprintf("UPDATE " . PREFIX . "Admin set UserPW=SHA('%s') WHERE AdminID=%d",$AdminPW,$AdminID);
+	$sql = sprintf("UPDATE " . PREFIX . "Users set UserPW=SHA('%s') WHERE UserID=%d",$UserPW,$UserID);
 
 	@mysqli_query($iConn,$sql) or die(trigger_error(mysqli_error($iConn), E_USER_ERROR));
 
@@ -245,7 +288,7 @@ function updateExecute()
 	echo '
 	<div align="center"><h3>Reset User Password</h3></div>
 	<div align="center"><a href="' . $config->userReset . '">Reset More</a></div>
-	<div align="center"><a href="' . $config->userDashboard . '">Exit To Admin</a></div>
+	<div align="center"><a href="' . $config->userDashboard . '">Exit To Dashboard</a></div>
 	';
 	get_footer();
 }

@@ -47,7 +47,7 @@ if (isset($_POST['em']) && isset($_POST['pw']))
 
 
 	//WE SET INITIAL SESSION VALUES HERE
-	$sql = sprintf("select UserID, UserName, Privilege, NumLogins from " . PREFIX . "Users WHERE Email='%s' AND UserPW=SHA('%s')",$Email, $MyPass);
+	$sql = sprintf("select UserID, UserName, Privilege, UserStartPage, NumLogins from " . PREFIX . "Users WHERE Email='%s' AND UserPW=SHA('%s')",$Email, $MyPass);
 	$result = @mysqli_query($iConn,$sql) or die(trigger_error(mysqli_error($iConn), E_USER_ERROR));
 	if(mysqli_num_rows($result) > 0) # had to be a match
 	{# valid user, create session vars, redirect!
@@ -58,11 +58,19 @@ if (isset($_POST['em']) && isset($_POST['pw']))
 		$UserID = (int)$row["UserID"];  # use (int) cast to for conversion to integer
 		$_SESSION["UserID"] = $UserID; # create session variables to identify admin
 		$_SESSION["UserName"] = dbOut($row["UserName"]);  #use dbOut() to clean strings, replace escaped quotes
-		$_SESSION["Privilege"] = dbOut($row["Privilege"]);
+		$_SESSION["Privilege"] = (int)$row["Privilege"];
 
 		//maxTweak session values
-		$_SESSION["UserStart"] = '../threads/index.php'; # create session variables to identify admin
+		if($_SESSION["uStart"]){
+			//if user has set a default page, use their default
+			$_SESSION["uStart"] = dbOut($row["UserStartPage"]);
+		}else{
+			//otherwise set default to user homepage
+			$_SESSION["uStart"] = '../users/dashboardBegin.php'; # create session variables to identify admin
+		}
 
+
+//dbOut($row["UserName"]);
 
 		$NumLogins = (int)$row["NumLogins"];
 		$NumLogins+=1;  # increment number of logins, then prepare to update record!

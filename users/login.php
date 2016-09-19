@@ -27,27 +27,6 @@ $config->titleTag = 'User Login'; #Fills <title> tag. If left empty will fallbac
 $config->metaRobots = 'no index, no follow';#never index admin pages
 
 
-
-/*
-
-array (size=3)
-	'feedback' => string '' (length=0)
-	'feedback-level' => string '' (length=0)
-	'admin-red' => string 'logout.php' (length=10)
-
-after login
-
-array (size=6)
-	'feedback' => string '' (length=0)
-	'feedback-level' => string '' (length=0)
-	'admin-red' => string 'logout.php' (length=10)
-	'UserID' => int 1
-	'UserName' => string 'The Gardner' (length=11)
-	'Privilege' => string '7' (length=1)
-	*/
-
-
-
 //END CONFIG AREA ----------------------------------------------------------
 if(startSession() && isset($_SESSION['user-red']) && $_SESSION['user-red'] != 'logout.php')
 {//store redirect to get directly back to originating page
@@ -57,9 +36,9 @@ if(startSession() && isset($_SESSION['user-red']) && $_SESSION['user-red'] != 'l
 }#required for redirect back to previous page
 
 
-if(isset($_SESSION['UserStart'])){
+if(isset($_SESSION['uStart'])){
 
-	header("Location: " . $_SESSION['UserStart']);
+	header("Location: " . $_SESSION['uStart']); #session vars set users/validateUser.php, is set in users/userStart.php
 	die;
 }
 //header("Location: threads/index.php ");
@@ -67,11 +46,7 @@ if(isset($_SESSION['UserStart'])){
 
 get_header(); #defaults to theme header or header_inc.php
 
-
 ?>
-
-
-
 
  <div class="row">
 	<div class="col-sm-6">
@@ -93,10 +68,6 @@ get_header(); #defaults to theme header or header_inc.php
 	</div><!-- / 6 -->
 		<div class="col-sm-6"></div><!-- / 6 -->
 </div><!-- / row -->
-
-
-
-
 
 <?
 get_footer(); #defaults to theme footer or footer_inc.php

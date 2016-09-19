@@ -266,12 +266,12 @@ $config->metaKeywords = $CodeName . ', ' . $FirstName . ' ' . $LastName . ', ' .
 
 get_header(); #defaults to theme header or header_inc.php
 
+echo MaxNotes($pageDeets); #notes to me!
+
 # Read 'act' value, if it is passed via $_POST or $_GET with $_REQUEST
 if(isset($_REQUEST['act'])){$myAction = (trim($_REQUEST['act']));}else{$myAction = "";}
 
-
 #notes to self
-echo MaxNotes($pageDeets); #notes to me!
 
 
 //Get header element after myAction processed to determine if we show button or not.
@@ -506,7 +506,6 @@ break; #END SHOW
 	############################################################################
 	case "edit": //2) show first name change form
 
-		//set access priv needed for this page by member
 		chekPrivies(2); #member+
 
 		if($foundRecord) {#records exist - lets edit the data!
@@ -523,16 +522,10 @@ break; #END SHOW
 				. $CharID . '&' ;
 
 
-			echo '
-			<style>
-				form div.row {margin-bottom: 5px;}
-			</style>
-			';
+			echo '<style> form div.row {margin-bottom: 5px;} </style>';
 
 			echo '<form
-				action="profileUpdate.php?id=' . $myID . '&act=update"
-				id="myForm"
-				method="post">';
+				action="profileUpdate.php?id=' . $myID . '&act=update" id="myForm" method="post">';
 
 			#section 1 - General Descriptors
 			echo charLabel('Images');
@@ -541,19 +534,13 @@ break; #END SHOW
 			$returnPage = "profile.php?id={$myID}&act=edit";
 
 
-			echo '
-				<div >
-					<div class="col-sm-3 text-right text-muted">
-						<p class="text-right"><strong>Background: </strong></p>
-					</div>
+			echo '<div><div class="col-sm-3 text-right text-muted"><p class="text-right"><strong>Background: </strong></p></div>
 
-					<div class="col-sm-7">
-						<a href="./profileUpload.php?'
-							. $_SERVER['QUERY_STRING']
-							. '&type=h&series=0&returnPage='
-							. $returnPage
-							. '" class="btn btn-info" role="button">Banner  (940 x 460px)</a>
-						</div>
+					<div class="col-sm-7"><a href="./profileUpload.php?'
+						. $_SERVER['QUERY_STRING']
+						. '&type=h&series=0&returnPage='
+						. $returnPage
+						. '" class="btn btn-info" role="button">Banner  (940 x 460px)</a></div>
 					<div class="clearfix"></div>
 					<br />
 				</div>';
@@ -1145,6 +1132,10 @@ function charLabel($str){
 		<div class="clearfix"></div>'; #clear fix added to control wacky row highlight
 }
 
+
+
+
+//
 function varChekDisplay($myTitle, $str='', $myCarrier=''){
 /*
  * Display current settings IF not empty/null/void
@@ -1162,28 +1153,34 @@ function varChekDisplay($myTitle, $str='', $myCarrier=''){
 
 	#if not empty, show me stuff
 	if(!empty($str)){
-		$myTxt = '';
+		$fromArr = '';
 
 		#if array make array
 		if(is_array($myCarrier) && (!empty($myCarrier))){
 			$myArr = $myCarrier;
 		}else if (!empty($myCarrier)){
 			#is a text notation of some sort
-			$myTxt = ' <i><span class="text-muted"> &nbsp; (' . ucwords($myCarrier) . ')</span><i>';
+			$fromArr = ' <i><span class="text-muted"> &nbsp; (' . ucwords($myCarrier) . ')</span><i>';
 		}
 
 
 		if(!empty($str) && ($str!='')){#if array exists, use array value
 			if(!empty($myArr)){
-				$str = (int)$str;    #cast to int
-				$str = $myArr[$str]; #get value from array
+				//$str = (int)$str;    #cast to int
+				$str .= $myArr[$str]; #get value from array
+
+
 			}
 		}
+
+
+		//str_replace('<br />', PHP_EOL,  $str);
+
 
 		#return with array info of gender notation
 		return '<div class="row hoverHighlight">
 			<div class="col-sm-3 text-right text-muted"><p class="text-right"><strong>' . ucwords($myTitle) . ':</strong></p></div>
-			<div class="col-sm-9"><p>' . $str . $myTxt . '</p></div>
+			<div class="col-sm-9"><p>' . nl2br($str) .  nl2br($fromArr) . '</p></div>
 		</div>';
 
 	}
@@ -1277,8 +1274,8 @@ function makeInput($myTitle, $str='', $name=''){
 		</div>';
 	}
 
-#<textarea name="comment" form="usrform">Enter text here...</textarea>
-function makeTextArea($myTitle, $str='', $name=''){
+
+function makeTextArea($myTitle, $str = '', $name=''){
 	#create input
 		return '<div class="row hoverHighlight">
 			<div class="col-sm-3 text-right text-muted"><p class="text-right"><strong>' . ucwords($myTitle) . ':</strong></p> </div>
@@ -1291,7 +1288,7 @@ function makeTextArea($myTitle, $str='', $name=''){
 					rows="3"
 					data-min-rows="3"
 					placeholder="?"
-				/></textarea>
+				/>' .  $str . '</textarea>
 
 			</div>
 
@@ -1694,10 +1691,11 @@ function getImgGallery($imgID = '', $CodeName = '', $str = '', $imgHero = '', $m
 
 //scripts must site outside php so the browser can properly read the script tags
 ?>
-
 <script type="text/javascript" src="./../_js/jquery.ddslick.js"></script>
 <script type="text/javascript" src="./../_js/DDslick-eye.js"></script>
 <script type="text/javascript" src="./../_js/DDslick-hair.js"></script>
+
+
 
 
 <script>

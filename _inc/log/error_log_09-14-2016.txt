@@ -1,0 +1,13 @@
+[Sep-14-2016 11:13:34] Undefined variable: pageDeets in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/header_inc.php on line 55
+[Sep-14-2016 14:34:00] include_once(/Applications/AMPPS/www/WrDKv2/fckeditor/fckeditor.php): failed to open stream: No such file or directory in /Applications/AMPPS/www/WrDKv2/_inc/common_inc.php on line 574
+[Sep-14-2016 14:34:00] include_once(): Failed opening '/Applications/AMPPS/www/WrDKv2/fckeditor/fckeditor.php' for inclusion (include_path='.:') in /Applications/AMPPS/www/WrDKv2/_inc/common_inc.php on line 574
+[Sep-14-2016 14:34:00] include_once(/Applications/AMPPS/www/WrDKv2/fckeditor/fckeditor.php): failed to open stream: No such file or directory in /Applications/AMPPS/www/WrDKv2/_inc/common_inc.php on line 574
+[Sep-14-2016 14:34:00] include_once(): Failed opening '/Applications/AMPPS/www/WrDKv2/fckeditor/fckeditor.php' for inclusion (include_path='.:') in /Applications/AMPPS/www/WrDKv2/_inc/common_inc.php on line 574
+[Sep-14-2016 14:34:00] include_once(/Applications/AMPPS/www/WrDKv2/fckeditor/fckeditor.php): failed to open stream: No such file or directory in /Applications/AMPPS/www/WrDKv2/_inc/common_inc.php on line 574
+[Sep-14-2016 14:34:00] include_once(): Failed opening '/Applications/AMPPS/www/WrDKv2/fckeditor/fckeditor.php' for inclusion (include_path='.:') in /Applications/AMPPS/www/WrDKv2/_inc/common_inc.php on line 574
+[Sep-14-2016 14:37:04] include_once(/Applications/AMPPS/www/WrDKv2/fckeditor/fckeditor.php): failed to open stream: No such file or directory in /Applications/AMPPS/www/WrDKv2/_inc/common_inc.php on line 574
+[Sep-14-2016 14:37:04] include_once(): Failed opening '/Applications/AMPPS/www/WrDKv2/fckeditor/fckeditor.php' for inclusion (include_path='.:') in /Applications/AMPPS/www/WrDKv2/_inc/common_inc.php on line 574
+[Sep-14-2016 14:37:04] include_once(/Applications/AMPPS/www/WrDKv2/fckeditor/fckeditor.php): failed to open stream: No such file or directory in /Applications/AMPPS/www/WrDKv2/_inc/common_inc.php on line 574
+[Sep-14-2016 14:37:04] include_once(): Failed opening '/Applications/AMPPS/www/WrDKv2/fckeditor/fckeditor.php' for inclusion (include_path='.:') in /Applications/AMPPS/www/WrDKv2/_inc/common_inc.php on line 574
+[Sep-14-2016 14:37:04] include_once(/Applications/AMPPS/www/WrDKv2/fckeditor/fckeditor.php): failed to open stream: No such file or directory in /Applications/AMPPS/www/WrDKv2/_inc/common_inc.php on line 574
+[Sep-14-2016 14:37:04] include_once(): Failed opening '/Applications/AMPPS/www/WrDKv2/fckeditor/fckeditor.php' for inclusion (include_path='.:') in /Applications/AMPPS/www/WrDKv2/_inc/common_inc.php on line 574

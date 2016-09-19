@@ -1,0 +1,139 @@
+[Sep-12-2016 0:12:06] Undefined index: CustomerID in /Applications/AMPPS/www/WrDKv2/users/userPrefs.php on line 222
+[Sep-12-2016 10:49:22] Undefined index: CustomerID in /Applications/AMPPS/www/WrDKv2/users/userPrefs.php on line 385
+[Sep-12-2016 10:51:49] Undefined index: UserID in /Applications/AMPPS/www/WrDKv2/users/userPrefs.php on line 27
+[Sep-12-2016 10:51:49] Undefined index: UserName in /Applications/AMPPS/www/WrDKv2/users/userPrefs.php on line 28
+[Sep-12-2016 10:51:49] Undefined index: Privilege in /Applications/AMPPS/www/WrDKv2/users/userPrefs.php on line 29
+[Sep-12-2016 10:51:49] Undefined index: uStart in /Applications/AMPPS/www/WrDKv2/users/userPrefs.php on line 30
+[Sep-12-2016 10:51:49] Undefined index: Privilege in /Applications/AMPPS/www/WrDKv2/_inc/custom_inc.php on line 37
+[Sep-12-2016 10:52:45] Undefined index: uStart in /Applications/AMPPS/www/WrDKv2/users/validateUser.php on line 64
+[Sep-12-2016 10:52:45] Undefined property: stdClass::$adminDashboard in /Applications/AMPPS/www/WrDKv2/users/validateUser.php on line 102
+[Sep-12-2016 10:56:19] Undefined index: uStart in /Applications/AMPPS/www/WrDKv2/users/validateUser.php on line 64
+[Sep-12-2016 10:56:19] Undefined property: stdClass::$adminDashboard in /Applications/AMPPS/www/WrDKv2/users/validateUser.php on line 102
+[Sep-12-2016 10:57:35] Undefined index: uStart in /Applications/AMPPS/www/WrDKv2/users/validateUser.php on line 64
+[Sep-12-2016 10:57:35] Undefined property: stdClass::$adminDashboard in /Applications/AMPPS/www/WrDKv2/users/validateUser.php on line 102
+[Sep-12-2016 11:08:27] Undefined index: CustomerID in /Applications/AMPPS/www/WrDKv2/users/userPrefs.php on line 362
+[Sep-12-2016 11:17:44] Undefined index: CustomerID in /Applications/AMPPS/www/WrDKv2/users/userPrefs.php on line 362
+[Sep-12-2016 11:56:22] Undefined index: CustomerID in /Applications/AMPPS/www/WrDKv2/users/userPrefs.php on line 342
+[Sep-12-2016 12:01:44] Undefined index: CustomerID in /Applications/AMPPS/www/WrDKv2/users/userPrefs.php on line 342
+[Sep-12-2016 12:02:38] Undefined index: CustomerID in /Applications/AMPPS/www/WrDKv2/users/userPrefs.php on line 342
+[Sep-12-2016 12:05:23] Undefined index: CustomerID in /Applications/AMPPS/www/WrDKv2/users/userPrefs.php on line 348
+[Sep-12-2016 12:05:26] Undefined index: CustomerID in /Applications/AMPPS/www/WrDKv2/users/userPrefs.php on line 348
+[Sep-12-2016 12:11:16] Missing argument 1 for editDisplay(), called in /Applications/AMPPS/www/WrDKv2/users/userPrefs.php on line 91 and defined in /Applications/AMPPS/www/WrDKv2/users/userPrefs.php on line 340
+[Sep-12-2016 12:11:16] Undefined variable: uID in /Applications/AMPPS/www/WrDKv2/users/userPrefs.php on line 344
+[Sep-12-2016 12:11:39] Undefined variable: uID in /Applications/AMPPS/www/WrDKv2/users/userPrefs.php on line 344
+[Sep-12-2016 12:37:38] Undefined index: uID in /Applications/AMPPS/www/WrDKv2/users/userPrefs.php on line 340
+[Sep-12-2016 12:38:40] Undefined index: uID in /Applications/AMPPS/www/WrDKv2/users/userPrefs.php on line 342
+[Sep-12-2016 12:54:36] You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '='Wiccan' WHERE UserID=1' at line 1 in /Applications/AMPPS/www/WrDKv2/users/userPrefs.php on line 366
+[Sep-12-2016 12:59:33] You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE UserID=0' at line 1 in /Applications/AMPPS/www/WrDKv2/users/userPrefs.php on line 386
+[Sep-12-2016 14:08:20] Undefined index: UserID in /Applications/AMPPS/www/WrDKv2/users/userPrefs.php on line 27
+[Sep-12-2016 14:08:20] Undefined index: UserName in /Applications/AMPPS/www/WrDKv2/users/userPrefs.php on line 28
+[Sep-12-2016 14:08:20] Undefined index: Privilege in /Applications/AMPPS/www/WrDKv2/users/userPrefs.php on line 29
+[Sep-12-2016 14:08:20] Undefined index: uStart in /Applications/AMPPS/www/WrDKv2/users/userPrefs.php on line 30
+[Sep-12-2016 14:08:20] Undefined index: Privilege in /Applications/AMPPS/www/WrDKv2/_inc/custom_inc.php on line 37
+[Sep-12-2016 14:09:20] Undefined index: uStart in /Applications/AMPPS/www/WrDKv2/users/validateUser.php on line 64
+[Sep-12-2016 14:09:20] Undefined property: stdClass::$adminDashboard in /Applications/AMPPS/www/WrDKv2/users/validateUser.php on line 102
+[Sep-12-2016 14:18:46] Undefined property: stdClass::$adminDashboard in /Applications/AMPPS/www/WrDKv2/users/validateUser.php on line 99
+[Sep-12-2016 14:37:57] Undefined index: UserID in /Applications/AMPPS/www/WrDKv2/users/userPrefs.php on line 27
+[Sep-12-2016 14:37:57] Undefined index: UserName in /Applications/AMPPS/www/WrDKv2/users/userPrefs.php on line 28
+[Sep-12-2016 14:37:57] Undefined index: Privilege in /Applications/AMPPS/www/WrDKv2/users/userPrefs.php on line 29
+[Sep-12-2016 14:37:57] Undefined index: uStart in /Applications/AMPPS/www/WrDKv2/users/userPrefs.php on line 30
+[Sep-12-2016 14:37:57] Undefined index: Privilege in /Applications/AMPPS/www/WrDKv2/_inc/custom_inc.php on line 37
+[Sep-12-2016 14:38:23] Undefined property: stdClass::$adminDashboard in /Applications/AMPPS/www/WrDKv2/users/validateUser.php on line 99
+[Sep-12-2016 14:42:28] Undefined property: stdClass::$adminDashboard in /Applications/AMPPS/www/WrDKv2/users/validateUser.php on line 99
+[Sep-12-2016 14:46:02] Missing argument 3 for setStartPage(), called in /Applications/AMPPS/www/WrDKv2/users/userPrefs.php on line 96 and defined in /Applications/AMPPS/www/WrDKv2/users/userPrefs.php on line 214
+[Sep-12-2016 14:46:02] Undefined variable: uPriv in /Applications/AMPPS/www/WrDKv2/users/userPrefs.php on line 293
+[Sep-12-2016 14:46:19] Undefined variable: uStart in /Applications/AMPPS/www/WrDKv2/users/userPrefs.php on line 255
+[Sep-12-2016 14:46:19] Undefined variable: uStart in /Applications/AMPPS/www/WrDKv2/users/userPrefs.php on line 262
+[Sep-12-2016 14:46:19] Undefined variable: uStart in /Applications/AMPPS/www/WrDKv2/users/userPrefs.php on line 269
+[Sep-12-2016 14:46:19] Undefined variable: uStart in /Applications/AMPPS/www/WrDKv2/users/userPrefs.php on line 276
+[Sep-12-2016 14:46:19] Undefined variable: uStart in /Applications/AMPPS/www/WrDKv2/users/userPrefs.php on line 283
+[Sep-12-2016 14:46:19] Undefined variable: uPriv in /Applications/AMPPS/www/WrDKv2/users/userPrefs.php on line 293
+[Sep-12-2016 14:46:19] Undefined variable: uStart in /Applications/AMPPS/www/WrDKv2/users/userPrefs.php on line 327
+[Sep-12-2016 14:46:19] Undefined variable: uStart in /Applications/AMPPS/www/WrDKv2/users/userPrefs.php on line 327
+[Sep-12-2016 14:46:19] Undefined variable: uStart in /Applications/AMPPS/www/WrDKv2/users/userPrefs.php on line 327
+[Sep-12-2016 14:46:41] Undefined variable: uStart in /Applications/AMPPS/www/WrDKv2/users/userPrefs.php on line 255
+[Sep-12-2016 14:46:41] Undefined variable: uStart in /Applications/AMPPS/www/WrDKv2/users/userPrefs.php on line 262
+[Sep-12-2016 14:46:41] Undefined variable: uStart in /Applications/AMPPS/www/WrDKv2/users/userPrefs.php on line 269
+[Sep-12-2016 14:46:41] Undefined variable: uStart in /Applications/AMPPS/www/WrDKv2/users/userPrefs.php on line 276
+[Sep-12-2016 14:46:41] Undefined variable: uStart in /Applications/AMPPS/www/WrDKv2/users/userPrefs.php on line 283
+[Sep-12-2016 14:46:41] Undefined variable: uPriv in /Applications/AMPPS/www/WrDKv2/users/userPrefs.php on line 293
+[Sep-12-2016 14:46:41] Undefined variable: uStart in /Applications/AMPPS/www/WrDKv2/users/userPrefs.php on line 327
+[Sep-12-2016 14:46:41] Undefined variable: uStart in /Applications/AMPPS/www/WrDKv2/users/userPrefs.php on line 327
+[Sep-12-2016 14:46:41] Undefined variable: uStart in /Applications/AMPPS/www/WrDKv2/users/userPrefs.php on line 327
+[Sep-12-2016 14:46:44] Undefined variable: uStart in /Applications/AMPPS/www/WrDKv2/users/userPrefs.php on line 255
+[Sep-12-2016 14:46:44] Undefined variable: uStart in /Applications/AMPPS/www/WrDKv2/users/userPrefs.php on line 262
+[Sep-12-2016 14:46:44] Undefined variable: uStart in /Applications/AMPPS/www/WrDKv2/users/userPrefs.php on line 269
+[Sep-12-2016 14:46:44] Undefined variable: uStart in /Applications/AMPPS/www/WrDKv2/users/userPrefs.php on line 276
+[Sep-12-2016 14:46:44] Undefined variable: uStart in /Applications/AMPPS/www/WrDKv2/users/userPrefs.php on line 283
+[Sep-12-2016 14:46:44] Undefined variable: uPriv in /Applications/AMPPS/www/WrDKv2/users/userPrefs.php on line 293
+[Sep-12-2016 14:46:44] Undefined variable: uStart in /Applications/AMPPS/www/WrDKv2/users/userPrefs.php on line 327
+[Sep-12-2016 14:46:44] Undefined variable: uStart in /Applications/AMPPS/www/WrDKv2/users/userPrefs.php on line 327
+[Sep-12-2016 14:46:44] Undefined variable: uStart in /Applications/AMPPS/www/WrDKv2/users/userPrefs.php on line 327
+[Sep-12-2016 14:47:40] Missing argument 3 for setStartPage(), called in /Applications/AMPPS/www/WrDKv2/users/userPrefs.php on line 96 and defined in /Applications/AMPPS/www/WrDKv2/users/userPrefs.php on line 214
+[Sep-12-2016 14:47:40] Undefined variable: uStart in /Applications/AMPPS/www/WrDKv2/users/userPrefs.php on line 255
+[Sep-12-2016 14:47:40] Undefined variable: uStart in /Applications/AMPPS/www/WrDKv2/users/userPrefs.php on line 262
+[Sep-12-2016 14:47:40] Undefined variable: uStart in /Applications/AMPPS/www/WrDKv2/users/userPrefs.php on line 269
+[Sep-12-2016 14:47:40] Undefined variable: uStart in /Applications/AMPPS/www/WrDKv2/users/userPrefs.php on line 276
+[Sep-12-2016 14:47:40] Undefined variable: uStart in /Applications/AMPPS/www/WrDKv2/users/userPrefs.php on line 283
+[Sep-12-2016 14:47:40] Undefined variable: uStart in /Applications/AMPPS/www/WrDKv2/users/userPrefs.php on line 327
+[Sep-12-2016 14:47:40] Undefined variable: uStart in /Applications/AMPPS/www/WrDKv2/users/userPrefs.php on line 327
+[Sep-12-2016 14:47:40] Undefined variable: uStart in /Applications/AMPPS/www/WrDKv2/users/userPrefs.php on line 327
+[Sep-12-2016 14:47:59] Missing argument 3 for setStartPage(), called in /Applications/AMPPS/www/WrDKv2/users/userPrefs.php on line 96 and defined in /Applications/AMPPS/www/WrDKv2/users/userPrefs.php on line 214
+[Sep-12-2016 14:47:59] Undefined variable: uPriv in /Applications/AMPPS/www/WrDKv2/users/userPrefs.php on line 293
+[Sep-12-2016 14:49:06] Undefined index: UserID in /Applications/AMPPS/www/WrDKv2/users/dashboard.php on line 27
+[Sep-12-2016 14:49:06] Undefined index: UserName in /Applications/AMPPS/www/WrDKv2/users/dashboard.php on line 28
+[Sep-12-2016 14:49:06] Undefined index: Privilege in /Applications/AMPPS/www/WrDKv2/users/dashboard.php on line 29
+[Sep-12-2016 14:49:06] Undefined index: Privilege in /Applications/AMPPS/www/WrDKv2/_inc/custom_inc.php on line 37
+[Sep-12-2016 14:49:22] Undefined property: stdClass::$adminDashboard in /Applications/AMPPS/www/WrDKv2/users/validateUser.php on line 99
+[Sep-12-2016 15:07:33] Undefined property: stdClass::$adminReset in /Applications/AMPPS/www/WrDKv2/users/resetUser.php on line 130
+[Sep-12-2016 15:29:41] Undefined property: stdClass::$adminAdd in /Applications/AMPPS/www/WrDKv2/users/add.php on line 98
+[Sep-12-2016 15:29:41] Undefined property: stdClass::$adminDashboard in /Applications/AMPPS/www/WrDKv2/users/add.php on line 160
+[Sep-12-2016 15:30:20] Undefined property: stdClass::$adminAdd in /Applications/AMPPS/www/WrDKv2/users/add.php on line 35
+[Sep-12-2016 15:56:43] Undefined property: stdClass::$addUser in /Applications/AMPPS/www/WrDKv2/users/addUser.php on line 100
+[Sep-12-2016 16:29:41] Undefined index: Privilege in /Applications/AMPPS/www/WrDKv2/users/addUser.php on line 57
+[Sep-12-2016 19:36:03] Undefined property: stdClass::$adminReset in /Applications/AMPPS/www/WrDKv2/users/resetUser.php on line 130
+[Sep-12-2016 19:36:05] Undefined property: stdClass::$adminReset in /Applications/AMPPS/www/WrDKv2/users/resetUser.php on line 130
+[Sep-12-2016 19:36:41] Undefined property: stdClass::$adminReset in /Applications/AMPPS/www/WrDKv2/users/resetUser.php on line 130
+[Sep-12-2016 19:40:11] Undefined property: stdClass::$adminEdit in /Applications/AMPPS/www/WrDKv2/users/edit.php on line 80
+[Sep-12-2016 19:40:11] Undefined index: AdminID in /Applications/AMPPS/www/WrDKv2/users/edit.php on line 85
+[Sep-12-2016 19:40:11] You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /Applications/AMPPS/www/WrDKv2/users/edit.php on line 87
+[Sep-12-2016 19:41:05] Undefined property: stdClass::$adminEdit in /Applications/AMPPS/www/WrDKv2/users/edit.php on line 80
+[Sep-12-2016 19:41:05] Table 'matest.ma_admin' doesn't exist in /Applications/AMPPS/www/WrDKv2/users/edit.php on line 87
+[Sep-12-2016 19:43:52] Table 'matest.ma_admin' doesn't exist in /Applications/AMPPS/www/WrDKv2/users/edit.php on line 87
+[Sep-12-2016 19:44:15] Table 'matest.ma_user' doesn't exist in /Applications/AMPPS/www/WrDKv2/users/edit.php on line 87
+[Sep-12-2016 19:49:37] Undefined index: Privilege in /Applications/AMPPS/www/WrDKv2/_inc/custom_inc.php on line 37
+[Sep-12-2016 19:49:52] Undefined property: stdClass::$adminDashboard in /Applications/AMPPS/www/WrDKv2/users/validateUser.php on line 99
+[Sep-12-2016 19:49:58] Undefined property: stdClass::$adminReset in /Applications/AMPPS/www/WrDKv2/users/resetUser.php on line 130
+[Sep-12-2016 19:52:54] Undefined property: stdClass::$adminAdd in /Applications/AMPPS/www/WrDKv2/users/add.php on line 98
+[Sep-12-2016 19:52:54] Undefined property: stdClass::$adminDashboard in /Applications/AMPPS/www/WrDKv2/users/add.php on line 160
+[Sep-12-2016 19:52:55] Undefined property: stdClass::$adminAdd in /Applications/AMPPS/www/WrDKv2/users/add.php on line 98
+[Sep-12-2016 19:52:55] Undefined property: stdClass::$adminDashboard in /Applications/AMPPS/www/WrDKv2/users/add.php on line 160
+[Sep-12-2016 21:38:36] Undefined property: stdClass::$adminReset in /Applications/AMPPS/www/WrDKv2/users/resetPassword.php on line 65
+[Sep-12-2016 21:38:36] Table 'matest.ma_admin' doesn't exist in /Applications/AMPPS/www/WrDKv2/users/resetPassword.php on line 72
+[Sep-12-2016 21:41:05] Undefined property: stdClass::$adminDashboard in /Applications/AMPPS/www/WrDKv2/users/validateUser.php on line 99
+[Sep-12-2016 21:42:59] Table 'matest.ma_admin' doesn't exist in /Applications/AMPPS/www/WrDKv2/_inc/common_inc.php on line 707
+[Sep-12-2016 21:44:54] Table 'matest.ma_admin' doesn't exist in /Applications/AMPPS/www/WrDKv2/_inc/common_inc.php on line 707
+[Sep-12-2016 21:47:15] Table 'matest.ma_admin' doesn't exist in /Applications/AMPPS/www/WrDKv2/_inc/common_inc.php on line 707
+[Sep-12-2016 21:47:26] Table 'matest.ma_admin' doesn't exist in /Applications/AMPPS/www/WrDKv2/_inc/common_inc.php on line 707
+[Sep-12-2016 21:48:34] Table 'matest.ma_admin' doesn't exist in /Applications/AMPPS/www/WrDKv2/_inc/common_inc.php on line 707
+[Sep-12-2016 21:48:40] Table 'matest.ma_admin' doesn't exist in /Applications/AMPPS/www/WrDKv2/_inc/common_inc.php on line 707
+[Sep-12-2016 21:50:03] Table 'matest.ma_admin' doesn't exist in /Applications/AMPPS/www/WrDKv2/_inc/common_inc.php on line 707
+[Sep-12-2016 21:51:46] Undefined variable: UserName in /Applications/AMPPS/www/WrDKv2/users/editUser.php on line 179
+[Sep-12-2016 21:53:44] Undefined variable: UserName in /Applications/AMPPS/www/WrDKv2/users/editUser.php on line 179
+[Sep-12-2016 21:56:00] Undefined variable: UserName in /Applications/AMPPS/www/WrDKv2/users/editUser.php on line 179
+[Sep-12-2016 22:01:07] Undefined variable: aarPrivilege in /Applications/AMPPS/www/WrDKv2/users/editUser.php on line 209
+[Sep-12-2016 22:01:07] Undefined variable: aarPrivilege in /Applications/AMPPS/www/WrDKv2/users/editUser.php on line 209
+[Sep-12-2016 22:01:07] Undefined variable: aarPrivilege in /Applications/AMPPS/www/WrDKv2/users/editUser.php on line 209
+[Sep-12-2016 22:01:07] Undefined variable: aarPrivilege in /Applications/AMPPS/www/WrDKv2/users/editUser.php on line 209
+[Sep-12-2016 22:01:07] Undefined variable: aarPrivilege in /Applications/AMPPS/www/WrDKv2/users/editUser.php on line 209
+[Sep-12-2016 22:01:07] Undefined variable: aarPrivilege in /Applications/AMPPS/www/WrDKv2/users/editUser.php on line 209
+[Sep-12-2016 22:01:07] Undefined variable: aarPrivilege in /Applications/AMPPS/www/WrDKv2/users/editUser.php on line 209
+[Sep-12-2016 22:04:44] Undefined variable: aarPrivilege in /Applications/AMPPS/www/WrDKv2/users/editUser.php on line 216
+[Sep-12-2016 22:04:44] Undefined variable: aarPrivilege in /Applications/AMPPS/www/WrDKv2/users/editUser.php on line 216
+[Sep-12-2016 22:04:44] Undefined variable: aarPrivilege in /Applications/AMPPS/www/WrDKv2/users/editUser.php on line 216
+[Sep-12-2016 22:04:44] Undefined variable: aarPrivilege in /Applications/AMPPS/www/WrDKv2/users/editUser.php on line 216
+[Sep-12-2016 22:04:44] Undefined variable: aarPrivilege in /Applications/AMPPS/www/WrDKv2/users/editUser.php on line 216
+[Sep-12-2016 22:04:44] Undefined variable: aarPrivilege in /Applications/AMPPS/www/WrDKv2/users/editUser.php on line 216
+[Sep-12-2016 22:13:03] Table 'matest.ma_admin' doesn't exist in /Applications/AMPPS/www/WrDKv2/users/editUser.php on line 265
+[Sep-12-2016 22:14:00] Undefined variable: UserName in /Applications/AMPPS/www/WrDKv2/users/editUser.php on line 273
+[Sep-12-2016 22:14:00] Undefined variable: UserName in /Applications/AMPPS/www/WrDKv2/users/editUser.php on line 284

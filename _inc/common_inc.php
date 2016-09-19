@@ -375,10 +375,10 @@ function iformReq($var,&$iConn){
 
 	if(!isset($_POST[$var]))
 	{
-		#dumpDie($var);
+		dumpDie($var);
 
 
-		feedback("DUH!!! Required Form Data Not Passed","error");
+		feedback("DUH!!! Required Form Data Not Passed for {$var}","error");
 
 		if(!isset($redirect) || $redirect == "")
 		{//if no redirect indicated, use the current page!
@@ -687,6 +687,9 @@ function rte($RTEID,$Width='100%',$Height='400',$ToolBar = 'Basic',$showBorder=F
 		if(isset($_REQUEST['tb'])){unset($_REQUEST['tb']);}//reset request var, prevents cascade to next RTE on page
 }
 
+
+
+
 function getENUM($table,$column){/**
  * getENUM retrieves an array of all possible choices in a MySQL ENUM
  *
@@ -854,23 +857,6 @@ function maxLinks($arrNewLinks, $prefix='', $suffix='', $separator="~"){
 				</ul>
 			</li>
 		*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 		}

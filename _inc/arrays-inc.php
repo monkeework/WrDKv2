@@ -66,7 +66,7 @@ $aarStatusTest = [
 	];
 
 
-
+/*
 $aarPrivilege = [
 	"0"  => "visitor", 		#unknown
 	"1"  => 'guest',   		#no character, just joined
@@ -77,7 +77,21 @@ $aarPrivilege = [
 	"6"  => 'owner',      #superadmin
 	"7"  => 'developer'   #all privs-db
 ];
+*/
 
+define('PRIV_DEVELOPER', 'developer');
+
+$aarPrivilege = [
+	"0"  => "visitor", 		#unknown
+	"1"  => 'guest',   		#no character, just joined
+	"2"  => 'member',  		#aproved, no character
+	"3"  => 'handler',    #aproved, has character
+	"4"  => 'mod',     		#characters
+	"5"  => 'admin',   		#handles
+	"6"  => 'owner',      #superadmin
+	// "7"  => 'developer'   #all privs-db
+    "7"  => PRIV_DEVELOPER   #all privs-db
+];
 
 
 $aarWaiver = [

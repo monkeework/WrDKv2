@@ -1,6 +1,6 @@
 <?php
 /**
- * $config->userEdit.php is a single page web application that allows an admin to
+ * $config->adminEdit.php is a single page web application that allows an admin to
  * edit some of their personal data
  *
  * This page is an addition to the application started as the nmAdmin package
@@ -23,8 +23,19 @@ $config->metaRobots = 'no index, no follow';#never index admin pages
 
 //END CONFIG AREA ----------------------------------------------------------
 
+
+
+
 //set access priv needed for this page by member
-		chekPrivies(4); #admins+
+chekPrivies(2); #mems+
+
+
+/*
+
+<img alt="Adam Gallagher - Everything Is Peter's!!!!! - The twin" class="unselectable" id="main_photo" itemprop="contentURL" src="http://cdn10.lbstatic.nu/files/looks/medium/2011/08/23/1509105_PETER.jpg?1314086187" srcset="http://cdn10.lbstatic.nu/files/looks/large/2011/08/23/1509105_PETER.jpg?1314086187 1.5x" style="width: 553px; height: 560px;" title="Adam Gallagher - Everything Is Peter's!!!!! - The twin">
+
+*/
+
 
 $access = "admin"; #admins can edit themselves, developers can edit any - don't change this var or no one can edit their own data
 include_once INCLUDE_PATH . 'admin_only_inc.php'; #session protected page - level is defined in $access var
@@ -41,34 +52,33 @@ switch ($myAction)
 		updateExecute();
 		break;
 	default: # 1)Select Administrator
-		 selectAdmin();
+		 selectUser();
 }
 
-function selectAdmin()
-{//Select administrator
+function selectUser(){//Select administrator
 	global $config;
 
-	if($_SESSION["Privilege"] <= 5) #5 is admin
+	if($_SESSION["Privilege"] == "admin")
 	{#redirect if logged in only as admin
 		myRedirect(THIS_PAGE . "?act=edit");
 	}
 
 	$config->loadhead='
-	<script type="text/javascript" src="' . VIRTUAL_PATH . 'include/util.js"></script>
+	<script type="text/javascript" src="' . VIRTUAL_PATH . '_inc/util.js"></script>
 	<script type="text/javascript">
 			function checkForm(thisForm)
 			{//check form data for valid info
 				//if(!checkRadio(thisForm.UserID,"Please Select a User.")){return false;}
-				if(empty(thisForm.AdminID,"Please Select an User.")){return false;}
+				if(empty(thisForm.UserID,"Please Select an User.")){return false;}
 				return true;//if all is passed, submit!
 			}
 	</script>
 	';
 	get_header();
 	echo '<h3 align="center">Edit User</h3>';
-	if($_SESSION["Privilege"] == "developer" || $_SESSION["Privilege"] == "superadmin")
+	if($_SESSION["Privilege"] >= 5)
 	{# must be greater than admin level to have  choice of selection
-		echo '<p align="center">Select a User, to edit their data:</p>';
+		echo '<p align="center">Select User to edit their data:</p>';
 	}
 	echo '<form action="' . $config->userEdit . '" method="post" onsubmit="return checkForm(this);">';
 	$iConn = IDB::conn();
@@ -111,64 +121,66 @@ function selectAdmin()
 	}else{//no records
 			echo '<div align="center"><h3>Currently No Users in Database.</h3></div>';
 	}
-	 echo '<div align="center"><a href="' . $config->userDashboard . '">Exit To Admin</a></div>';
+	 echo '<div align="center"><a href="' . $config->userDashboard . '">Exit To Dashboard</a></div>';
 	@mysqli_free_result($result); //free resources
 	get_footer();
 
 }
 
-function editDisplay()
-{
+function editDisplay(){
 	global $config;
 	if($_SESSION["Privilege"] == "admin")
 	{#use session data if logged in as admin only
 		$myID = (int)$_SESSION['UserID'];
 	}else{
-		if(isset($_POST['UserID']) && (int)$_POST['AdminID'] > 0)
+		if(isset($_POST['UserID']) && (int)$_POST['UserID'] > 0)
 		{
 			 $myID = (int)$_POST['UserID']; #Convert to integer, will equate to zero if fails
 		}else{
 			feedback("UserID not numeric","error");
-			myRedirect($config->adminReset);
+			myRedirect($config->userReset);
 		}
 	}
-	$privileges = getENUM(PREFIX . 'Admin','Privilege'); #grab all possible 'Privileges' from ENUM
+	$privileges = getENUM(PREFIX . 'Users','Privilege'); #grab all possible 'Privileges' from ENUM
 
 	$iConn = IDB::conn();
-	$sql = sprintf("select UserName,Email,Privilege from " . PREFIX . "Users WHERE UserID=%d",$myID);
+	$sql = sprintf("select UserName, Email ,Privilege from " . PREFIX . "Users WHERE UserID=%d",$myID);
 	$result = @mysqli_query($iConn,$sql) or die(trigger_error(mysqli_error($iConn), E_USER_ERROR));
 	if(mysqli_num_rows($result) > 0)//at least one record!
 	{//show results
 		while ($row = mysqli_fetch_array($result))
 		{//dbOut() function is a 'wrapper' designed to strip slashes, etc. of data leaving db
-				 $FirstName = dbOut($row['UserName']);
+				 $UserName = dbOut($row['UserName']);
+				 $Email = dbOut($row['Email']);
 				 $Privilege = dbOut($row['Privilege']);
 		}
 	}else{//no records
 			//put links on page to reset form, exit
 			echo '
-			<div align="center"><h3>No such user.</h3></div>
-			<div align="center"><a href="' . $config->userDashboard . '">Exit To Admin</a></div>
+			<div align="center"><h3>No such administrator.</h3></div>
+			<div align="center"><a href="' . $config->userDashboard . '">Exit To Dashboard</a></div>
 			';
 	}
-	$config->loadhead = '
-	<script type="text/javascript" src="<?php echo VIRTUAL_PATH; ?>include/util.js"></script>
+
+	$config->loadhead = '<script type="text/javascript" src="<?php echo VIRTUAL_PATH; ?>_inc/util.js"></script>
 	<script type="text/javascript">
 			function checkForm(thisForm)
 			{//check form data for valid info
-				if(empty(thisForm.FirstName,"Please enter first name.")){return false;}
+				if(empty(thisForm.UserName,"Please enter username.")){return false;}
 				if(!isEmail(thisForm.Email,"Please enter a valid Email Address")){return false;}
 				return true;//if all is passed, submit!
 			}
 	</script>
 	';
+
 	get_header();
+
 	echo '
-	<h3 align="center">Edit Administrator</h3>
+	<h3 align="center">Edit ' . $_SESSION['UserName'] . '</h3>
 	<form action="' . $config->userEdit . '" method="post" onsubmit="return checkForm(this);">
 	<table align="center">
 		<tr>
-			<td align="right">First Name</td>
+			<td align="right">Username</td>
 			<td>
 				<input type="text" name="UserName" value="' . $UserName . '" />
 				<font color="red"><b>*</b></font>
@@ -182,21 +194,49 @@ function editDisplay()
 			</td>
 		</tr>
 	';
-		if($_SESSION["Privilege"] == "developer" || $_SESSION["Privilege"] == "superadmin")
-		{# uses createSelect() function to preload the select option
-			echo '
-			<tr>
-				<td align="right">Privilege</td>
-				<td>
-				';
-				# createSelect(element-type,element-name,values-array,db-array,labels-array,concatentator) - creates preloaded radio, select, checkbox set
-				createSelect("select","Privilege",$privileges,$Privilege,$privileges,",");	#privileges is from ENUM
-				echo '
-				</td>
-			</tr>';
-		}else{
-			echo '<input type="hidden" name="Privilege" value="' . $_SESSION["Privilege"] . '" />';
-		}
+
+
+
+	#error in file: '/Applications/AMPPS/www/WrDKv2/users/editUser.php' on line: 209 Error message: Undefined variable: aarPrivilegeBackTrace:
+	$uPriv = $_SESSION['Privilege'];
+
+
+	var_dump($uPriv);
+
+
+
+
+
+	if($_SESSION["Privilege"] >= 5)
+	{# uses createSelect() function to preload the select option
+		echo '
+		<tr>
+			<td align="right">Privilege</td>
+			<td>
+
+			<select name="Privilege" >
+				<option>Set Privilege</option>';
+
+				//allow user to set privleges to one level lower then self;
+				$setPriv = (int)$uPriv  - 1;
+
+$x = 1;
+				#user can set another's user priv's to one value less then their own
+				while($x <= $uPriv) {
+						#echo '<option value="' . $x .'"> ' . $aarPrivilege[$x];
+						echo '<option value="' . $x .'"> ' . $x;
+						$x++;
+				}
+
+			echo ' </select>
+
+			</td>
+		</tr>';
+	}else{
+		echo '<input type="hidden" name="Privilege" value="' . $_SESSION["Privilege"] . '" />';
+	}
+
+
 	echo '
 		 <input type="hidden" name="UserID" value="' , $myID . '" />
 		 <input type="hidden" name="act" value="update" />
@@ -208,14 +248,13 @@ function editDisplay()
 		</tr>
 	</table>
 	</form>
-	<div align="center"><a href="' . $config->userDashboard . '">Exit To Admin</a></div>
+	<div align="center"><a href="' . $config->userDashboard . '">Exit To Dashboard</a></div>
 	';
 	@mysqli_free_result($result); //free resources
 	get_footer();
 }
 
-function updateExecute()
-{
+function updateExecute(){
 	global $config;
 	$iConn = IDB::conn(); # MUST precede iformReq() function, which uses active connection to parse data
 	$redirect = $config->userEdit; # global var used for following iformReq redirection on failure
@@ -223,25 +262,25 @@ function updateExecute()
 
 	$Email = strtolower(iformReq('Email',$iConn));
 	$Privilege = iformReq('Privilege',$iConn);
-	$AdminID = iformReq('UserID',$iConn);
+	$UserID = iformReq('UserID',$iConn);
 
 	#check for duplicate email
-	$sql = sprintf("select UserID from " . PREFIX . "Users WHERE (Email='%s') and UsersID != %d",$Email,$AdminID);
+	$sql = sprintf("select UserID from " . PREFIX . "Users WHERE (Email='%s') and UserID != %d",$Email,$UserID);
 	$result = mysqli_query($iConn,$sql) or die(trigger_error(mysqli_error($iConn), E_USER_ERROR));
 	if(mysqli_num_rows($result) > 0)//at least one record!
 	{# someone already has email!
 		feedback("Email already exists - please choose a different email.");
-		myRedirect($config->adminEdit); # duplicate email
+		myRedirect($config->userEdit); # duplicate email
 	}
 
 	#sprintf() function allows us to filter data by type while inserting DB values.  Illegal data is neutralized, ie: numerics become zero
-	$sql = sprintf("UPDATE " . PREFIX . "Users set UserName='%s', Email='%s',Privilege='%s' WHERE UserID=%d",$UserName,$Email,$Privilege,(int)$UserID);
+	$sql = sprintf("UPDATE " . PREFIX . "Users set UserName='%s',Email='%s',Privilege='%s' WHERE UserID=%d",$UserName,$Email,$Privilege,(int)$UserID);
 
 	mysqli_query($iConn,$sql) or die(trigger_error(mysqli_error($iConn), E_USER_ERROR));
 
 	//feedback success or failure of insert
 	if (mysqli_affected_rows($iConn) > 0){
-	 $msg= "User Updated!";
+	 $msg= "Admin Updated!";
 	 feedback("Successfully Updated!","notice");
 	 if($_SESSION["UserID"] == $UserID)
 	 {#this is me!  update current session info:
@@ -254,9 +293,9 @@ function updateExecute()
 
 	get_header();
 	echo '
-		<div align="center"><h3>Edit Administrator</h3></div>
+		<div align="center"><h3>Edit User</h3></div>
 		<div align="center"><a href="' . $config->userReset . '">Edit More</a></div>
-		<div align="center"><a href="' . $config->userDashboard . '">Exit To Admin</a></div>
+		<div align="center"><a href="' . $config->userDashboard . '">Exit To Dashboard</a></div>
 		';
 	get_footer();
 

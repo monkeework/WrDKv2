@@ -87,7 +87,7 @@ function update() {
 
 	#section 1 - General
 	$CodeName       	= strip_tags(iformReq('CodeName',					$iConn));
-	$UserID       	= strip_tags(iformReq('UserID',			        $iConn));
+	$UserID       	  = strip_tags(iformReq('UserID',			      $iConn));
 	$StatusID					= strip_tags(iformReq('StatusID',					$iConn));
 	$OCFC							= strip_tags(iformReq('OCFC',							$iConn));
 	$Alias						= strip_tags(iformReq('Alias', 						$iConn));
@@ -115,12 +115,12 @@ function update() {
 	$Gender    		  	= strip_tags(iformReq('Gender',						$iConn));
 	$Playby						= strip_tags(iformReq('Playby',						$iConn));
 
-	$Distinquishment	= strip_tags(iformReq('Distinquishment',	$iConn));
-	$Appearance     	= strip_tags(iformReq('Appearance',				$iConn));
+	$Distinquishment	= strip_tags(iformReq('Distinquishment',	$iConn), '<a><b><br /><em><i><strong><u>');
+	$Appearance     	= strip_tags(iformReq('Appearance',				$iConn), '<a><b><br /><em><i><strong><u>');
 
 
 	#section 3 - personality section
-	$Quote    		  	= strip_tags(iformReq('Quote', 						$iConn));
+	$Quote    		  	= strip_tags(iformReq('Quote', 						$iConn), '<a><b><br /><em><i><strong><u>');
 	$ThemeSong				= strip_tags(iformReq('ThemeSong',				$iConn));
 	$ThemeSongLink		= strip_tags(iformReq('ThemeSongLink',		$iConn));
 	$Waiver						= strip_tags(iformReq('Waiver',						$iConn));
@@ -128,7 +128,7 @@ function update() {
 	$Orientation    	= strip_tags(iformReq('Orientation', 			$iConn));
 	$Demeanor    			= strip_tags(iformReq('Demeanor', 				$iConn));
 	$Nature    				= strip_tags(iformReq('Nature', 					$iConn));
-	$Personality    	= strip_tags(iformReq('Personality',  		$iConn));
+	$Personality    	= strip_tags(iformReq('Personality',  		$iConn), '<a><b><br /><em><i><strong><u>');
 
 
 	#section 4 - Legal section
@@ -165,33 +165,71 @@ function update() {
 
 
 	#section 6 - abilities
-	$Power			    	= strip_tags(iformReq('Power', 						$iConn));
-	$PowerDesc    		= strip_tags(iformReq('PowerDesc', 				$iConn));
-	$Aptitude     		= strip_tags(iformReq('Aptitude', 				$iConn));
-	$Merit      			= strip_tags(iformReq('Merit', 						$iConn));
-	$Flaw    					= strip_tags(iformReq('Flaw', 						$iConn));
+	$Power			    	= strip_tags(iformReq('Power', 						$iConn), '<a><b><br /><em><i><strong><u>');
+	$PowerDesc    		= strip_tags(iformReq('PowerDesc', 				$iConn), '<a><b><br /><em><i><strong><u>');
+	$Aptitude     		= strip_tags(iformReq('Aptitude', 				$iConn), '<a><b><br /><em><i><strong><u>');
+	$Merit      			= strip_tags(iformReq('Merit', 						$iConn), '<a><b><br /><em><i><strong><u>');
+	$Flaw    					= strip_tags(iformReq('Flaw', 						$iConn), '<a><b><br /><em><i><strong><u>');
 
 	#section 7 - stuff
-	$Equipment				= strip_tags(iformReq('Equipment', 				$iConn));
-	$Resource					= strip_tags(iformReq('Resource', 				$iConn));
-	$Transportation		= strip_tags(iformReq('Transportation', 	$iConn));
-	$Uniform					= strip_tags(iformReq('Uniform', 					$iConn));
-	$UniformSpecs			= strip_tags(iformReq('UniformSpecs', 		$iConn));
+	$Equipment				= strip_tags(iformReq('Equipment', 				$iConn), '<a><b><br /><em><i><strong><u>');
+	$Resource					= strip_tags(iformReq('Resource', 				$iConn), '<a><b><br /><em><i><strong><u>');
+	$Transportation		= strip_tags(iformReq('Transportation', 	$iConn), '<a><b><br /><em><i><strong><u>');
+	$Uniform					= strip_tags(iformReq('Uniform', 					$iConn), '<a><b><br /><em><i><strong><u>');
+	$UniformSpecs			= strip_tags(iformReq('UniformSpecs', 		$iConn), '<a><b><br /><em><i><strong><u>');
 
 	#section 8 - contacts
 	$Team     				= strip_tags(iformReq('Team', 						$iConn));
 	$TeamPosition   	= strip_tags(iformReq('TeamPosition', 		$iConn));
 
 
-	$Affliation     	= strip_tags(iformReq('Affliation', 			$iConn));
-	$Allies      			= strip_tags(iformReq('Allies', 					$iConn));
-	$Contact					= strip_tags(iformReq('Contact', 					$iConn));
-	$Relationship   	= strip_tags(iformReq('Relationship', 		$iConn));
-	$Relative     		= strip_tags(iformReq('Relative', 				$iConn));
-	$Rivals    				= strip_tags(iformReq('Rivals', 					$iConn));
+	$Affliation     	= strip_tags(iformReq('Affliation', 			$iConn), '<a><b><br /><em><i><strong><u>');
+	$Allies      			= strip_tags(iformReq('Allies', 					$iConn), '<a><b><br /><em><i><strong><u>');
+	$Contact					= strip_tags(iformReq('Contact', 					$iConn), '<a><b><br /><em><i><strong><u>');
+	$Relationship   	= strip_tags(iformReq('Relationship', 		$iConn), '<a><b><br /><em><i><strong><u>');
+	$Relative     		= strip_tags(iformReq('Relative', 				$iConn), '<a><b><br /><em><i><strong><u>');
+	$Rivals    				= strip_tags(iformReq('Rivals', 					$iConn), '<a><b><br /><em><i><strong><u>');
 
 	#section 9 - history
-	$History    			= strip_tags(iformReq('History', 					$iConn));
+	/*
+		You almost certainly still need to filter out html tags from the
+		input...even if you use a client-side editor that restricts what the
+		user can enter, an attacker could still try to submit directly to your
+		form handler to bypass that.
+
+		Handling all cases of malicious or invalid html is non-trivial, so
+		when possible it's nice to avoid altogether...using a simpler markup
+		syntax like markdown or bbcode can give you some visual formatting
+		options without the complexity of html.
+
+		When you must allow html formatting in rich text, you will typically
+		choose a list of acceptable html tags which are safe and you will
+		allow, and then strip anything that isn't on the list. (What actually
+		belongs in that list is a bigger discussion, and depends on what your
+		editor widget outputs, what formatting you need to support, and what
+		kind of security concerns you have...but generally the shorter the
+		list, the better.) strip_tags() has an optional second parameter that
+		will take such a list of tags that it will allow through, so using
+		that would be a quick first step. Though be aware that there are still
+		security concerns using strip_tags, as it doesn't limit/process
+		attributes on allowed tags at all, and can let through things like
+		inline css styles or on<event> attributes which have security
+		implications. A library like HTML Purifier[1] is generally the best
+		approach, but is a bit more work to get started with.
+
+		SEE: http://htmlpurifier.org/
+	*/
+
+
+	/*
+		There's also a simpler option than a library like HTML Purifier, just to get you started.  You can pass a list of acceptable tags to leave alone to strip_tags():
+
+		$History = strip_tags(iformFreq('History',$iConn), '<p><strong><a>');
+
+		That way you could at least have basic sanitizing to start and then worry about something more robust later.
+	*/
+
+	$History = strip_tags(iformReq('History',$iConn), '<a><b><br /><em><i><strong><u><ul><ol><li>');
 
 
 	//next check for specific issues with data

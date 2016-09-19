@@ -11,6 +11,7 @@ include 'bootswatch_functions.php';//WAS bootswatch_functions.php
 		<link rel="stylesheet" href="<?=THEME_PATH;?>css/<?=$config->style;?>" media="screen">
 		<link rel="stylesheet" href="<?=THEME_PATH;?>css/bootswatch.min.css">
 		<link rel="stylesheet" href="<?=THEME_PATH;?>css/bootswatch-overrides.css">
+		<link rel="shortcut icon" href="<?=VIRTUAL_PATH;?>_img/_mCons/favicon.ico" type="image/x-icon" />
 		<!--[if lt IE 9]>
 		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->

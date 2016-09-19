@@ -23,13 +23,15 @@ echo "<?xml version=\"1.0\" encoding=\"iso-8859-1\"?".">\n"; //xml uses ?, so we
 	<?php include INCLUDE_PATH . 'meta_inc.php'; ?>
 	<link href="<?php echo VIRTUAL_PATH; ?>_css/bootstrapCustomIfAny.css" rel="stylesheet" type="text/css" />
 
-	<link rel="shortcut icon" href="./_img/favicon.ico" type="image/x-icon" />
+	<link rel="shortcut icon" href="<?php echo VIRTUAL_PATH; ?>_img/favicon.ico" type="image/x-icon" />
 
 	<style type="text/css">
 	 .somethingcouldgohere {}
 	</style>
 </head>
 <body>
+
+<?php echo MaxNotes($pageDeets); #notes to me! ?>
 <table width="100%" cellpadding="5" cellspacing="0" margin="0">
 			<!-- change header color here -->
 	<tr>

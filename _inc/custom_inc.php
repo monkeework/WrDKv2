@@ -75,10 +75,10 @@ function maxNotes($deets = '', $req='', $str = ''){
 		$uPriv = $_SESSION['Privilege'];
 
 		#if user is equal to access, show
-		if($uPriv >= 17){
+		if($uPriv >= 7){
 
 			# deets comes form calling file
-			$str = '<div class="row"><div class="col-sm-5 maxIt" ><h4><b>MaxDO:</b></h4>
+			$str = '<div class="row" style="z-index:20000"><div class="col-sm-5 maxIt" ><h4><b>MaxDO:</b></h4>
 					<small>'. $deets . '</small>
 				</div></div>';
 		}
@@ -95,7 +95,8 @@ function getSidebar($uName = '', $uID = '', $uPriv = '', $str = ''){
 	 <div class="col-sm-3 col-md-2 sidebar-offcanvas" id="sidebar" role="navigation">
 
 			<ul class="nav nav-sidebar">
-				<li class="active"><a href="#">' . $uName . '\'s Homepage</a></li>
+				<li class="active"><a href="dashboard.php">My Homepage</a></li>
+				<li><a href="' . VIRTUAL_PATH . 'users/userStart.php">My Startpage</a></li>
 				<li><a href="' . VIRTUAL_PATH . 'users/userChars.php">My Characters</a></li>
 				<li class="text-muted"  target="_ext">&nbsp; &nbsp; &nbsp; My Posts*</li>
 				<li class="text-muted">&nbsp; &nbsp; &nbsp; My Tags*</li>
@@ -109,14 +110,8 @@ function getSidebar($uName = '', $uID = '', $uPriv = '', $str = ''){
 		$str .= '<h4>Moderator Tools<br />
 		<small class="text-muted">for managing threads/characters</small></h4>
 		<ul class="nav nav-sidebar">
-			<li class="text-muted">&nbsp; &nbsp; &nbsp; Members*</li>
 			<li class="text-muted">&nbsp; &nbsp; &nbsp; Characters*</li>
 			<li class="text-muted">&nbsp; &nbsp; &nbsp; Posts*</li>
-			<li class="text-muted">&nbsp; &nbsp; &nbsp; Pages*</li>
-			<li class="text-danger"><a href="' . VIRTUAL_PATH . 'users/addUser.php">Add User</a></li>
-			<li class="text-danger"><a href="' . VIRTUAL_PATH . 'users/editUser.php">Edit User</a></li>
-			<li class="text-danger"><a href="' . VIRTUAL_PATH . 'users/resetUser.php">Reset User Password</a></li>
-			<li class="text-muted">&nbsp; &nbsp; &nbsp; Ban User*</li>
 		</ul>';
 	}
 
@@ -124,9 +119,6 @@ function getSidebar($uName = '', $uID = '', $uPriv = '', $str = ''){
 		$str .= '<h4>Admin Tools<br />
 		<small class="text-muted">for managing user\'s needs</small></h4>
 		<ul class="nav nav-sidebar">
-		<li class="text-muted">&nbsp; &nbsp; &nbsp; Members*</li>
-		<li class="text-muted">&nbsp; &nbsp; &nbsp; Characters*</li>
-		<li class="text-muted">&nbsp; &nbsp; &nbsp; Posts*</li>
 		<li class="text-muted">&nbsp; &nbsp; &nbsp; Pages*</li>
 		<li class="text-danger"><a href="' . VIRTUAL_PATH . 'users/addUser.php">Add User</a></li>
 		<li class="text-danger"><a href="' . VIRTUAL_PATH . 'users/editUser.php">Edit User</a></li>
@@ -150,7 +142,3 @@ function getSidebar($uName = '', $uID = '', $uPriv = '', $str = ''){
 	return $str;
 
 }
-
-
-
-

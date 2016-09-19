@@ -28,6 +28,41 @@ $uID 	 = $_SESSION['UserID'];
 $uName = $_SESSION['UserName'];
 $uPriv = $_SESSION['Privilege'];
 
+
+$pageDeets = '<ol>
+	<li> Updgrade dashboard sidebar with collapsible navs </li>
+	<li> user tab - show their chracters for super quick access</li>
+	<li> mod tabs - if something in tab needs action hightlight</li>
+	<li> if post or character ready for review list in the side tab</li>
+
+	<li> add classes</li>
+
+	<!--
+		<ul>
+			<li> m2 - extended layout?</li>
+			<li> m2 - notifications-mail</li>
+			<li> m2 - character posting styles</li>
+			<li> m2 - Classes/PDO</li>
+			<li> M2 - unapprove/resubmit posts</li>
+			<li> m2 - C2E (Click 2 Edit)</li>
+			<li> m2 - chat box</li>
+			<li> m2 - C2P (Chat to Joint-Post)</li>
+			<li> m2 - C2M (Click to Move Thread/Post)</li>
+			<li> ???</li>
+		</ul>
+
+		<ul>
+			<li> m3 - MvC (CodeIngiter)</li>
+			<li> M4 - MvC (Laravel)</li>
+			<li> ???</li>
+		</ul>
+	-->';
+
+
+
+
+
+
 //set access priv needed for this page by member
 chekPrivies(1); //known guest (1+)
 
@@ -60,6 +95,9 @@ if(isset($_GET['msg']))
 if($feedback != ""){$feedback = '<div align="center"><h4><font color="red">' . $feedback . '</font></h4></div>';} //Fill out feedback HTML
 
 get_header('testBoard'); //defaults to theme header or header_inc.php
+
+#notes to self
+echo MaxNotes($pageDeets); #notes to me!
 
 //BEGIN CONTENT AREA
 ?>

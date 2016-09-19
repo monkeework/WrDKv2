@@ -60,7 +60,8 @@ define('SITE_ABBR', 'MC'); #Abbreviated Name of site
 
 
 # START INCLUDES (reference include files)
-include INCLUDE_PATH . 'arrays-inc.php'; # Stores common used array configurations
+include_once INCLUDE_PATH . 'arrays-inc.php'; # Stores common used array configurations
+/* called in testBoard theme header-inc.php, so include once here */
 include INCLUDE_PATH . 'credentials_inc.php'; # Stores DB credentials - part of nmCommon package
 include INCLUDE_PATH . 'common_inc.php'; # Provides common utility functions - part of nmCommon package
 include INCLUDE_PATH . 'custom_inc.php'; # Provides spot for custom utility functions - part of nmCommon package

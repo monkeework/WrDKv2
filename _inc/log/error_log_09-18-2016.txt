@@ -1,0 +1,38 @@
+[Sep-18-2016 8:21:50] Undefined index: UserID in /Applications/AMPPS/www/WrDKv2/users/userStart.php on line 27
+[Sep-18-2016 8:21:50] Undefined index: UserName in /Applications/AMPPS/www/WrDKv2/users/userStart.php on line 28
+[Sep-18-2016 8:21:50] Undefined index: Privilege in /Applications/AMPPS/www/WrDKv2/users/userStart.php on line 29
+[Sep-18-2016 8:21:50] Undefined index: uStart in /Applications/AMPPS/www/WrDKv2/users/userStart.php on line 30
+[Sep-18-2016 8:21:50] Undefined index: Privilege in /Applications/AMPPS/www/WrDKv2/_inc/custom_inc.php on line 37
+[Sep-18-2016 8:27:55] Undefined property: stdClass::$adminDashboard in /Applications/AMPPS/www/WrDKv2/users/validateUser.php on line 99
+[Sep-18-2016 12:25:42] Undefined index: UserID in /Applications/AMPPS/www/WrDKv2/users/userStart.php on line 27
+[Sep-18-2016 12:25:42] Undefined index: UserName in /Applications/AMPPS/www/WrDKv2/users/userStart.php on line 28
+[Sep-18-2016 12:25:42] Undefined index: Privilege in /Applications/AMPPS/www/WrDKv2/users/userStart.php on line 29
+[Sep-18-2016 12:25:42] Undefined index: uStart in /Applications/AMPPS/www/WrDKv2/users/userStart.php on line 30
+[Sep-18-2016 12:25:42] Undefined index: Privilege in /Applications/AMPPS/www/WrDKv2/_inc/custom_inc.php on line 37
+[Sep-18-2016 12:26:02] Undefined property: stdClass::$adminDashboard in /Applications/AMPPS/www/WrDKv2/users/validateUser.php on line 99
+[Sep-18-2016 12:38:07] Undefined index: RTEText in /Applications/AMPPS/www/WrDKv2/users/userStart.php on line 198
+[Sep-18-2016 12:38:07] Undefined index: RTEID in /Applications/AMPPS/www/WrDKv2/users/userStart.php on line 199
+[Sep-18-2016 12:38:07] Undefined index: AdminID in /Applications/AMPPS/www/WrDKv2/users/userStart.php on line 200
+[Sep-18-2016 12:42:56] Undefined index: RTEText in /Applications/AMPPS/www/WrDKv2/users/userStart.php on line 200
+[Sep-18-2016 12:42:56] Undefined index: RTEID in /Applications/AMPPS/www/WrDKv2/users/userStart.php on line 201
+[Sep-18-2016 12:42:56] Undefined index: AdminID in /Applications/AMPPS/www/WrDKv2/users/userStart.php on line 202
+[Sep-18-2016 15:52:11] Undefined index: RTEText in /Applications/AMPPS/www/WrDKv2/users/userStart.php on line 200
+[Sep-18-2016 15:52:11] Undefined index: RTEID in /Applications/AMPPS/www/WrDKv2/users/userStart.php on line 201
+[Sep-18-2016 15:52:11] Undefined index: AdminID in /Applications/AMPPS/www/WrDKv2/users/userStart.php on line 202
+[Sep-18-2016 16:02:36] Undefined index: rID in /Applications/AMPPS/www/WrDKv2/users/userStart.php on line 228
+[Sep-18-2016 16:02:36] Undefined index: aID in /Applications/AMPPS/www/WrDKv2/users/userStart.php on line 229
+[Sep-18-2016 16:03:45] Undefined index: rID in /Applications/AMPPS/www/WrDKv2/users/userStart.php on line 228
+[Sep-18-2016 16:03:45] Undefined index: aID in /Applications/AMPPS/www/WrDKv2/users/userStart.php on line 229
+[Sep-18-2016 20:54:22] Missing argument 3 for insertExecute(), called in /Applications/AMPPS/www/WrDKv2/users/userStart.php on line 92 and defined in /Applications/AMPPS/www/WrDKv2/users/userStart.php on line 211
+[Sep-18-2016 20:54:22] Undefined variable: uID in /Applications/AMPPS/www/WrDKv2/users/userStart.php on line 214
+[Sep-18-2016 20:57:52] Missing argument 2 for insertExecute(), called in /Applications/AMPPS/www/WrDKv2/users/userStart.php on line 92 and defined in /Applications/AMPPS/www/WrDKv2/users/userStart.php on line 211
+[Sep-18-2016 20:57:52] Missing argument 3 for insertExecute(), called in /Applications/AMPPS/www/WrDKv2/users/userStart.php on line 92 and defined in /Applications/AMPPS/www/WrDKv2/users/userStart.php on line 211
+[Sep-18-2016 20:57:52] Undefined variable: rID in /Applications/AMPPS/www/WrDKv2/users/userStart.php on line 213
+[Sep-18-2016 20:57:52] Undefined variable: uID in /Applications/AMPPS/www/WrDKv2/users/userStart.php on line 214
+[Sep-18-2016 21:00:15] Undefined index: rteID in /Applications/AMPPS/www/WrDKv2/users/userStart.php on line 213
+[Sep-18-2016 21:00:15] Undefined index: adminID in /Applications/AMPPS/www/WrDKv2/users/userStart.php on line 214
+[Sep-18-2016 21:01:00] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '1' for key 'PRIMARY' in /Applications/AMPPS/www/WrDKv2/users/userStart.php on line 253
+[Sep-18-2016 21:01:00] Missing argument 2 for showContent(), called in /Applications/AMPPS/www/WrDKv2/users/userStart.php on line 93 and defined in /Applications/AMPPS/www/WrDKv2/users/userStart.php on line 123
+[Sep-18-2016 21:01:00] Undefined variable: rSQL in /Applications/AMPPS/www/WrDKv2/users/userStart.php on line 127
+[Sep-18-2016 21:01:00] mysqli_query(): Empty query in /Applications/AMPPS/www/WrDKv2/users/userStart.php on line 127
+[Sep-18-2016 21:01:00]  in /Applications/AMPPS/www/WrDKv2/users/userStart.php on line 127

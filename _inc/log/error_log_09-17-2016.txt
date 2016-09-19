@@ -1,0 +1,26 @@
+[Sep-17-2016 19:47:26] Undefined index: UserID in /Applications/AMPPS/www/WrDKv2/users/userStart.php on line 27
+[Sep-17-2016 19:47:26] Undefined index: UserName in /Applications/AMPPS/www/WrDKv2/users/userStart.php on line 28
+[Sep-17-2016 19:47:26] Undefined index: Privilege in /Applications/AMPPS/www/WrDKv2/users/userStart.php on line 29
+[Sep-17-2016 19:47:26] Undefined index: uStart in /Applications/AMPPS/www/WrDKv2/users/userStart.php on line 30
+[Sep-17-2016 19:47:26] Undefined index: Privilege in /Applications/AMPPS/www/WrDKv2/_inc/custom_inc.php on line 37
+[Sep-17-2016 19:47:53] Undefined property: stdClass::$adminDashboard in /Applications/AMPPS/www/WrDKv2/users/validateUser.php on line 99
+[Sep-17-2016 19:49:13] Undefined variable: rte00 in /Applications/AMPPS/www/WrDKv2/users/userStart.php on line 136
+[Sep-17-2016 19:49:35] Undefined variable: rte00 in /Applications/AMPPS/www/WrDKv2/users/userStart.php on line 136
+[Sep-17-2016 20:08:32] Undefined variable: uPref in /Applications/AMPPS/www/WrDKv2/users/userStart.php on line 177
+[Sep-17-2016 20:08:46] Undefined variable: uPriv in /Applications/AMPPS/www/WrDKv2/users/userStart.php on line 177
+[Sep-17-2016 20:09:10] Missing argument 1 for showContent(), called in /Applications/AMPPS/www/WrDKv2/users/userStart.php on line 89 and defined in /Applications/AMPPS/www/WrDKv2/users/userStart.php on line 146
+[Sep-17-2016 20:09:10] Undefined variable: uPriv in /Applications/AMPPS/www/WrDKv2/users/userStart.php on line 177
+[Sep-17-2016 20:14:51] Missing argument 2 for showContent(), called in /Applications/AMPPS/www/WrDKv2/users/userStart.php on line 89 and defined in /Applications/AMPPS/www/WrDKv2/users/userStart.php on line 146
+[Sep-17-2016 20:14:51] Undefined variable: rID in /Applications/AMPPS/www/WrDKv2/users/userStart.php on line 151
+[Sep-17-2016 20:28:42] Undefined index: RTEText in /Applications/AMPPS/www/WrDKv2/users/userStart.php on line 141
+[Sep-17-2016 20:28:42] Undefined index: RTEText in /Applications/AMPPS/www/WrDKv2/users/userStart.php on line 141
+[Sep-17-2016 20:28:42] Undefined index: RTEText in /Applications/AMPPS/www/WrDKv2/users/userStart.php on line 141
+[Sep-17-2016 20:28:42] Undefined index: RTEText in /Applications/AMPPS/www/WrDKv2/users/userStart.php on line 141
+[Sep-17-2016 20:28:42] Undefined index: RTEText in /Applications/AMPPS/www/WrDKv2/users/userStart.php on line 141
+[Sep-17-2016 20:36:07] date_format() expects parameter 1 to be DateTimeInterface, string given in /Applications/AMPPS/www/WrDKv2/users/userStart.php on line 144
+[Sep-17-2016 20:58:53] Undefined variable: rContent in /Applications/AMPPS/www/WrDKv2/users/userStart.php on line 181
+[Sep-17-2016 20:59:31] Undefined variable: rContent in /Applications/AMPPS/www/WrDKv2/users/userStart.php on line 181
+[Sep-17-2016 21:02:42] Undefined variable: rContent in /Applications/AMPPS/www/WrDKv2/users/userStart.php on line 191
+[Sep-17-2016 21:07:31] Undefined variable: rSQL in /Applications/AMPPS/www/WrDKv2/users/userStart.php on line 173
+[Sep-17-2016 21:07:31] mysqli_query(): Empty query in /Applications/AMPPS/www/WrDKv2/users/userStart.php on line 173
+[Sep-17-2016 21:07:31]  in /Applications/AMPPS/www/WrDKv2/users/userStart.php on line 173

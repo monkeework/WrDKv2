@@ -1,0 +1,6 @@
+[Sep-19-2016 7:43:06] Missing argument 2 for showContent(), called in /Applications/AMPPS/www/WrDKv2/users/userStart.php on line 93 and defined in /Applications/AMPPS/www/WrDKv2/users/userStart.php on line 123
+[Sep-19-2016 7:43:06] Undefined variable: rSQL in /Applications/AMPPS/www/WrDKv2/users/userStart.php on line 127
+[Sep-19-2016 7:43:06] mysqli_query(): Empty query in /Applications/AMPPS/www/WrDKv2/users/userStart.php on line 127
+[Sep-19-2016 7:43:06]  in /Applications/AMPPS/www/WrDKv2/users/userStart.php on line 127
+[Sep-19-2016 7:50:04] Undefined variable: twID in /Applications/AMPPS/www/WrDKv2/users/userStart.php on line 184
+[Sep-19-2016 9:09:34] PDO::errorInfo() expects exactly 0 parameters, 1 given in /Applications/AMPPS/www/WrDKv2/users/userStart.php on line 260

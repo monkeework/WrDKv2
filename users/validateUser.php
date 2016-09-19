@@ -59,14 +59,11 @@ if (isset($_POST['em']) && isset($_POST['pw']))
 		$_SESSION["UserID"] = $UserID; # create session variables to identify admin
 		$_SESSION["UserName"] = dbOut($row["UserName"]);  #use dbOut() to clean strings, replace escaped quotes
 		$_SESSION["Privilege"] = (int)$row["Privilege"];
-
+		$_SESSION["uStart"] = dbOut($row["UserStartPage"]);
 		//maxTweak session values
-		if($_SESSION["uStart"]){
-			//if user has set a default page, use their default
-			$_SESSION["uStart"] = dbOut($row["UserStartPage"]);
-		}else{
-			//otherwise set default to user homepage
-			$_SESSION["uStart"] = '../users/dashboardBegin.php'; # create session variables to identify admin
+		if(($_SESSION["uStart"]) == ''){
+			# If no startpage set, set to user Start Page
+			$_SESSION["uStart"] = '../users/userStart.php';
 		}
 
 

@@ -167,6 +167,10 @@ function bootswatchFeedback(){
 	return $myReturn; //data passed back for printing
 }
 
+
+
+
+//General links for TOP NAV HERE
 function bsDropdownLinks($linkArray, $prefix='', $suffix='', $classLiPrefix='', $separator="~"){
 
 	/*

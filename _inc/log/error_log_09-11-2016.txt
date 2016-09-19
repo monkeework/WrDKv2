@@ -12,3 +12,15 @@
 [Sep-11-2016 9:08:58] Undefined index: CustomerID in /Applications/AMPPS/www/WrDKv2/users/userPrefs.php on line 207
 [Sep-11-2016 9:08:58] Undefined variable: row in /Applications/AMPPS/www/WrDKv2/users/userPrefs.php on line 121
 [Sep-11-2016 9:10:18] Undefined variable: row in /Applications/AMPPS/www/WrDKv2/users/userPrefs.php on line 136
+[Sep-11-2016 17:07:06] Constant PRIV_DEVELOPER already defined in /Applications/AMPPS/www/WrDKv2/_inc/arrays-inc.php on line 82
+[Sep-11-2016 17:07:53] Constant PRIV_DEVELOPER already defined in /Applications/AMPPS/www/WrDKv2/_inc/arrays-inc.php on line 82
+[Sep-11-2016 18:07:40] Constant PRIV_DEVELOPER already defined in /Applications/AMPPS/www/WrDKv2/_inc/arrays-inc.php on line 82
+[Sep-11-2016 18:08:14] Constant PRIV_DEVELOPER already defined in /Applications/AMPPS/www/WrDKv2/_inc/arrays-inc.php on line 82
+[Sep-11-2016 18:13:07] Constant PRIV_DEVELOPER already defined in /Applications/AMPPS/www/WrDKv2/_inc/arrays-inc.php on line 82
+[Sep-11-2016 18:17:11] Constant PRIV_DEVELOPER already defined in /Applications/AMPPS/www/WrDKv2/_inc/arrays-inc.php on line 82
+[Sep-11-2016 18:18:05] Undefined variable: aarPrivilege in /Applications/AMPPS/www/WrDKv2/_themes/testBoard/header_inc.php on line 27
+[Sep-11-2016 18:19:35] Constant PRIV_DEVELOPER already defined in /Applications/AMPPS/www/WrDKv2/_inc/arrays-inc.php on line 82
+[Sep-11-2016 18:20:02] Constant PRIV_DEVELOPER already defined in /Applications/AMPPS/www/WrDKv2/_inc/arrays-inc.php on line 82
+[Sep-11-2016 18:22:19] Undefined variable: aarPrivilege in /Applications/AMPPS/www/WrDKv2/_themes/testBoard/header_inc.php on line 27
+[Sep-11-2016 18:22:35] Undefined variable: aarPrivilege in /Applications/AMPPS/www/WrDKv2/_themes/testBoard/header_inc.php on line 27
+[Sep-11-2016 18:22:43] Undefined variable: aarPrivilege in /Applications/AMPPS/www/WrDKv2/_themes/testBoard/header_inc.php on line 27

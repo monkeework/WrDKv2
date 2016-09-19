@@ -1,0 +1,53 @@
+[Sep-13-2016 10:34:24] Undefined property: stdClass::$adminDashboard in /Applications/AMPPS/www/WrDKv2/users/validateUser.php on line 99
+[Sep-13-2016 10:41:30] Undefined index: UserID in /Applications/AMPPS/www/WrDKv2/users/dashboard.php on line 27
+[Sep-13-2016 10:41:30] Undefined index: UserName in /Applications/AMPPS/www/WrDKv2/users/dashboard.php on line 28
+[Sep-13-2016 10:41:30] Undefined index: Privilege in /Applications/AMPPS/www/WrDKv2/users/dashboard.php on line 29
+[Sep-13-2016 10:41:30] Undefined index: Privilege in /Applications/AMPPS/www/WrDKv2/_inc/custom_inc.php on line 37
+[Sep-13-2016 10:43:05] Undefined index: UserID in /Applications/AMPPS/www/WrDKv2/users/dashboard.php on line 27
+[Sep-13-2016 10:43:05] Undefined index: UserName in /Applications/AMPPS/www/WrDKv2/users/dashboard.php on line 28
+[Sep-13-2016 10:43:05] Undefined index: Privilege in /Applications/AMPPS/www/WrDKv2/users/dashboard.php on line 29
+[Sep-13-2016 10:43:05] Undefined index: Privilege in /Applications/AMPPS/www/WrDKv2/_inc/custom_inc.php on line 37
+[Sep-13-2016 10:43:07] Undefined index: Privilege in /Applications/AMPPS/www/WrDKv2/_inc/custom_inc.php on line 37
+[Sep-13-2016 10:43:09] Undefined index: Privilege in /Applications/AMPPS/www/WrDKv2/_inc/custom_inc.php on line 37
+[Sep-13-2016 10:47:23] Undefined index: UserID in /Applications/AMPPS/www/WrDKv2/users/dashboard.php on line 27
+[Sep-13-2016 10:47:23] Undefined index: UserName in /Applications/AMPPS/www/WrDKv2/users/dashboard.php on line 28
+[Sep-13-2016 10:47:23] Undefined index: Privilege in /Applications/AMPPS/www/WrDKv2/users/dashboard.php on line 29
+[Sep-13-2016 10:47:23] Undefined index: Privilege in /Applications/AMPPS/www/WrDKv2/_inc/custom_inc.php on line 37
+[Sep-13-2016 10:47:49] Undefined property: stdClass::$adminDashboard in /Applications/AMPPS/www/WrDKv2/users/validateUser.php on line 99
+[Sep-13-2016 11:06:45] Undefined variable: CodeName in /Applications/AMPPS/www/WrDKv2/characters/profileUpdate.php on line 69
+[Sep-13-2016 11:06:45] Undefined variable: CharID in /Applications/AMPPS/www/WrDKv2/characters/profileUpdate.php on line 69
+[Sep-13-2016 11:14:41] Undefined variable: History in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1287
+[Sep-13-2016 11:14:41] Undefined variable: History in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1287
+[Sep-13-2016 11:14:41] Undefined variable: History in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1287
+[Sep-13-2016 11:14:41] Undefined variable: History in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1287
+[Sep-13-2016 11:14:41] Undefined variable: History in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1287
+[Sep-13-2016 11:14:41] Undefined variable: History in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1287
+[Sep-13-2016 11:14:41] Undefined variable: History in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1287
+[Sep-13-2016 11:14:41] Undefined variable: History in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1287
+[Sep-13-2016 11:14:41] Undefined variable: History in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1287
+[Sep-13-2016 11:14:41] Undefined variable: History in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1287
+[Sep-13-2016 11:14:41] Undefined variable: History in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1287
+[Sep-13-2016 11:14:41] Undefined variable: History in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1287
+[Sep-13-2016 11:14:41] Undefined variable: History in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1287
+[Sep-13-2016 11:14:41] Undefined variable: History in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1287
+[Sep-13-2016 11:14:41] Undefined variable: History in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1287
+[Sep-13-2016 11:14:41] Undefined variable: History in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1287
+[Sep-13-2016 11:50:19] Undefined index: UserID in /Applications/AMPPS/www/WrDKv2/users/dashboard.php on line 27
+[Sep-13-2016 11:50:19] Undefined index: UserName in /Applications/AMPPS/www/WrDKv2/users/dashboard.php on line 28
+[Sep-13-2016 11:50:19] Undefined index: Privilege in /Applications/AMPPS/www/WrDKv2/users/dashboard.php on line 29
+[Sep-13-2016 11:50:19] Undefined index: Privilege in /Applications/AMPPS/www/WrDKv2/_inc/custom_inc.php on line 37
+[Sep-13-2016 11:50:36] Undefined property: stdClass::$adminDashboard in /Applications/AMPPS/www/WrDKv2/users/validateUser.php on line 99
+[Sep-13-2016 14:57:55] Undefined variable: myCarrier in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1167
+[Sep-13-2016 15:03:09] Illegal string offset 'Kaplan, William' in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1191
+[Sep-13-2016 15:21:42] ucwords() expects parameter 1 to be string, array given in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1173
+[Sep-13-2016 15:21:42] ucwords() expects parameter 1 to be string, array given in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1173
+[Sep-13-2016 15:21:42] ucwords() expects parameter 1 to be string, array given in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1173
+[Sep-13-2016 15:21:42] ucwords() expects parameter 1 to be string, array given in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1173
+[Sep-13-2016 15:21:42] ucwords() expects parameter 1 to be string, array given in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1173
+[Sep-13-2016 15:21:42] ucwords() expects parameter 1 to be string, array given in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1173
+[Sep-13-2016 15:21:42] ucwords() expects parameter 1 to be string, array given in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1173
+[Sep-13-2016 15:21:42] ucwords() expects parameter 1 to be string, array given in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1173
+[Sep-13-2016 15:21:42] ucwords() expects parameter 1 to be string, array given in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1173
+[Sep-13-2016 15:21:42] ucwords() expects parameter 1 to be string, array given in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1173
+[Sep-13-2016 15:21:42] ucwords() expects parameter 1 to be string, array given in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1173
+[Sep-13-2016 15:21:42] ucwords() expects parameter 1 to be string, array given in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1173

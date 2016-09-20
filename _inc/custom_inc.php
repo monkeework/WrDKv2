@@ -100,9 +100,9 @@ function getSidebar($uName = '', $uID = '', $uPriv = '', $str = ''){
 				<li><a href="' . VIRTUAL_PATH . 'users/userChars.php">My Characters</a></li>
 				<li class="text-muted"  target="_ext">&nbsp; &nbsp; &nbsp; My Posts*</li>
 				<li class="text-muted">&nbsp; &nbsp; &nbsp; My Tags*</li>
-				<li class="text-danger"><a href="' . VIRTUAL_PATH . 'users/resetUser.php?act=edit&uID=' . $uID . '">My Password*</a></li>
+				<li class="text-danger"><a href="' . VIRTUAL_PATH . 'users/userUpdatePassword.php?act=edit&uID=' . $uID . '">My Password*</a></li>
 				<li class="text-danger"><a href="' . VIRTUAL_PATH . 'users/userPrefs.php?act=edit&uID=' . $uID . '">My Preferences*</a></li>
-				<li class="text-muted">&nbsp; &nbsp; &nbsp; My Profile*</li>
+				<li class="text-muted"><a href="' . VIRTUAL_PATH . 'users/userProfile.php">My Profile</li>
 			</ul>';
 
 
@@ -120,9 +120,9 @@ function getSidebar($uName = '', $uID = '', $uPriv = '', $str = ''){
 		<small class="text-muted">for managing user\'s needs</small></h4>
 		<ul class="nav nav-sidebar">
 		<li class="text-muted">&nbsp; &nbsp; &nbsp; Pages*</li>
-		<li class="text-danger"><a href="' . VIRTUAL_PATH . 'users/addUser.php">Add User</a></li>
-		<li class="text-danger"><a href="' . VIRTUAL_PATH . 'users/editUser.php">Edit User</a></li>
-		<li class="text-danger"><a href="' . VIRTUAL_PATH . 'users/resetUser.php">Reset User Password</a></li>
+		<li class="text-danger"><a href="' . VIRTUAL_PATH . 'users/adminAddUser.php">Add User</a></li>
+		<li class="text-danger"><a href="' . VIRTUAL_PATH . 'users/adminEditUser.php">Edit User</a></li>
+		<li class="text-danger"><a href="' . VIRTUAL_PATH . 'users/adminResetPassword.php">Reset User Password</a></li>
 		<li class="text-muted">&nbsp; &nbsp; &nbsp; Ban User*</li>
 	</ul>';
 	}
@@ -130,10 +130,10 @@ function getSidebar($uName = '', $uID = '', $uPriv = '', $str = ''){
 	if($uPriv == 7){
 		$str .=  "<h4>Monkee's Tools</h4>";
 		$str .=  '<ul class="nav nav-sidebar">
-			<li><a href="' . VIRTUAL_PATH . 'users/adminer.php">Adminer</a></li>
-			<li><a href="' . VIRTUAL_PATH . 'users/cleanSessions.php">Session Nuke</a></li>
-			<li><a href="' . VIRTUAL_PATH . 'users/info.php">PHP_INFO</a></li>
-			<li><a href="' . VIRTUAL_PATH . 'users/users/viewLogs.php">View Logs</a></li>
+			<li><a href="' . VIRTUAL_PATH . 'users/maxAdminer.php">Adminer</a></li>
+			<li><a href="' . VIRTUAL_PATH . 'users/maxSessions.php">Session Nuke</a></li>
+			<li><a href="' . VIRTUAL_PATH . 'users/maxInfo.php">PHP_INFO</a></li>
+			<li><a href="' . VIRTUAL_PATH . 'users/maxLogs.php">View Logs</a></li>
 		</ul>';
 	}
 

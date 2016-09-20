@@ -26,9 +26,9 @@ $config->userLogin = ADMIN_PATH . 'login.php'; # Admin login page - all Admin pa
 $config->userValidate = ADMIN_PATH . 'validateUser.php'; # Admin login validation page
 $config->userDashboard = ADMIN_PATH . 'dashboard.php'; # Administrative (dashboard) page
 $config->userLogout = ADMIN_PATH . 'logout.php'; # Administrative logout file
-$config->userAdd = ADMIN_PATH . 'addUser.php'; # Add administrators here
-$config->userReset = ADMIN_PATH . 'resetUser.php'; # Reset admin passwords here
-$config->userEdit = ADMIN_PATH . 'editUser.php'; # Edit admin data here
+$config->userAdd = ADMIN_PATH . 'adminAddUser.php'; # Add administrators here
+$config->userReset = ADMIN_PATH . 'adminResetPassword.php'; # Reset admin passwords here
+$config->userEdit = ADMIN_PATH . 'adminEditUser.php'; # Edit admin data here
 $config->titleTag = THIS_PAGE; #title tag must be unique
 
 

@@ -4,3 +4,77 @@
 [Sep-19-2016 7:43:06]  in /Applications/AMPPS/www/WrDKv2/users/userStart.php on line 127
 [Sep-19-2016 7:50:04] Undefined variable: twID in /Applications/AMPPS/www/WrDKv2/users/userStart.php on line 184
 [Sep-19-2016 9:09:34] PDO::errorInfo() expects exactly 0 parameters, 1 given in /Applications/AMPPS/www/WrDKv2/users/userStart.php on line 260
+[Sep-19-2016 9:49:42] Undefined index: FirstName in /Applications/AMPPS/www/WrDKv2/_test/pdoUpdate.php on line 183
+[Sep-19-2016 9:49:42] Undefined index: FirstName in /Applications/AMPPS/www/WrDKv2/_test/pdoUpdate.php on line 189
+[Sep-19-2016 9:49:42] Undefined index: FirstName in /Applications/AMPPS/www/WrDKv2/_test/pdoUpdate.php on line 195
+[Sep-19-2016 10:02:18] Undefined variable: cName in /Applications/AMPPS/www/WrDKv2/_test/pdoUpdate.php on line 218
+[Sep-19-2016 10:02:18] Use of undefined constant cEmail - assumed 'cEmail' in /Applications/AMPPS/www/WrDKv2/_test/pdoUpdate.php on line 237
+[Sep-19-2016 10:03:14] Undefined variable: cName in /Applications/AMPPS/www/WrDKv2/_test/pdoUpdate.php on line 218
+[Sep-19-2016 10:03:14] Use of undefined constant cEmail - assumed 'cEmail' in /Applications/AMPPS/www/WrDKv2/_test/pdoUpdate.php on line 237
+[Sep-19-2016 10:06:01] Use of undefined constant cEmail - assumed 'cEmail' in /Applications/AMPPS/www/WrDKv2/_test/pdoUpdate.php on line 239
+[Sep-19-2016 10:06:30] Use of undefined constant cEmail - assumed 'cEmail' in /Applications/AMPPS/www/WrDKv2/_test/pdoUpdate.php on line 239
+[Sep-19-2016 10:12:00] Undefined index: CustomerID in /Applications/AMPPS/www/WrDKv2/_test/pdoUpdate.php on line 189
+[Sep-19-2016 10:12:00] You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /Applications/AMPPS/www/WrDKv2/_test/pdoUpdate.php on line 194
+[Sep-19-2016 10:23:30] Undefined index: CustomerID in /Applications/AMPPS/www/WrDKv2/_test/pdoUpdate.php on line 189
+[Sep-19-2016 10:23:30] You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /Applications/AMPPS/www/WrDKv2/_test/pdoUpdate.php on line 194
+[Sep-19-2016 11:00:50] Array to string conversion in /Applications/AMPPS/www/WrDKv2/users/userStart.php on line 258
+[Sep-19-2016 12:08:33] Undefined index: CustomerID in /Applications/AMPPS/www/WrDKv2/_test/pdoUpdate.php on line 167
+[Sep-19-2016 12:08:33] You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /Applications/AMPPS/www/WrDKv2/_test/pdoUpdate.php on line 172
+[Sep-19-2016 14:23:14] Undefined index: UserID in /Applications/AMPPS/www/WrDKv2/users/userStart.php on line 27
+[Sep-19-2016 14:23:14] Undefined index: UserName in /Applications/AMPPS/www/WrDKv2/users/userStart.php on line 28
+[Sep-19-2016 14:23:14] Undefined index: Privilege in /Applications/AMPPS/www/WrDKv2/users/userStart.php on line 29
+[Sep-19-2016 14:23:14] Undefined index: uStart in /Applications/AMPPS/www/WrDKv2/users/userStart.php on line 30
+[Sep-19-2016 14:23:14] Undefined index: Privilege in /Applications/AMPPS/www/WrDKv2/_inc/custom_inc.php on line 37
+[Sep-19-2016 14:23:38] Undefined property: stdClass::$adminDashboard in /Applications/AMPPS/www/WrDKv2/users/validateUser.php on line 99
+[Sep-19-2016 17:19:40] Undefined index: UserID in /Applications/AMPPS/www/WrDKv2/users/userStart.php on line 27
+[Sep-19-2016 17:19:40] Undefined index: UserName in /Applications/AMPPS/www/WrDKv2/users/userStart.php on line 28
+[Sep-19-2016 17:19:40] Undefined index: Privilege in /Applications/AMPPS/www/WrDKv2/users/userStart.php on line 29
+[Sep-19-2016 17:19:40] Undefined index: uStart in /Applications/AMPPS/www/WrDKv2/users/userStart.php on line 30
+[Sep-19-2016 17:19:40] Undefined index: Privilege in /Applications/AMPPS/www/WrDKv2/_inc/custom_inc.php on line 37
+[Sep-19-2016 19:34:05] Undefined index: UserID in /Applications/AMPPS/www/WrDKv2/users/userStart.php on line 27
+[Sep-19-2016 19:34:05] Undefined index: UserID in /Applications/AMPPS/www/WrDKv2/users/userStart.php on line 27
+[Sep-19-2016 19:34:05] Undefined index: UserName in /Applications/AMPPS/www/WrDKv2/users/userStart.php on line 28
+[Sep-19-2016 19:34:05] Undefined index: UserName in /Applications/AMPPS/www/WrDKv2/users/userStart.php on line 28
+[Sep-19-2016 19:34:05] Undefined index: Privilege in /Applications/AMPPS/www/WrDKv2/users/userStart.php on line 29
+[Sep-19-2016 19:34:05] Undefined index: Privilege in /Applications/AMPPS/www/WrDKv2/users/userStart.php on line 29
+[Sep-19-2016 19:34:05] Undefined index: uStart in /Applications/AMPPS/www/WrDKv2/users/userStart.php on line 30
+[Sep-19-2016 19:34:05] Undefined index: uStart in /Applications/AMPPS/www/WrDKv2/users/userStart.php on line 30
+[Sep-19-2016 19:34:05] Undefined index: Privilege in /Applications/AMPPS/www/WrDKv2/_inc/custom_inc.php on line 37
+[Sep-19-2016 19:34:05] Undefined index: Privilege in /Applications/AMPPS/www/WrDKv2/_inc/custom_inc.php on line 37
+[Sep-19-2016 19:36:39] Undefined index: UserID in /Applications/AMPPS/www/WrDKv2/users/dashboard.php on line 27
+[Sep-19-2016 19:36:39] Undefined index: UserID in /Applications/AMPPS/www/WrDKv2/users/dashboard.php on line 27
+[Sep-19-2016 19:36:39] Undefined index: UserName in /Applications/AMPPS/www/WrDKv2/users/dashboard.php on line 28
+[Sep-19-2016 19:36:39] Undefined index: UserName in /Applications/AMPPS/www/WrDKv2/users/dashboard.php on line 28
+[Sep-19-2016 19:36:39] Undefined index: Privilege in /Applications/AMPPS/www/WrDKv2/users/dashboard.php on line 29
+[Sep-19-2016 19:36:39] Undefined index: Privilege in /Applications/AMPPS/www/WrDKv2/users/dashboard.php on line 29
+[Sep-19-2016 19:36:39] Undefined index: Privilege in /Applications/AMPPS/www/WrDKv2/_inc/custom_inc.php on line 37
+[Sep-19-2016 19:36:39] Undefined index: Privilege in /Applications/AMPPS/www/WrDKv2/_inc/custom_inc.php on line 37
+[Sep-19-2016 19:36:40] Undefined index: UserID in /Applications/AMPPS/www/WrDKv2/users/dashboard.php on line 27
+[Sep-19-2016 19:36:40] Undefined index: UserName in /Applications/AMPPS/www/WrDKv2/users/dashboard.php on line 28
+[Sep-19-2016 19:36:40] Undefined index: Privilege in /Applications/AMPPS/www/WrDKv2/users/dashboard.php on line 29
+[Sep-19-2016 19:36:40] Undefined index: Privilege in /Applications/AMPPS/www/WrDKv2/_inc/custom_inc.php on line 37
+[Sep-19-2016 19:36:40] Undefined index: UserID in /Applications/AMPPS/www/WrDKv2/users/dashboard.php on line 27
+[Sep-19-2016 19:36:40] Undefined index: UserName in /Applications/AMPPS/www/WrDKv2/users/dashboard.php on line 28
+[Sep-19-2016 19:36:40] Undefined index: Privilege in /Applications/AMPPS/www/WrDKv2/users/dashboard.php on line 29
+[Sep-19-2016 19:36:40] Undefined index: Privilege in /Applications/AMPPS/www/WrDKv2/_inc/custom_inc.php on line 37
+[Sep-19-2016 19:36:41] Undefined index: UserID in /Applications/AMPPS/www/WrDKv2/users/dashboard.php on line 27
+[Sep-19-2016 19:36:41] Undefined index: UserName in /Applications/AMPPS/www/WrDKv2/users/dashboard.php on line 28
+[Sep-19-2016 19:36:41] Undefined index: Privilege in /Applications/AMPPS/www/WrDKv2/users/dashboard.php on line 29
+[Sep-19-2016 19:36:41] Undefined index: Privilege in /Applications/AMPPS/www/WrDKv2/_inc/custom_inc.php on line 37
+[Sep-19-2016 19:46:46] Undefined property: stdClass::$adminReset in /Applications/AMPPS/www/WrDKv2/users/userResetPassword.php on line 133
+[Sep-19-2016 20:15:33] Undefined property: stdClass::$adminResetPassword in /Applications/AMPPS/www/WrDKv2/users/adminResetPassword.php on line 68
+[Sep-19-2016 20:21:55] Undefined index: UserID in /Applications/AMPPS/www/WrDKv2/users/userStart.php on line 27
+[Sep-19-2016 20:21:55] Undefined index: UserID in /Applications/AMPPS/www/WrDKv2/users/userStart.php on line 27
+[Sep-19-2016 20:21:55] Undefined index: UserName in /Applications/AMPPS/www/WrDKv2/users/userStart.php on line 28
+[Sep-19-2016 20:21:55] Undefined index: UserName in /Applications/AMPPS/www/WrDKv2/users/userStart.php on line 28
+[Sep-19-2016 20:21:55] Undefined index: Privilege in /Applications/AMPPS/www/WrDKv2/users/userStart.php on line 29
+[Sep-19-2016 20:21:55] Undefined index: Privilege in /Applications/AMPPS/www/WrDKv2/users/userStart.php on line 29
+[Sep-19-2016 20:21:55] Undefined index: uStart in /Applications/AMPPS/www/WrDKv2/users/userStart.php on line 30
+[Sep-19-2016 20:21:55] Undefined index: uStart in /Applications/AMPPS/www/WrDKv2/users/userStart.php on line 30
+[Sep-19-2016 20:21:55] Undefined index: Privilege in /Applications/AMPPS/www/WrDKv2/_inc/custom_inc.php on line 37
+[Sep-19-2016 20:21:55] Undefined index: Privilege in /Applications/AMPPS/www/WrDKv2/_inc/custom_inc.php on line 37
+[Sep-19-2016 20:21:56] Undefined index: UserID in /Applications/AMPPS/www/WrDKv2/users/userStart.php on line 27
+[Sep-19-2016 20:21:56] Undefined index: UserName in /Applications/AMPPS/www/WrDKv2/users/userStart.php on line 28
+[Sep-19-2016 20:21:56] Undefined index: Privilege in /Applications/AMPPS/www/WrDKv2/users/userStart.php on line 29
+[Sep-19-2016 20:21:56] Undefined index: uStart in /Applications/AMPPS/www/WrDKv2/users/userStart.php on line 30
+[Sep-19-2016 20:21:56] Undefined index: Privilege in /Applications/AMPPS/www/WrDKv2/_inc/custom_inc.php on line 37

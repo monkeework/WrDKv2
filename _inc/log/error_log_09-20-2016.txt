@@ -1,0 +1,4 @@
+[Sep-20-2016 7:35:46] Undefined variable: UserName in /Applications/AMPPS/www/WrDKv2/users/userProfile.php on line 77
+[Sep-20-2016 7:37:36] Undefined variable: UserName in /Applications/AMPPS/www/WrDKv2/users/userProfile.php on line 76
+[Sep-20-2016 7:37:36] Undefined index:  in /Applications/AMPPS/www/WrDKv2/users/userProfile.php on line 76
+[Sep-20-2016 7:37:59] Use of undefined constant uName - assumed 'uName' in /Applications/AMPPS/www/WrDKv2/users/userProfile.php on line 76

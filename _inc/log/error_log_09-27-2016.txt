@@ -1,0 +1,33 @@
+[Sep-27-2016 9:11:32] Undefined property: stdClass::$adminDashboard in /Applications/AMPPS/www/WrDKv2/users/validateUser.php on line 99
+[Sep-27-2016 9:59:23] Undefined property: stdClass::$adminDashboard in /Applications/AMPPS/www/WrDKv2/users/validateUser.php on line 99
+[Sep-27-2016 10:56:58] A session had already been started - ignoring session_start() in /Applications/AMPPS/www/WrDKv2/contact/index.php on line 4
+[Sep-27-2016 10:56:58] Use of undefined constant evalChek - assumed 'evalChek' in /Applications/AMPPS/www/WrDKv2/contact/index.php on line 188
+[Sep-27-2016 10:56:58] Undefined variable: privilege in /Applications/AMPPS/www/WrDKv2/contact/index.php on line 310
+[Sep-27-2016 10:56:58] Undefined variable: myID in /Applications/AMPPS/www/WrDKv2/contact/index.php on line 312
+[Sep-27-2016 10:56:58] You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /Applications/AMPPS/www/WrDKv2/contact/index.php on line 314
+[Sep-27-2016 10:57:54] Use of undefined constant evalChek - assumed 'evalChek' in /Applications/AMPPS/www/WrDKv2/contact/index.php on line 188
+[Sep-27-2016 10:57:54] Undefined variable: privilege in /Applications/AMPPS/www/WrDKv2/contact/index.php on line 310
+[Sep-27-2016 10:57:54] Undefined variable: myID in /Applications/AMPPS/www/WrDKv2/contact/index.php on line 312
+[Sep-27-2016 10:57:54] You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /Applications/AMPPS/www/WrDKv2/contact/index.php on line 314
+[Sep-27-2016 10:58:49] Use of undefined constant evalChek - assumed 'evalChek' in /Applications/AMPPS/www/WrDKv2/contact/index.php on line 188
+[Sep-27-2016 10:58:49] Undefined variable: privilege in /Applications/AMPPS/www/WrDKv2/contact/index.php on line 310
+[Sep-27-2016 10:58:49] Undefined variable: myID in /Applications/AMPPS/www/WrDKv2/contact/index.php on line 312
+[Sep-27-2016 10:58:49] You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /Applications/AMPPS/www/WrDKv2/contact/index.php on line 314
+[Sep-27-2016 11:00:51] Use of undefined constant evalChek - assumed 'evalChek' in /Applications/AMPPS/www/WrDKv2/contact/index.php on line 192
+[Sep-27-2016 11:00:51] Undefined variable: privilege in /Applications/AMPPS/www/WrDKv2/contact/index.php on line 314
+[Sep-27-2016 11:00:51] Undefined variable: myID in /Applications/AMPPS/www/WrDKv2/contact/index.php on line 316
+[Sep-27-2016 11:00:51] You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /Applications/AMPPS/www/WrDKv2/contact/index.php on line 318
+[Sep-27-2016 11:01:37] Use of undefined constant evalChek - assumed 'evalChek' in /Applications/AMPPS/www/WrDKv2/contact/index.php on line 192
+[Sep-27-2016 11:01:37] Undefined variable: privilege in /Applications/AMPPS/www/WrDKv2/contact/index.php on line 314
+[Sep-27-2016 11:01:37] Undefined variable: myID in /Applications/AMPPS/www/WrDKv2/contact/index.php on line 316
+[Sep-27-2016 11:01:37] You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /Applications/AMPPS/www/WrDKv2/contact/index.php on line 318
+[Sep-27-2016 11:04:49] Use of undefined constant evalChek - assumed 'evalChek' in /Applications/AMPPS/www/WrDKv2/contact/index.php on line 197
+[Sep-27-2016 11:04:49] Undefined variable: privilege in /Applications/AMPPS/www/WrDKv2/contact/index.php on line 319
+[Sep-27-2016 11:04:49] Undefined variable: myID in /Applications/AMPPS/www/WrDKv2/contact/index.php on line 321
+[Sep-27-2016 11:04:49] You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /Applications/AMPPS/www/WrDKv2/contact/index.php on line 323
+[Sep-27-2016 11:05:09] Undefined variable: privilege in /Applications/AMPPS/www/WrDKv2/contact/index.php on line 319
+[Sep-27-2016 11:05:09] Undefined variable: myID in /Applications/AMPPS/www/WrDKv2/contact/index.php on line 321
+[Sep-27-2016 11:05:09] You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /Applications/AMPPS/www/WrDKv2/contact/index.php on line 323
+[Sep-27-2016 11:05:47] Object of class mysqli_result could not be converted to string in /Applications/AMPPS/www/WrDKv2/contact/index.php on line 480
+[Sep-27-2016 17:22:24] Undefined index: Privilege in /Applications/AMPPS/www/WrDKv2/_inc/custom_inc.php on line 37
+[Sep-27-2016 17:22:49] Undefined index: Privilege in /Applications/AMPPS/www/WrDKv2/_inc/custom_inc.php on line 37

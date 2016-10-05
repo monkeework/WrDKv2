@@ -1,8 +1,13 @@
 <?php
+
 function maxDoc_themes_footer_inc(){
 	/**
 	 * based on add.php is a single page web application that allows us to add a new customer to
 	 * an existing table
+	 *
+	 *
+	 * BOTH CONTACT & JOIN SITE MODALS are here!
+	 *
 	 *
 	 * BEGIN CONFIG for contact form (Not General Contact Modal)
 	 * KEYs for Marvel-Champions
@@ -26,7 +31,258 @@ function maxDoc_themes_footer_inc(){
 	 * @todo add more complicated checkbox & radio button examples
 	 */
 }
+
+
+if(isset($_SESSION['UserID'])){
+	$userEmail = $_SESSION['UserID'];
+}else{
+	$userEmail = 0;
+}
+
+if(isset($_SESSION['Privilege'])){
+	$privilege = $_SESSION['Privilege'];
+}else{
+	$privilege = 0;
+}
+
+if(isset($_SESSION['UserID'])){
+	$myID = $_SESSION['UserID'];
+}else{
+	$myID = 0;
+}
+
+//if user is logged in, get their email
+$sql = "select UserID, Email from ma_Users WHERE UserID = $userEmail";
+
+$result = mysqli_query(IDB::conn(),$sql) or die(trigger_error(mysqli_error(IDB::conn()), E_USER_ERROR));
+if (mysqli_num_rows($result) > 0)//at least one record!
+{//show results
+	#External formatting here...
+	while ($row = mysqli_fetch_assoc($result))
+	{//dbOut() function is a 'wrapper' designed to strip slashes, etc. of data leaving db
+		$userEmail = dbOut($row['Email']);
+	}
+	#closing formating here...
+}else{//no records
+	$userEmail = '';
+}
+
+@mysqli_free_result($result); //free resources
+
+
+function getThisPage($strip = true) {// filter function - get current page url
+	//used in themes/bootstrape/footer_inc.php
+
+	static $filter;
+	if ($filter == null) {
+		$filter = function($input) use($strip) {
+			$input = str_ireplace(array(
+					"\0", '%00', "\x0a", '%0a', "\x1a", '%1a'), '', urldecode($input));
+			if ($strip) {
+					$input = strip_tags($input);
+			}
+
+			// or any encoding you use instead of utf-8
+			$input = htmlspecialchars($input, ENT_QUOTES, 'utf-8');
+
+			return trim($input);
+		};
+	}
+
+	return 'http'. (($_SERVER['SERVER_PORT'] == '443') ? 's' : '')
+		.'://'. $_SERVER['SERVER_NAME'] . $filter($_SERVER['REQUEST_URI']);
+}
+
+function getEvalImg($str = ''){
+	$evalNum = mt_rand(1, 12);
+
+	$str .= '<label for="evalChek" class="col-sm-2 control-label"><img
+			style="width:75px; margin-top:-35px;"
+			src="' . VIRTUAL_PATH . '_img/_eval/eval-img-'. $evalNum .'.jpg"
+			alt="img" />
+		</label>
+		<input type="hidden" name="evalChek" value="' . $evalNum . '">
+	';
+
+	return $str;
+
+}
+
 ?>
+
+<!-- BEGIN modal contact -->
+
+<div class="modal fade" id="modalContact" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				<h4 class="modal-title" id="myModalLabel">Contact <?=SITE_NAME;?></h4>
+			</div>
+
+			<div class="modal-body">
+
+
+<!-- BEGIN Actual form here -->
+<form class="form-horizontal" role="form" method="post" action="<?=VIRTUAL_PATH; ?>contact/">
+	<div class="form-group">
+		<label for="name" class="col-sm-2 control-label">Name</label>
+		<div class="col-sm-10">
+			<input type="text" class="form-control" id="name" name="name" placeholder="Your name here*"
+value="<?php
+	if (isset($_SESSION['UserName'])) {
+		echo $_SESSION['UserName'];
+	}
+?>" >
+	</div>
+</div>
+
+<div class="form-group">
+	<label for="email" class="col-sm-2 control-label">Email</label>
+	<div class="col-sm-10">
+		<input type="email" class="form-control" id="email" name="email" value="<?php echo $userEmail; ?>"placeholder="Your email here*" >
+	</div>
+</div>
+
+<div class="form-group">
+	<label for="message" class="col-sm-2 control-label">Message</label>
+	<div class="col-sm-10">
+		<textarea class="form-control" rows="4" name="message" placeholder="Your message here*" style="margin: 0px;"></textarea>
+	</div>
+</div>
+
+
+
+<?php
+//if user is a vistor, guest, unregistered user, not logged in... et al
+if(!isset($_SESSION['Privilege']) || (($_SESSION['Privilege']) <= 1)){
+//treat user as possibly malicious
+?>
+
+<div class="form-group">
+	<label for="evalAnswer" class="col-sm-2 control-label"><?=getEvalImg(); ?></label>
+	<div class="col-sm-10">
+		<input type="text" class="form-control" id="evalAnswer" name="evalAnswer" placeholder="Who is that?*" >
+	</div>
+</div>
+
+<div class="form-group">
+	<label for="requestMembership" class="col-sm-2 control-label"></label>
+	<div class="col-sm-10 ">
+		<input type="checkbox" name="requestMembership" value="User requests membership to Marvel Champions"> &nbsp; <i>Request membership to Marvel Champions</i>
+	</div>
+</div>
+
+<?php
+}
+?>
+
+<?php
+//if user is under ration of chars (2) allow them to request a character
+// request a character?
+
+
+//if user a member...
+if(($privilege == 0) || ($privilege >= 1)){
+
+$sql = "SELECT CharID, UserID FROM ma_Characters WHERE UserID = $myID";
+
+$result = mysqli_query(IDB::conn(),$sql) or die(trigger_error(mysqli_error(IDB::conn()), E_USER_ERROR));
+
+$charSum = 0;
+
+if (mysqli_num_rows($result) > 0)//at least one record!
+{//show results
+	$count = 0;
+	while ($row = mysqli_fetch_assoc($result))
+	{//dbOut() function is a 'wrapper' designed to strip slashes, etc. of data leaving db
+		$charSum = $count;
+		$count++; //automatically now equal to one as loop ran once
+	}
+}
+
+@mysqli_free_result($result); //free resources
+
+
+$charTot = 2 - $charSum;// max char allowance is currently 2
+
+echo '<div style="background-color: #edf8f1; padding:10px; margin-bottom: 10px;">
+<div class="form-group">
+	<label for="evalAnswer" class="col-sm-2 control-label"><?=getEvalImg(); ?></label>
+	<div class="col-sm-10">';
+
+	if($charSum <= 2){
+		echo '<div><p> You may be eligible for a character*</p></div>
+				</div>
+			</div>';
+
+			$sql = "SELECT CharID, UserID, CodeName, StatusID FROM ma_Characters WHERE StatusID <= 2";
+
+			$result = mysqli_query(IDB::conn(),$sql) or die(trigger_error(mysqli_error(IDB::conn()), E_USER_ERROR));
+			if (mysqli_num_rows($result) > 0)//at least one record!
+			{//show results
+				#External formatting here...
+				echo '<div class="form-group">
+					<label for="charAdopt"  class="col-sm-2 control-label">Adoptable:</label>
+					<div class="col-sm-10">
+						<select class="form-control" id="charAdopt" name="charAdopt">
+							<option> Choose from our list of pre-built character shells</option>';
+
+				while ($row = mysqli_fetch_assoc($result))
+				{//dbOut() function is a 'wrapper' designed to strip slashes, etc. of data leaving db
+					$codeName = $row['CodeName'];
+					echo '<option value="' . $codeName . '">' . $codeName . '</option>';
+				}
+				echo '</select>
+					</div>
+				</div>';
+			}
+
+		@mysqli_free_result($result); //free resources
+
+		echo '<div class="form-group">
+			<label for="charNew" class="col-sm-2 control-label text-right">New/original</label>
+			<div class="col-sm-10">
+				<input type="text" class="form-control" id="charNew" name="charRequest" placeholder="Enter the name of the character you would like to apply for">
+			</div>
+		</div>
+
+		<div class="form-group">
+			<label for="charFCOC" class="col-sm-2 control-label"></label>
+			<div class="col-sm-10 ">
+
+				<input type="radio" name="charFCOC" value="fc"> &nbsp; <i>FC - A Featured Character of the Marvel Universe?</i>
+				<br />
+				<input type="radio" name="charFCOC" value="oc"> &nbsp; <i>OC - An original character of your imagination?</i>
+			</div>
+		</div>';
+
+	}else{
+		echo '<div>You currently have ' . $count .   ' characters and are not eligible for any additonal characters at this time.</div>
+			</div>
+		</div>';
+	}
+
+	echo '</div>';
+} //END if statement
+?>
+
+</div>
+<!-- END modal body -->
+<!-- BEGIN modal footer -->
+<div class="modal-footer">
+	<div class="form-group">
+		<div class="col-sm-10 col-sm-offset-2">
+			<input type="hidden" name="urlPointer" value="<?=getThisPage(); ?>">
+
+			<a href="#" data-dismiss="modal" data-target="#" class="btn btn-default btn-sm pull-left" role="button"><i>Exit without Sending</i></a>
+			<input class="btn btn-success btn-sm pull-right" id="submit" name="submit" type="submit" value="Send Message" class="btn btn-primary">
+		</div>
+	</div>
+</form>
+<!-- END actual form here -->
+</div></div></div></div>
+<!-- END modal contact-->
 
 
 <!-- FOOTER begin -- THEMES / BOOTSTRAP / FOOTER_INC -->
@@ -43,267 +299,11 @@ function maxDoc_themes_footer_inc(){
 </div>
 <!-- END content / THEMES / Footer_inc -->
 
-
-<script type="text/javascript" src="<?=VIRTUAL_PATH; ?>_js/util.js"></script>
-		<!-- Edit Required Form Elements via JavaScript Here -->
-	<script type="text/javascript">
-		//here we make sure the user has entered valid data
-		function checkForm(thisForm)
-		{//check form data for valid info
-			if(empty(thisForm.Name,"Please Enter Your Name")){return false;}
-			if(!isEmail(thisForm.Email,"Please enter a valid Email Address")){return false;}
-			return true;//if all is passed, submit!
-		}
-</script>
-
-<style>
-	p:first-letter{ text-transform: capitalize; }
-</style>
-
-<!-- JS for captcha.  Move to your _JS? (or not) -->
-<script type="text/javascript">
-	 var RecaptchaOptions = {
-			theme : "clean"
-	 };
- </script>
-
- <!-- CSS class for captcha.  Move to your CSS? (or not) -->
-	<style>
-		.g-recaptcha div { margin-left: auto; margin-right: auto;}
-
-		#recaptcha_area { margin: auto;}
-	</style>
-
-<!-- begin JOIN/REGISTER MODAL begin -->
-
-
-<!-- Modal -->
-<div class="modal fade" id="joinMC" role="dialog">
-	<div class="modal-dialog">
-
-		<!-- begin MODAL CONTENT -->
-		<form action="#" method="post">
-
-			<div class="modal-content">
-				<div class="modal-header">
-					<button type="button" class="close" data-dismiss="modal">&times;</button>
-					<h4 class="modal-title">Join Marvel Champions!</h4>
-				</div>
-				<div class="modal-body">
-
-
-					<div class="form-group">
-						<label for="email">User Name:</label>
-						<input type="email" class="form-control" id="userName">
-					</div>
-
-					<div class="form-group">
-						<label for="email">Email address:</label>
-						<input type="email" class="form-control" id="email">
-					</div>
-
-					<div class="form-group">
-						<label for="emailConfirm">Comfirm Email:</label>
-						<input type="email" class="form-control" id="emailConfirm">
-					</div>
-
-
-					<div class="form-group">
-						<label for="pwd">Password:</label>
-						<input type="password" class="form-control" id="pwd">
-					</div>
-
-					<div class="form-group">
-						<label for="pwConfirm">Confirm Password:</label>
-						<input type="password" class="form-control" id="pwConfirm">
-					</div>
-
-<?Php
-/*
-
-It wouldn't account for the errors in the log, but it looks like you did forget to echo $str after you concatenated all of the options.  Could the undefined index in the logs be an old error that was corrected but didn't look fixed because the dropdown is still empty?
-
-*/
-
-
-
-#vars for join/register modal
-$player   = $str  = '';
-$trueSite         = 'Marvel Champions';
-$trueAbbreviation = 'MC';
-
-# form handler
-#$sqlCharacters = 'SELECT Codename FROM ma_Characters WHERE UserID = NULL';
-$sqlChar = $resultChar= '';
-
-$sqlChar = "SELECT CodeName FROM ma_Characters WHERE UserID <= 3 ORDER BY CodeName ASC";
-
-$resultChar = mysqli_query(IDB::conn(), $sqlChar) or die(trigger_error(mysqli_error(IDB::conn()), E_USER_ERROR));
-if (mysqli_num_rows($resultChar) > 0)//at least one record!
-{//show results
-
-	echo '<div class="form-group"><label for="characterRequest" control-label="maxOption2">Request Character</label>
-		<div class="col-sm-12"><select id="maxOption1" class="selectpicker show-menu-arrow form-control" >';
-
-	while ($row = mysqli_fetch_assoc($resultChar))
-	{//dbOut() function is a 'wrapper' designed to strip slashes, etc. of data leaving db
-		echo $str = '<option>' . dbOut($row['CodeName']) . '</option></p>';
-	}
-
-	#closing formating here...
-	echo '</select></div></div>';
-
-}else{//no records
-		echo '<option disabled>There Are Currently No Unclaimed Characters Available</option>';
-}
-
-@mysqli_free_result($resultChar); //free resources
-
-
-?>
-
-
-
-
-					<div class="clearfix"></div>
-
-					<?php
-
-
-					include INCLUDE_PATH . "aarContent-inc.php";
-					echo $aarContent['EvalPost']; #content for RP Response Sample
-
-					?>
-
-					<div class="form-group">
-						<label for="rpSample">RP Sample:</label>
-						<textarea class="form-control" rows="7" id="rpSample" placeholder="<?=$aarContent['EvalPlaceholder']; #Placeholder copy pulled from array ?>"></textarea>
-					</div>
-
-
-					<?=$aarContent['Terms']; #Terms & Conditions text ?>
-
-					<div class="clearfix"></div>
-
-					<div class="checkbox">
-						<label class="pull-right"><input type="checkbox"> I accept Marvel Champions terms and conditions<br />  for membership and agree to abide by them.</label>
-					</div>
-
-
-				</div>
-				<div class="modal-footer">
-					<button type="button" class="btn btn-default btn-sm" data-dismiss="modal">Close</button>
-					<button type="submit" class="btn btn-default btn-sm">Submit</button>
-				</div>
-
-			</form>
-		</div><!-- begin MODAL CONTENT -->
-	</div>
-</div><!-- END MODAL -->
-
-<!-- end JOIN/REGISTER MODAL end -- THEMES / BOOTSTRAP / FOOTER_INC -->
-
-
-
-
-
-
-
-
-
-
-
-<!-- begin CONTACT MODAL begin -->
-
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-	<div class="modal-dialog" role="document">
-		<div class="modal-content">
-			<div class="modal-header">
-				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-				<h4 class="modal-title" id="myModalLabel">Contact Staff...</h4>
-			</div>
-
-			<div class="modal-body">';
-
-
-
-<form action="<?=THIS_PAGE; ?>" method="post" onsubmit="return checkForm(this);">
-
-<?php
-if (isset($_POST["recaptcha_response_field"]))
-{# Check for reCAPTCHA response
-		$resp = recaptcha_check_answer ($privatekey,$_SERVER["REMOTE_ADDR"],$_POST["recaptcha_challenge_field"],$_POST["recaptcha_response_field"]);
-	if ($resp->is_valid)
-	{#reCAPTCHA agrees data is valid
-				 handle_POST($skipFields,$sendEmail,$toName,$fromAddress,$toAddress,$website,$fromDomain);#process form elements, format and send email.
-
-				 #Here we can enter the data sent into a database in a later version of this file
-?>
-
-
-		<!-- format HTML here to be your 'thank you' message -->
-		<div align="center"><h2>Your Comments Have Been Received!</h2></div>
-		<div align="center">Thanks for the input!</div>
-		<div align="center">We'll respond via email within 48 hours, if you requested information.</div>
-
-
-<?php
-		}else{#reCATPCHA response says data not valid - prepare for feedback
-			$error = $resp->error;
-			send_POSTtoJS($skipFields); #function for sending POST data to JS array to reload form elements
-		}
-}
-
-#show form, either for first time, or if data not valid per reCAPTCHA
-if(!isset($_POST["recaptcha_response_field"])|| $error != "")
-{#separate code block to deal with returning failed data, or no data sent yet
-
-?>
-
-
-	<!-- below change the HTML to accommodate your form elements - only 'Name' & 'Email' are significant -->
-	<div class="text-center"><h3>Contact Us</h3></div>
-	<div class="text-center">Your opinion is very important!</div>
-	<div class="text-center"><span class="required">(*required)</span></div>
-
-	<style>
-		.capatcha {
-				text-align: center;
-		}
-
-		#recaptcha_widget_div {
-				display: inline-block;
-		}
-</style>
-
-			<p class="text-center"><span class="required">*</span>Name:<br />
-				<input type="text" name="Name" required="true" title="Your Name is Required" /><br />
-				<span class="required">*</span>Email:<br />
-				<input type="email" name="Email" required="true" title="A Valid Email is Required" /><br />
-				Comments:<br />
-				<textarea name="Comments" cols="35" rows="4"></textarea><br />
-
-				<div class="capatcha ">
-
-
-				</div>
-				<br />
-
-				<input class="center-block" type="submit" value="submit" />
-
-			</p>
-		</form>
-<?php
-}
-?>
-
-
-			</div>
-		</div>
-	</div>
-</div>
-<!-- END Modal -->
-
+<!-- FOR reCAPTCHA -->
+<!-- NOT USING SO COMMENT OUT FOR NOW...
+<script src='https://www.google.com/recaptcha/api.js'></script>
+<script src='https://www.google.com/recaptcha/api.js?hl=en'></script>
+END reCAPTCHA -->
 
 
 <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>

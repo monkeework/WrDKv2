@@ -1,0 +1,98 @@
+[Oct-02-2016 0:04:53] Use of undefined constant catName - assumed 'catName' in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1509
+[Oct-02-2016 0:16:58] in_array() expects parameter 2 to be array, string given in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1513
+[Oct-02-2016 0:16:58] in_array() expects parameter 2 to be array, string given in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1513
+[Oct-02-2016 0:16:58] in_array() expects parameter 2 to be array, string given in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1513
+[Oct-02-2016 0:16:58] in_array() expects parameter 2 to be array, string given in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1513
+[Oct-02-2016 0:16:58] in_array() expects parameter 2 to be array, string given in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1513
+[Oct-02-2016 0:16:58] in_array() expects parameter 2 to be array, string given in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1513
+[Oct-02-2016 0:19:48] Array to string conversion in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1567
+[Oct-02-2016 0:19:48] Array to string conversion in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1567
+[Oct-02-2016 0:19:48] Array to string conversion in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1567
+[Oct-02-2016 0:19:48] Array to string conversion in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1567
+[Oct-02-2016 0:19:48] Array to string conversion in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1567
+[Oct-02-2016 0:19:48] Array to string conversion in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1567
+[Oct-02-2016 0:29:43] Undefined variable: powId in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1524
+[Oct-02-2016 0:29:55] Undefined variable: PowId in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1524
+[Oct-02-2016 0:34:04] Undefined variable: PowId in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1607
+[Oct-02-2016 9:49:09] Undefined variable: PowID in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1518
+[Oct-02-2016 9:49:09] Undefined variable: PowID in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1518
+[Oct-02-2016 9:49:09] Undefined variable: PowID in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1518
+[Oct-02-2016 9:49:09] Undefined variable: PowID in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1518
+[Oct-02-2016 9:49:09] Undefined variable: PowID in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1518
+[Oct-02-2016 9:49:09] Undefined variable: PowID in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1518
+[Oct-02-2016 10:27:06] Undefined variable: PowID in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1582
+[Oct-02-2016 10:27:06] Undefined variable: PowID in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1582
+[Oct-02-2016 10:27:06] Undefined variable: PowID in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1582
+[Oct-02-2016 10:27:06] Undefined variable: PowID in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1582
+[Oct-02-2016 10:27:06] Undefined variable: PowID in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1582
+[Oct-02-2016 10:27:06] Undefined variable: PowID in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1582
+[Oct-02-2016 12:21:38] Undefined index: PowerDesc in /Applications/AMPPS/www/WrDKv2/characters/profileUpdate.php on line 180
+[Oct-02-2016 12:21:38] join(): Invalid arguments passed in /Applications/AMPPS/www/WrDKv2/characters/profileUpdate.php on line 180
+[Oct-02-2016 12:38:22] Undefined index: PowerDesc in /Applications/AMPPS/www/WrDKv2/characters/profileUpdate.php on line 180
+[Oct-02-2016 12:38:22] join(): Invalid arguments passed in /Applications/AMPPS/www/WrDKv2/characters/profileUpdate.php on line 180
+[Oct-02-2016 12:55:06] Undefined variable: PowerDesc in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1497
+[Oct-02-2016 12:55:06] Undefined variable: PowerDesc in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1497
+[Oct-02-2016 12:55:06] Undefined variable: PowerDesc in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1497
+[Oct-02-2016 12:55:06] Undefined variable: PowerDesc in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1497
+[Oct-02-2016 12:55:06] Undefined variable: PowerDesc in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1497
+[Oct-02-2016 12:55:06] Undefined variable: PowerDesc in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1497
+[Oct-02-2016 12:55:06] Undefined variable: PowerDesc in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1497
+[Oct-02-2016 12:55:06] Undefined variable: PowerDesc in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1497
+[Oct-02-2016 12:55:06] Undefined variable: PowerDesc in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1497
+[Oct-02-2016 12:59:03] You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'got to be building all those super-weapons that fill the pages of comic books...' at line 70 in /Applications/AMPPS/www/WrDKv2/characters/profileUpdate.php on line 461
+[Oct-02-2016 13:34:33] Undefined variable: PowerDesc in /Applications/AMPPS/www/WrDKv2/characters/profileUpdate.php on line 434
+[Oct-02-2016 13:34:33] You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'got to be building all those super-weapons that fill the pages of comic books...' at line 69 in /Applications/AMPPS/www/WrDKv2/characters/profileUpdate.php on line 462
+[Oct-02-2016 13:40:46] Array to string conversion in /Applications/AMPPS/www/WrDKv2/characters/profileUpdate.php on line 459
+[Oct-02-2016 13:41:06] Array to string conversion in /Applications/AMPPS/www/WrDKv2/characters/profileUpdate.php on line 459
+[Oct-02-2016 16:15:21] You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'got to be building all those super-weapons that fill the pages of comic books...' at line 70 in /Applications/AMPPS/www/WrDKv2/characters/profileUpdate.php on line 466
+[Oct-02-2016 16:17:58] Array to string conversion in /Applications/AMPPS/www/WrDKv2/characters/profileUpdate.php on line 463
+[Oct-02-2016 16:17:58] You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'got to be building all those super-weapons that fill the pages of comic books...' at line 69 in /Applications/AMPPS/www/WrDKv2/characters/profileUpdate.php on line 466
+[Oct-02-2016 16:23:11] You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'got to be building all those super-weapons that fill the pages of comic books...' at line 70 in /Applications/AMPPS/www/WrDKv2/characters/profileUpdate.php on line 471
+[Oct-02-2016 16:29:29] You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'got to be building all those super-weapons that fill the pages of comic books...' at line 70 in /Applications/AMPPS/www/WrDKv2/characters/profileUpdate.php on line 469
+[Oct-02-2016 16:31:09] You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'got to be building all those super-weapons that fill the pages of comic books...' at line 70 in /Applications/AMPPS/www/WrDKv2/characters/profileUpdate.php on line 470
+[Oct-02-2016 16:40:29] mysqli_real_escape_string() expects parameter 2 to be string, array given in /Applications/AMPPS/www/WrDKv2/_inc/common_inc.php on line 127
+[Oct-02-2016 16:41:10] mysqli_real_escape_string() expects parameter 2 to be string, array given in /Applications/AMPPS/www/WrDKv2/_inc/common_inc.php on line 127
+[Oct-02-2016 16:42:10] mysqli_real_escape_string() expects parameter 2 to be string, array given in /Applications/AMPPS/www/WrDKv2/_inc/common_inc.php on line 127
+[Oct-02-2016 16:42:58] mysqli_real_escape_string() expects parameter 2 to be string, array given in /Applications/AMPPS/www/WrDKv2/_inc/common_inc.php on line 127
+[Oct-02-2016 16:43:21] mysqli_real_escape_string() expects parameter 2 to be string, array given in /Applications/AMPPS/www/WrDKv2/_inc/common_inc.php on line 127
+[Oct-02-2016 16:44:31] You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'got to be building all those super-weapons that fill the pages of comic books...' at line 70 in /Applications/AMPPS/www/WrDKv2/characters/profileUpdate.php on line 476
+[Oct-02-2016 16:45:10] You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'got to be building all those super-weapons that fill the pages of comic books...' at line 70 in /Applications/AMPPS/www/WrDKv2/characters/profileUpdate.php on line 470
+[Oct-02-2016 16:45:19] You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'got to be building all those super-weapons that fill the pages of comic books...' at line 70 in /Applications/AMPPS/www/WrDKv2/characters/profileUpdate.php on line 470
+[Oct-02-2016 16:45:48] Array to string conversion in /Applications/AMPPS/www/WrDKv2/characters/profileUpdate.php on line 467
+[Oct-02-2016 16:48:41] Array to string conversion in /Applications/AMPPS/www/WrDKv2/characters/profileUpdate.php on line 467
+[Oct-02-2016 16:48:57] Array to string conversion in /Applications/AMPPS/www/WrDKv2/characters/profileUpdate.php on line 467
+[Oct-02-2016 18:51:39] Array to string conversion in /Applications/AMPPS/www/WrDKv2/characters/profileUpdate.php on line 467
+[Oct-02-2016 18:53:37] htmlspecialchars() expects parameter 1 to be string, array given in /Applications/AMPPS/www/WrDKv2/characters/profileUpdate.php on line 178
+[Oct-02-2016 18:54:14] strip_tags() expects parameter 1 to be string, array given in /Applications/AMPPS/www/WrDKv2/characters/profileUpdate.php on line 178
+[Oct-02-2016 18:54:26] strip_tags() expects parameter 1 to be string, array given in /Applications/AMPPS/www/WrDKv2/characters/profileUpdate.php on line 178
+[Oct-02-2016 18:57:32] You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank. The Berserker lasts for the length of combat and 10 turns. When the rage e' at line 70 in /Applications/AMPPS/www/WrDKv2/characters/profileUpdate.php on line 471
+[Oct-02-2016 18:57:50] You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank. The Berserker lasts for the length of combat and 10 turns. When the rage e' at line 70 in /Applications/AMPPS/www/WrDKv2/characters/profileUpdate.php on line 471
+[Oct-02-2016 18:59:03] You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank. The Berserker lasts for the length of combat and 10 turns. When the rage e' at line 70 in /Applications/AMPPS/www/WrDKv2/characters/profileUpdate.php on line 472
+[Oct-02-2016 18:59:15] You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank. The Berserker lasts for the length of combat and 10 turns. When the rage e' at line 70 in /Applications/AMPPS/www/WrDKv2/characters/profileUpdate.php on line 472
+[Oct-02-2016 18:59:31] You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank. The Berserker lasts for the length of combat and 10 turns. When the rage e' at line 70 in /Applications/AMPPS/www/WrDKv2/characters/profileUpdate.php on line 472
+[Oct-02-2016 19:01:28] mysqli_real_escape_string() expects exactly 2 parameters, 1 given in /Applications/AMPPS/www/WrDKv2/characters/profileUpdate.php on line 178
+[Oct-02-2016 19:01:28] implode(): Invalid arguments passed in /Applications/AMPPS/www/WrDKv2/characters/profileUpdate.php on line 185
+[Oct-02-2016 19:01:55] mysqli_real_escape_string() expects parameter 1 to be mysqli, array given in /Applications/AMPPS/www/WrDKv2/characters/profileUpdate.php on line 178
+[Oct-02-2016 19:01:55] implode(): Invalid arguments passed in /Applications/AMPPS/www/WrDKv2/characters/profileUpdate.php on line 185
+[Oct-02-2016 19:02:31] Illegal offset type in isset or empty in /Applications/AMPPS/www/WrDKv2/_inc/common_inc.php on line 376
+[Oct-02-2016 19:03:44] Illegal offset type in isset or empty in /Applications/AMPPS/www/WrDKv2/_inc/common_inc.php on line 376
+[Oct-02-2016 19:03:52] Illegal offset type in isset or empty in /Applications/AMPPS/www/WrDKv2/_inc/common_inc.php on line 376
+[Oct-02-2016 19:04:22] Illegal offset type in isset or empty in /Applications/AMPPS/www/WrDKv2/_inc/common_inc.php on line 376
+[Oct-02-2016 19:05:23] You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank. The Berserker lasts for the length of combat and 10 turns. When the rage e' at line 70 in /Applications/AMPPS/www/WrDKv2/characters/profileUpdate.php on line 474
+[Oct-02-2016 19:09:20] trim() expects parameter 1 to be string, array given in /Applications/AMPPS/www/WrDKv2/characters/profileUpdate.php on line 4
+[Oct-02-2016 19:10:01] You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank. The Berserker lasts for the length of combat and 10 turns. When the rage e' at line 70 in /Applications/AMPPS/www/WrDKv2/characters/profileUpdate.php on line 485
+[Oct-02-2016 19:10:35] You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank. The Berserker lasts for the length of combat and 10 turns. When the rage e' at line 70 in /Applications/AMPPS/www/WrDKv2/characters/profileUpdate.php on line 485
+[Oct-02-2016 19:11:47] You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank. The Berserker lasts for the length of combat and 10 turns. When the rage e' at line 70 in /Applications/AMPPS/www/WrDKv2/characters/profileUpdate.php on line 485
+[Oct-02-2016 19:12:00] You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank. The Berserker lasts for the length of combat and 10 turns. When the rage e' at line 70 in /Applications/AMPPS/www/WrDKv2/characters/profileUpdate.php on line 483
+[Oct-02-2016 19:14:11] You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank. The Berserker lasts for the length of combat and 10 turns. When the rage e' at line 70 in /Applications/AMPPS/www/WrDKv2/characters/profileUpdate.php on line 483
+[Oct-02-2016 19:14:50] Array to string conversion in /Applications/AMPPS/www/WrDKv2/characters/profileUpdate.php on line 480
+[Oct-02-2016 19:15:33] You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank. The Berserker lasts for the length of combat and 10 turns. When the rage e' at line 70 in /Applications/AMPPS/www/WrDKv2/characters/profileUpdate.php on line 483
+[Oct-02-2016 19:17:15] trim() expects parameter 1 to be string, array given in /Applications/AMPPS/www/WrDKv2/characters/profileUpdate.php on line 4
+[Oct-02-2016 19:17:38] trim() expects parameter 1 to be string, array given in /Applications/AMPPS/www/WrDKv2/characters/profileUpdate.php on line 4
+[Oct-02-2016 19:18:03] trim() expects parameter 1 to be string, array given in /Applications/AMPPS/www/WrDKv2/characters/profileUpdate.php on line 4
+[Oct-02-2016 19:19:23] trim() expects parameter 1 to be string, array given in /Applications/AMPPS/www/WrDKv2/characters/profileUpdate.php on line 4
+[Oct-02-2016 19:20:18] trim() expects parameter 1 to be string, array given in /Applications/AMPPS/www/WrDKv2/characters/profileUpdate.php on line 4
+[Oct-02-2016 19:35:19] trim() expects parameter 1 to be string, array given in /Applications/AMPPS/www/WrDKv2/characters/profileUpdate.php on line 4
+[Oct-02-2016 19:36:48] stripslashes() expects parameter 1 to be string, array given in /Applications/AMPPS/www/WrDKv2/characters/profileUpdate.php on line 5
+[Oct-02-2016 19:37:07] trim() expects parameter 1 to be string, array given in /Applications/AMPPS/www/WrDKv2/characters/profileUpdate.php on line 4
+[Oct-02-2016 21:45:25] You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank. The Berserker lasts for the length of combat and 10 turns. When the rage e' at line 70 in /Applications/AMPPS/www/WrDKv2/characters/profileUpdate.php on line 491

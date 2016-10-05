@@ -1443,28 +1443,3 @@ $message = '
 	}
 	return true;
 }#end required_params()
-
-
-
-function getCurrentURL($strip = true) { #get's current url-sanitized
-
-		// filter function
-		static $filter;
-		if ($filter == null) {
-				$filter = function($input) use($strip) {
-						$input = str_ireplace(array(
-								"\0", '%00', "\x0a", '%0a', "\x1a", '%1a'), '', urldecode($input));
-						if ($strip) {
-								$input = strip_tags($input);
-						}
-
-						// or any encoding you use instead of utf-8
-						$input = htmlspecialchars($input, ENT_QUOTES, 'utf-8');
-
-						return trim($input);
-				};
-		}
-
-		return 'http'. (($_SERVER['SERVER_PORT'] == '443') ? 's' : '')
-				.'://'. $_SERVER['SERVER_NAME'] . $filter($_SERVER['REQUEST_URI']);
-}

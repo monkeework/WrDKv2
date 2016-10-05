@@ -1,0 +1,10 @@
+[Sep-29-2016 9:04:53] You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM ma_Characters WHERE UserID = 1' at line 1 in /Applications/AMPPS/www/WrDKv2/users/userContact.php on line 263
+[Sep-29-2016 9:08:57] Undefined variable: x in /Applications/AMPPS/www/WrDKv2/users/userContact.php on line 274
+[Sep-29-2016 9:09:41] Undefined variable: ocfc in /Applications/AMPPS/www/WrDKv2/users/userContact.php on line 177
+[Sep-29-2016 9:12:43] Undefined variable: errMessage in /Applications/AMPPS/www/WrDKv2/users/userContact.php on line 199
+[Sep-29-2016 9:31:31] Undefined index: UserID in /Applications/AMPPS/www/WrDKv2/users/dashboard.php on line 27
+[Sep-29-2016 9:31:31] Undefined index: UserName in /Applications/AMPPS/www/WrDKv2/users/dashboard.php on line 28
+[Sep-29-2016 9:31:31] Undefined index: Privilege in /Applications/AMPPS/www/WrDKv2/users/dashboard.php on line 29
+[Sep-29-2016 9:31:31] Undefined index: Privilege in /Applications/AMPPS/www/WrDKv2/_inc/custom_inc.php on line 37
+[Sep-29-2016 11:35:53] Undefined property: stdClass::$adminDashboard in /Applications/AMPPS/www/WrDKv2/users/validateUser.php on line 100
+[Sep-29-2016 11:41:14] Undefined variable: pageDeets in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/header_inc.php on line 54

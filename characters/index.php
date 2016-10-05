@@ -1,5 +1,10 @@
 <?php
 
+
+
+
+
+
 require '../_inc/config_inc.php'; #configuration, pathing, error handling, db credentials
 include INCLUDE_PATH . 'aarContent-inc.php';
 

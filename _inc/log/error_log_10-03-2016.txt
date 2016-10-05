@@ -1,0 +1,582 @@
+[Oct-03-2016 9:11:37] You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank. The Berserker lasts for the length of combat and 10 turns. When the rage e' at line 70 in /Applications/AMPPS/www/WrDKv2/characters/profileUpdate.php on line 519
+[Oct-03-2016 9:13:12] Undefined variable: PowerDesc in /Applications/AMPPS/www/WrDKv2/characters/profileUpdate.php on line 207
+[Oct-03-2016 9:25:00] trim() expects parameter 1 to be string, array given in /Applications/AMPPS/www/WrDKv2/characters/profileUpdate.php on line 4
+[Oct-03-2016 9:25:32] trim() expects parameter 1 to be string, array given in /Applications/AMPPS/www/WrDKv2/characters/profileUpdate.php on line 4
+[Oct-03-2016 9:26:12] trim() expects parameter 1 to be string, array given in /Applications/AMPPS/www/WrDKv2/characters/profileUpdate.php on line 4
+[Oct-03-2016 9:36:44] You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank. The Berserker lasts for the length of combat and 10 turns. When the rage e' at line 70 in /Applications/AMPPS/www/WrDKv2/characters/profileUpdate.php on line 535
+[Oct-03-2016 10:42:45] Undefined variable: powName in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1485
+[Oct-03-2016 10:42:45] Undefined variable: powName in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1485
+[Oct-03-2016 10:42:45] Undefined variable: powName in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1485
+[Oct-03-2016 10:42:45] Undefined variable: powName in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1485
+[Oct-03-2016 10:42:45] Undefined variable: powName in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1485
+[Oct-03-2016 10:42:45] Undefined variable: powName in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1485
+[Oct-03-2016 10:42:45] Undefined variable: powName in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1485
+[Oct-03-2016 10:42:45] Undefined variable: powName in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1485
+[Oct-03-2016 10:42:45] Undefined variable: powName in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1485
+[Oct-03-2016 10:42:45] Undefined variable: powName in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1485
+[Oct-03-2016 10:42:45] Undefined variable: powName in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1485
+[Oct-03-2016 10:42:45] Undefined variable: powName in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1485
+[Oct-03-2016 10:42:45] Undefined variable: powName in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1485
+[Oct-03-2016 10:42:45] Undefined variable: powName in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1485
+[Oct-03-2016 13:24:02] Undefined variable: ckCatPDB in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1523
+[Oct-03-2016 13:24:02] Undefined variable: ckPowPDB in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1523
+[Oct-03-2016 13:24:02] Undefined variable: ckCatPDB in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1523
+[Oct-03-2016 13:24:02] Undefined variable: ckPowPDB in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1523
+[Oct-03-2016 13:24:02] Undefined variable: ckCatPDB in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1523
+[Oct-03-2016 13:24:02] Undefined variable: ckPowPDB in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1523
+[Oct-03-2016 13:24:02] Undefined variable: ckCatPDB in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1523
+[Oct-03-2016 13:24:02] Undefined variable: ckPowPDB in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1523
+[Oct-03-2016 13:49:29] Use of undefined constant catCK1 - assumed 'catCK1' in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1452
+[Oct-03-2016 13:49:29] Undefined variable: catName in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1442
+[Oct-03-2016 13:49:29] Undefined variable: PowName in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1443
+[Oct-03-2016 13:49:29] Undefined variable: catID in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1445
+[Oct-03-2016 13:49:29] Undefined variable: powName in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1446
+[Oct-03-2016 13:49:51] Undefined variable: catName in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1442
+[Oct-03-2016 13:49:51] Undefined variable: PowName in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1443
+[Oct-03-2016 13:49:51] Undefined variable: catID in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1445
+[Oct-03-2016 13:49:51] Undefined variable: powName in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1446
+[Oct-03-2016 13:53:14] Undefined variable: testChkDesc in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1527
+[Oct-03-2016 13:56:06] Use of undefined constant catCK1 - assumed 'catCK1' in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1448
+[Oct-03-2016 13:56:06] Use of undefined constant catCK1 - assumed 'catCK1' in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1448
+[Oct-03-2016 13:56:06] Use of undefined constant catCK1 - assumed 'catCK1' in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1448
+[Oct-03-2016 13:56:06] Use of undefined constant catCK1 - assumed 'catCK1' in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1448
+[Oct-03-2016 13:56:06] Use of undefined constant catCK1 - assumed 'catCK1' in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1448
+[Oct-03-2016 13:56:06] Use of undefined constant catCK1 - assumed 'catCK1' in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1448
+[Oct-03-2016 13:56:06] Use of undefined constant catCK1 - assumed 'catCK1' in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1448
+[Oct-03-2016 13:56:06] Use of undefined constant catCK1 - assumed 'catCK1' in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1448
+[Oct-03-2016 13:56:06] Use of undefined constant catCK1 - assumed 'catCK1' in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1448
+[Oct-03-2016 13:56:06] Use of undefined constant catCK1 - assumed 'catCK1' in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1448
+[Oct-03-2016 13:56:06] Use of undefined constant catCK1 - assumed 'catCK1' in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1448
+[Oct-03-2016 13:56:06] Use of undefined constant catCK1 - assumed 'catCK1' in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1448
+[Oct-03-2016 13:56:06] Use of undefined constant catCK1 - assumed 'catCK1' in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1448
+[Oct-03-2016 13:56:06] Use of undefined constant catCK1 - assumed 'catCK1' in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1448
+[Oct-03-2016 13:56:06] Use of undefined constant catCK1 - assumed 'catCK1' in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1448
+[Oct-03-2016 15:06:04] Undefined index: PowerDesc in /Applications/AMPPS/www/WrDKv2/characters/profileUpdate.php on line 208
+[Oct-03-2016 15:06:04] implode(): Invalid arguments passed in /Applications/AMPPS/www/WrDKv2/characters/profileUpdate.php on line 208
+[Oct-03-2016 15:29:47] Undefined variable: catID in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1463
+[Oct-03-2016 15:29:47] Undefined variable: catID in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1463
+[Oct-03-2016 15:29:47] Undefined variable: catID in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1463
+[Oct-03-2016 15:29:47] Undefined variable: catID in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1463
+[Oct-03-2016 15:29:47] Undefined variable: catID in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1463
+[Oct-03-2016 15:29:47] Undefined variable: catID in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1463
+[Oct-03-2016 15:29:47] Undefined variable: catID in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1463
+[Oct-03-2016 15:29:47] Undefined variable: catID in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1463
+[Oct-03-2016 15:29:47] Undefined variable: catID in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1463
+[Oct-03-2016 15:29:47] Undefined variable: catID in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1463
+[Oct-03-2016 15:29:47] Undefined variable: catID in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1463
+[Oct-03-2016 15:29:47] Undefined variable: catID in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1463
+[Oct-03-2016 15:29:47] Undefined variable: catID in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1463
+[Oct-03-2016 15:29:47] Undefined variable: catID in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1463
+[Oct-03-2016 15:29:47] Undefined variable: catID in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1463
+[Oct-03-2016 15:29:47] Undefined variable: catID in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1463
+[Oct-03-2016 15:29:47] Undefined variable: catID in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1463
+[Oct-03-2016 15:29:47] Undefined variable: catID in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1463
+[Oct-03-2016 15:29:47] Undefined variable: catID in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1463
+[Oct-03-2016 15:29:47] Undefined variable: catID in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1463
+[Oct-03-2016 15:29:47] Undefined variable: catID in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1463
+[Oct-03-2016 15:29:47] Undefined variable: catID in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1463
+[Oct-03-2016 15:29:47] Undefined variable: catID in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1463
+[Oct-03-2016 15:29:47] Undefined variable: catID in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1463
+[Oct-03-2016 15:29:47] Undefined variable: catID in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1463
+[Oct-03-2016 15:29:47] Undefined variable: catID in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1463
+[Oct-03-2016 15:29:47] Undefined variable: catID in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1463
+[Oct-03-2016 15:29:47] Undefined variable: catID in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1463
+[Oct-03-2016 15:29:47] Undefined variable: catID in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1463
+[Oct-03-2016 15:29:47] Undefined variable: catID in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1463
+[Oct-03-2016 15:29:47] Undefined variable: catID in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1463
+[Oct-03-2016 15:29:47] Undefined variable: catID in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1463
+[Oct-03-2016 15:29:47] Undefined variable: catID in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1463
+[Oct-03-2016 15:29:47] Undefined variable: catID in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1463
+[Oct-03-2016 15:29:47] Undefined variable: catID in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1463
+[Oct-03-2016 15:29:47] Undefined variable: catID in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1463
+[Oct-03-2016 15:29:47] Undefined variable: catID in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1463
+[Oct-03-2016 15:29:47] Undefined variable: catID in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1463
+[Oct-03-2016 15:29:47] Undefined variable: catID in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1463
+[Oct-03-2016 15:29:47] Undefined variable: catID in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1463
+[Oct-03-2016 15:29:47] Undefined variable: catID in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1463
+[Oct-03-2016 15:29:47] Undefined variable: catID in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1463
+[Oct-03-2016 15:29:47] Undefined variable: catID in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1463
+[Oct-03-2016 15:29:47] Undefined variable: catID in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1463
+[Oct-03-2016 15:29:47] Undefined variable: catID in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1463
+[Oct-03-2016 15:29:47] Undefined variable: catID in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1463
+[Oct-03-2016 15:29:47] Undefined variable: catID in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1463
+[Oct-03-2016 15:29:47] Undefined variable: catID in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1463
+[Oct-03-2016 15:29:47] Undefined variable: catID in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1463
+[Oct-03-2016 15:29:47] Undefined variable: catID in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1463
+[Oct-03-2016 15:29:47] Undefined variable: catID in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1463
+[Oct-03-2016 15:29:47] Undefined variable: catID in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1463
+[Oct-03-2016 15:29:47] Undefined variable: catID in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1463
+[Oct-03-2016 15:29:47] Undefined variable: catID in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1463
+[Oct-03-2016 15:29:47] Undefined variable: catID in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1463
+[Oct-03-2016 15:29:47] Undefined variable: catID in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1463
+[Oct-03-2016 15:29:47] Undefined variable: catID in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1463
+[Oct-03-2016 15:29:47] Undefined variable: catID in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1463
+[Oct-03-2016 15:29:47] Undefined variable: catID in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1463
+[Oct-03-2016 15:29:47] Undefined variable: catID in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1463
+[Oct-03-2016 15:29:47] Undefined variable: catID in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1463
+[Oct-03-2016 15:29:47] Undefined variable: catID in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1463
+[Oct-03-2016 15:29:47] Undefined variable: catID in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1463
+[Oct-03-2016 15:29:47] Undefined variable: catID in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1463
+[Oct-03-2016 15:29:47] Undefined variable: catID in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1463
+[Oct-03-2016 15:29:47] Undefined variable: catID in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1463
+[Oct-03-2016 15:29:47] Undefined variable: catID in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1463
+[Oct-03-2016 15:29:47] Undefined variable: catID in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1463
+[Oct-03-2016 15:29:47] Undefined variable: catID in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1463
+[Oct-03-2016 15:29:47] Undefined variable: catID in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1463
+[Oct-03-2016 15:29:47] Undefined variable: catID in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1463
+[Oct-03-2016 15:29:47] Undefined variable: catID in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1463
+[Oct-03-2016 15:29:47] Undefined variable: catID in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1463
+[Oct-03-2016 15:29:47] Undefined variable: catID in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1463
+[Oct-03-2016 15:29:47] Undefined variable: catID in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1463
+[Oct-03-2016 15:29:47] Undefined variable: catID in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1463
+[Oct-03-2016 15:29:47] Undefined variable: catID in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1463
+[Oct-03-2016 15:29:47] Undefined variable: catID in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1463
+[Oct-03-2016 15:29:47] Undefined variable: catID in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1463
+[Oct-03-2016 15:29:47] Undefined variable: catID in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1463
+[Oct-03-2016 15:29:47] Undefined variable: catID in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1463
+[Oct-03-2016 15:29:47] Undefined variable: catID in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1463
+[Oct-03-2016 15:29:47] Undefined variable: catID in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1463
+[Oct-03-2016 15:29:47] Undefined variable: catID in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1463
+[Oct-03-2016 15:29:47] Undefined variable: catID in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1463
+[Oct-03-2016 15:29:47] Undefined variable: catID in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1463
+[Oct-03-2016 15:29:47] Undefined variable: catID in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1463
+[Oct-03-2016 15:29:47] Undefined variable: catID in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1463
+[Oct-03-2016 15:29:47] Undefined variable: catID in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1463
+[Oct-03-2016 15:29:47] Undefined variable: catID in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1463
+[Oct-03-2016 15:32:08] Undefined variable: powName in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1463
+[Oct-03-2016 15:32:08] Undefined variable: powName in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1463
+[Oct-03-2016 15:32:08] Undefined variable: powName in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1463
+[Oct-03-2016 15:32:08] Undefined variable: powName in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1463
+[Oct-03-2016 15:32:08] Undefined variable: powName in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1463
+[Oct-03-2016 15:32:08] Undefined variable: powName in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1463
+[Oct-03-2016 15:41:48] Undefined variable: catID in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1522
+[Oct-03-2016 15:47:42] Use of undefined constant myValue - assumed 'myValue' in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1409
+[Oct-03-2016 15:47:42] Use of undefined constant myValue - assumed 'myValue' in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1409
+[Oct-03-2016 15:47:42] Use of undefined constant myValue - assumed 'myValue' in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1409
+[Oct-03-2016 15:47:42] Use of undefined constant myValue - assumed 'myValue' in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1409
+[Oct-03-2016 15:47:42] Use of undefined constant myValue - assumed 'myValue' in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1409
+[Oct-03-2016 15:47:42] Use of undefined constant myValue - assumed 'myValue' in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1409
+[Oct-03-2016 15:47:42] Use of undefined constant myValue - assumed 'myValue' in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1409
+[Oct-03-2016 15:47:42] Use of undefined constant myValue - assumed 'myValue' in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1409
+[Oct-03-2016 15:47:42] Use of undefined constant myValue - assumed 'myValue' in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1409
+[Oct-03-2016 15:47:42] Use of undefined constant myValue - assumed 'myValue' in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1409
+[Oct-03-2016 15:47:42] Use of undefined constant myValue - assumed 'myValue' in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1409
+[Oct-03-2016 15:47:42] Use of undefined constant myValue - assumed 'myValue' in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1409
+[Oct-03-2016 15:47:42] Use of undefined constant myValue - assumed 'myValue' in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1409
+[Oct-03-2016 15:47:42] Use of undefined constant myValue - assumed 'myValue' in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1409
+[Oct-03-2016 15:47:42] Use of undefined constant myValue - assumed 'myValue' in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1409
+[Oct-03-2016 15:47:42] Use of undefined constant myValue - assumed 'myValue' in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1409
+[Oct-03-2016 15:53:01] Undefined variable: catName in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1408
+[Oct-03-2016 15:53:01] Undefined variable: catName in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1408
+[Oct-03-2016 15:53:01] Undefined variable: catName in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1408
+[Oct-03-2016 15:53:01] Undefined variable: catName in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1408
+[Oct-03-2016 15:53:01] Undefined variable: catName in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1408
+[Oct-03-2016 15:53:01] Undefined variable: catName in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1408
+[Oct-03-2016 15:53:01] Undefined variable: catName in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1408
+[Oct-03-2016 15:53:01] Undefined variable: catName in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1408
+[Oct-03-2016 15:53:01] Undefined variable: catName in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1408
+[Oct-03-2016 15:53:01] Undefined variable: catName in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1408
+[Oct-03-2016 15:53:01] Undefined variable: catName in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1408
+[Oct-03-2016 15:53:01] Undefined variable: catName in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1408
+[Oct-03-2016 15:53:01] Undefined variable: catName in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1408
+[Oct-03-2016 15:53:01] Undefined variable: catName in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1408
+[Oct-03-2016 15:53:01] Undefined variable: catName in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1408
+[Oct-03-2016 15:53:01] Undefined variable: catName in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1408
+[Oct-03-2016 16:17:30] Undefined variable: powDesc in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1438
+[Oct-03-2016 16:17:30] Undefined variable: powDesc in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1438
+[Oct-03-2016 16:17:30] Undefined variable: powDesc in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1438
+[Oct-03-2016 16:17:30] Undefined variable: powDesc in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1438
+[Oct-03-2016 16:17:30] Undefined variable: powDesc in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1438
+[Oct-03-2016 16:17:30] Undefined variable: powDesc in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1438
+[Oct-03-2016 16:17:30] Undefined variable: powDesc in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1438
+[Oct-03-2016 16:17:30] Undefined variable: powDesc in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1438
+[Oct-03-2016 16:17:30] Undefined variable: powDesc in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1438
+[Oct-03-2016 16:17:30] Undefined variable: powDesc in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1438
+[Oct-03-2016 16:17:30] Undefined variable: powDesc in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1438
+[Oct-03-2016 16:17:30] Undefined variable: powDesc in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1438
+[Oct-03-2016 16:17:30] Undefined variable: powDesc in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1438
+[Oct-03-2016 16:17:30] Undefined variable: powDesc in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1438
+[Oct-03-2016 16:17:30] Undefined variable: powDesc in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1438
+[Oct-03-2016 16:17:30] Undefined variable: powDesc in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1438
+[Oct-03-2016 16:25:20] Undefined variable: powDesc in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1458
+[Oct-03-2016 16:25:20] Undefined variable: powDesc in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1458
+[Oct-03-2016 16:25:20] Undefined variable: powDesc in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1458
+[Oct-03-2016 16:25:20] Undefined variable: powDesc in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1458
+[Oct-03-2016 16:25:20] Undefined variable: powDesc in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1458
+[Oct-03-2016 16:25:20] Undefined variable: powDesc in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1458
+[Oct-03-2016 16:25:20] Undefined variable: powDesc in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1458
+[Oct-03-2016 16:25:20] Undefined variable: powDesc in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1458
+[Oct-03-2016 16:25:20] Undefined variable: powDesc in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1458
+[Oct-03-2016 16:25:20] Undefined variable: powDesc in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1458
+[Oct-03-2016 16:25:20] Undefined variable: powDesc in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1458
+[Oct-03-2016 16:25:20] Undefined variable: powDesc in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1458
+[Oct-03-2016 16:25:20] Undefined variable: powDesc in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1458
+[Oct-03-2016 16:25:20] Undefined variable: powDesc in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1458
+[Oct-03-2016 16:25:20] Undefined variable: powDesc in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1458
+[Oct-03-2016 16:25:20] Undefined variable: powDesc in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1458
+[Oct-03-2016 16:37:12] Array to string conversion in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1465
+[Oct-03-2016 16:37:12] Array to string conversion in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1465
+[Oct-03-2016 16:37:12] Array to string conversion in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1465
+[Oct-03-2016 16:37:12] Array to string conversion in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1465
+[Oct-03-2016 16:37:12] Array to string conversion in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1465
+[Oct-03-2016 16:37:12] Array to string conversion in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1465
+[Oct-03-2016 16:37:12] Array to string conversion in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1465
+[Oct-03-2016 16:37:12] Array to string conversion in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1465
+[Oct-03-2016 16:37:12] Array to string conversion in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1465
+[Oct-03-2016 16:37:12] Array to string conversion in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1465
+[Oct-03-2016 16:37:12] Array to string conversion in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1465
+[Oct-03-2016 16:37:12] Array to string conversion in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1465
+[Oct-03-2016 16:37:12] Array to string conversion in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1465
+[Oct-03-2016 16:37:12] Array to string conversion in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1465
+[Oct-03-2016 16:37:12] Array to string conversion in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1465
+[Oct-03-2016 16:37:12] Array to string conversion in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1465
+[Oct-03-2016 16:50:45] strtolower() expects exactly 1 parameter, 3 given in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1492
+[Oct-03-2016 16:50:45] strstr() expects at least 2 parameters, 1 given in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1492
+[Oct-03-2016 16:50:45] strtolower() expects exactly 1 parameter, 3 given in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1492
+[Oct-03-2016 16:50:45] strstr() expects at least 2 parameters, 1 given in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1492
+[Oct-03-2016 16:50:45] strtolower() expects exactly 1 parameter, 3 given in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1492
+[Oct-03-2016 16:50:45] strstr() expects at least 2 parameters, 1 given in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1492
+[Oct-03-2016 17:56:18] Array to string conversion in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1523
+[Oct-03-2016 17:56:18] Array to string conversion in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1523
+[Oct-03-2016 17:56:18] Array to string conversion in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1523
+[Oct-03-2016 17:56:18] Array to string conversion in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1523
+[Oct-03-2016 17:56:18] Array to string conversion in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1523
+[Oct-03-2016 17:56:18] Array to string conversion in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1523
+[Oct-03-2016 17:56:18] Array to string conversion in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1523
+[Oct-03-2016 17:56:18] Array to string conversion in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1523
+[Oct-03-2016 17:56:18] Array to string conversion in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1523
+[Oct-03-2016 17:56:18] Array to string conversion in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1523
+[Oct-03-2016 17:56:18] Array to string conversion in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1523
+[Oct-03-2016 17:56:18] Array to string conversion in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1523
+[Oct-03-2016 17:56:18] Array to string conversion in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1523
+[Oct-03-2016 17:56:18] Array to string conversion in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1523
+[Oct-03-2016 17:56:18] Array to string conversion in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1523
+[Oct-03-2016 17:56:18] Array to string conversion in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1523
+[Oct-03-2016 17:56:18] Array to string conversion in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1523
+[Oct-03-2016 17:56:18] Array to string conversion in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1523
+[Oct-03-2016 17:56:18] Array to string conversion in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1523
+[Oct-03-2016 17:56:18] Array to string conversion in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1523
+[Oct-03-2016 17:56:18] Array to string conversion in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1523
+[Oct-03-2016 17:56:18] Array to string conversion in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1523
+[Oct-03-2016 17:56:18] Array to string conversion in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1523
+[Oct-03-2016 17:56:18] Array to string conversion in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1523
+[Oct-03-2016 17:56:18] Array to string conversion in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1523
+[Oct-03-2016 17:56:18] Array to string conversion in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1523
+[Oct-03-2016 17:56:18] Array to string conversion in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1523
+[Oct-03-2016 17:56:18] Array to string conversion in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1523
+[Oct-03-2016 17:56:18] Array to string conversion in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1523
+[Oct-03-2016 17:56:18] Array to string conversion in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1523
+[Oct-03-2016 17:56:18] Array to string conversion in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1523
+[Oct-03-2016 17:56:18] Array to string conversion in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1523
+[Oct-03-2016 17:56:18] Array to string conversion in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1523
+[Oct-03-2016 17:56:18] Array to string conversion in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1523
+[Oct-03-2016 17:56:18] Array to string conversion in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1523
+[Oct-03-2016 17:56:18] Array to string conversion in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1523
+[Oct-03-2016 17:56:18] Array to string conversion in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1523
+[Oct-03-2016 17:56:18] Array to string conversion in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1523
+[Oct-03-2016 17:56:18] Array to string conversion in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1523
+[Oct-03-2016 17:56:18] Array to string conversion in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1523
+[Oct-03-2016 17:56:18] Array to string conversion in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1523
+[Oct-03-2016 17:56:18] Array to string conversion in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1523
+[Oct-03-2016 17:56:18] Array to string conversion in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1523
+[Oct-03-2016 17:56:18] Array to string conversion in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1523
+[Oct-03-2016 17:56:18] Array to string conversion in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1523
+[Oct-03-2016 17:56:50] Undefined index: beserker in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1521
+[Oct-03-2016 17:56:50] Undefined index: hyper-neural network in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1521
+[Oct-03-2016 17:56:50] Undefined index: martial arts supremacy in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1521
+[Oct-03-2016 17:56:50] Undefined index: beserker in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1521
+[Oct-03-2016 17:56:50] Undefined index: hyper-neural network in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1521
+[Oct-03-2016 17:56:50] Undefined index: martial arts supremacy in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1521
+[Oct-03-2016 17:56:50] Undefined index: beserker in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1521
+[Oct-03-2016 17:56:50] Undefined index: hyper-neural network in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1521
+[Oct-03-2016 17:56:50] Undefined index: martial arts supremacy in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1521
+[Oct-03-2016 17:56:50] Undefined index: beserker in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1521
+[Oct-03-2016 17:56:50] Undefined index: hyper-neural network in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1521
+[Oct-03-2016 17:56:50] Undefined index: martial arts supremacy in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1521
+[Oct-03-2016 17:56:50] Undefined index: beserker in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1521
+[Oct-03-2016 17:56:50] Undefined index: hyper-neural network in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1521
+[Oct-03-2016 17:56:50] Undefined index: martial arts supremacy in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1521
+[Oct-03-2016 17:56:50] Undefined index: beserker in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1521
+[Oct-03-2016 17:56:50] Undefined index: hyper-neural network in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1521
+[Oct-03-2016 17:56:50] Undefined index: martial arts supremacy in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1521
+[Oct-03-2016 17:56:50] Undefined index: beserker in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1521
+[Oct-03-2016 17:56:50] Undefined index: hyper-neural network in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1521
+[Oct-03-2016 17:56:50] Undefined index: martial arts supremacy in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1521
+[Oct-03-2016 17:56:50] Undefined index: beserker in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1521
+[Oct-03-2016 17:56:50] Undefined index: hyper-neural network in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1521
+[Oct-03-2016 17:56:50] Undefined index: martial arts supremacy in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1521
+[Oct-03-2016 17:56:50] Undefined index: beserker in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1521
+[Oct-03-2016 17:56:50] Undefined index: hyper-neural network in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1521
+[Oct-03-2016 17:56:50] Undefined index: martial arts supremacy in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1521
+[Oct-03-2016 17:56:50] Undefined index: beserker in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1521
+[Oct-03-2016 17:56:50] Undefined index: hyper-neural network in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1521
+[Oct-03-2016 17:56:50] Undefined index: martial arts supremacy in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1521
+[Oct-03-2016 17:56:50] Undefined index: beserker in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1521
+[Oct-03-2016 17:56:50] Undefined index: hyper-neural network in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1521
+[Oct-03-2016 17:56:50] Undefined index: martial arts supremacy in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1521
+[Oct-03-2016 17:56:50] Undefined index: beserker in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1521
+[Oct-03-2016 17:56:50] Undefined index: hyper-neural network in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1521
+[Oct-03-2016 17:56:50] Undefined index: martial arts supremacy in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1521
+[Oct-03-2016 17:56:50] Undefined index: beserker in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1521
+[Oct-03-2016 17:56:50] Undefined index: hyper-neural network in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1521
+[Oct-03-2016 17:56:50] Undefined index: martial arts supremacy in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1521
+[Oct-03-2016 17:56:50] Undefined index: beserker in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1521
+[Oct-03-2016 17:56:50] Undefined index: hyper-neural network in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1521
+[Oct-03-2016 17:56:50] Undefined index: martial arts supremacy in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1521
+[Oct-03-2016 17:56:50] Undefined index: beserker in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1521
+[Oct-03-2016 17:56:50] Undefined index: hyper-neural network in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1521
+[Oct-03-2016 17:56:50] Undefined index: martial arts supremacy in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1521
+[Oct-03-2016 17:59:05] Undefined index: beserker in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1525
+[Oct-03-2016 17:59:05] Undefined index: hyper-neural network in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1525
+[Oct-03-2016 17:59:05] Undefined index: martial arts supremacy in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1525
+[Oct-03-2016 17:59:05] Undefined index: beserker in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1525
+[Oct-03-2016 17:59:05] Undefined index: hyper-neural network in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1525
+[Oct-03-2016 17:59:05] Undefined index: martial arts supremacy in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1525
+[Oct-03-2016 17:59:05] Undefined index: beserker in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1525
+[Oct-03-2016 17:59:05] Undefined index: hyper-neural network in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1525
+[Oct-03-2016 17:59:05] Undefined index: martial arts supremacy in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1525
+[Oct-03-2016 17:59:05] Undefined index: beserker in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1525
+[Oct-03-2016 17:59:05] Undefined index: hyper-neural network in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1525
+[Oct-03-2016 17:59:05] Undefined index: martial arts supremacy in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1525
+[Oct-03-2016 17:59:05] Undefined index: beserker in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1525
+[Oct-03-2016 17:59:05] Undefined index: hyper-neural network in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1525
+[Oct-03-2016 17:59:05] Undefined index: martial arts supremacy in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1525
+[Oct-03-2016 17:59:05] Undefined index: beserker in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1525
+[Oct-03-2016 17:59:05] Undefined index: hyper-neural network in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1525
+[Oct-03-2016 17:59:05] Undefined index: martial arts supremacy in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1525
+[Oct-03-2016 17:59:05] Undefined index: beserker in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1525
+[Oct-03-2016 17:59:05] Undefined index: hyper-neural network in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1525
+[Oct-03-2016 17:59:05] Undefined index: martial arts supremacy in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1525
+[Oct-03-2016 17:59:05] Undefined index: beserker in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1525
+[Oct-03-2016 17:59:05] Undefined index: hyper-neural network in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1525
+[Oct-03-2016 17:59:05] Undefined index: martial arts supremacy in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1525
+[Oct-03-2016 17:59:05] Undefined index: beserker in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1525
+[Oct-03-2016 17:59:05] Undefined index: hyper-neural network in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1525
+[Oct-03-2016 17:59:05] Undefined index: martial arts supremacy in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1525
+[Oct-03-2016 17:59:05] Undefined index: beserker in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1525
+[Oct-03-2016 17:59:05] Undefined index: hyper-neural network in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1525
+[Oct-03-2016 17:59:05] Undefined index: martial arts supremacy in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1525
+[Oct-03-2016 17:59:05] Undefined index: beserker in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1525
+[Oct-03-2016 17:59:05] Undefined index: hyper-neural network in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1525
+[Oct-03-2016 17:59:05] Undefined index: martial arts supremacy in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1525
+[Oct-03-2016 17:59:05] Undefined index: beserker in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1525
+[Oct-03-2016 17:59:05] Undefined index: hyper-neural network in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1525
+[Oct-03-2016 17:59:05] Undefined index: martial arts supremacy in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1525
+[Oct-03-2016 17:59:05] Undefined index: beserker in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1525
+[Oct-03-2016 17:59:05] Undefined index: hyper-neural network in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1525
+[Oct-03-2016 17:59:05] Undefined index: martial arts supremacy in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1525
+[Oct-03-2016 17:59:05] Undefined index: beserker in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1525
+[Oct-03-2016 17:59:05] Undefined index: hyper-neural network in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1525
+[Oct-03-2016 17:59:05] Undefined index: martial arts supremacy in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1525
+[Oct-03-2016 17:59:05] Undefined index: beserker in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1525
+[Oct-03-2016 17:59:05] Undefined index: hyper-neural network in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1525
+[Oct-03-2016 17:59:05] Undefined index: martial arts supremacy in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1525
+[Oct-03-2016 18:09:08] Use of undefined constant arChek - assumed 'arChek' in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1493
+[Oct-03-2016 19:09:37] Undefined index: PowerDesc in /Applications/AMPPS/www/WrDKv2/characters/profileUpdate.php on line 208
+[Oct-03-2016 19:09:37] implode(): Invalid arguments passed in /Applications/AMPPS/www/WrDKv2/characters/profileUpdate.php on line 208
+[Oct-03-2016 19:10:12] Undefined index: PowerDesc in /Applications/AMPPS/www/WrDKv2/characters/profileUpdate.php on line 208
+[Oct-03-2016 19:10:12] implode(): Invalid arguments passed in /Applications/AMPPS/www/WrDKv2/characters/profileUpdate.php on line 208
+[Oct-03-2016 19:26:28] Undefined index: PowerDesc in /Applications/AMPPS/www/WrDKv2/characters/profileUpdate.php on line 208
+[Oct-03-2016 19:26:28] implode(): Invalid arguments passed in /Applications/AMPPS/www/WrDKv2/characters/profileUpdate.php on line 208
+[Oct-03-2016 19:35:18] Undefined variable: arChek in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1507
+[Oct-03-2016 19:36:31] Undefined index: Privilege in /Applications/AMPPS/www/WrDKv2/_inc/custom_inc.php on line 37
+[Oct-03-2016 20:11:49] Undefined variable: arChek in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1515
+[Oct-03-2016 20:11:49] array_search() expects parameter 2 to be array, null given in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1515
+[Oct-03-2016 20:22:54] Undefined variable: needle in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:54] Undefined index:  in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:54] Undefined variable: needle in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:54] Undefined index:  in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:54] Undefined variable: needle in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:54] Undefined index:  in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:54] Undefined variable: needle in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:54] Undefined index:  in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:54] Undefined variable: needle in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:54] Undefined index:  in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:54] Undefined variable: needle in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:54] Undefined index:  in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:54] Undefined variable: needle in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:54] Undefined index:  in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:54] Undefined variable: needle in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:54] Undefined index:  in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:54] Undefined variable: needle in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:54] Undefined index:  in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:54] Undefined variable: needle in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:54] Undefined index:  in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:54] Undefined variable: needle in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:54] Undefined index:  in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:54] Undefined variable: needle in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:54] Undefined index:  in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:54] Undefined variable: needle in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:54] Undefined index:  in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:54] Undefined variable: needle in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:54] Undefined index:  in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:54] Undefined variable: needle in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:54] Undefined index:  in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:54] Undefined variable: needle in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:54] Undefined index:  in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:54] Undefined variable: needle in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:54] Undefined index:  in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:54] Undefined variable: needle in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:54] Undefined index:  in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:54] Undefined variable: needle in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:54] Undefined index:  in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:54] Undefined variable: needle in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:54] Undefined index:  in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:54] Undefined variable: needle in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:54] Undefined index:  in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:54] Undefined variable: needle in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:54] Undefined index:  in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:54] Undefined variable: needle in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:54] Undefined index:  in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:54] Undefined variable: needle in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:54] Undefined index:  in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:54] Undefined variable: needle in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:54] Undefined index:  in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:54] Undefined variable: needle in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:54] Undefined index:  in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:54] Undefined variable: needle in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:54] Undefined index:  in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:54] Undefined variable: needle in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:54] Undefined index:  in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:54] Undefined variable: needle in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:54] Undefined index:  in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:54] Undefined variable: needle in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:54] Undefined index:  in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:54] Undefined variable: needle in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:54] Undefined index:  in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:54] Undefined variable: needle in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:54] Undefined index:  in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:54] Undefined variable: needle in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:54] Undefined index:  in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:54] Undefined variable: needle in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:54] Undefined index:  in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:54] Undefined variable: needle in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:54] Undefined index:  in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:54] Undefined variable: needle in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:54] Undefined index:  in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:54] Undefined variable: needle in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:54] Undefined index:  in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:54] Undefined variable: needle in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:54] Undefined index:  in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:54] Undefined variable: needle in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:54] Undefined index:  in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:54] Undefined variable: needle in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:54] Undefined index:  in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:54] Undefined variable: needle in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:54] Undefined index:  in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:54] Undefined variable: needle in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:54] Undefined index:  in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:54] Undefined variable: needle in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:54] Undefined index:  in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:54] Undefined variable: needle in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:54] Undefined index:  in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:54] Undefined variable: needle in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:54] Undefined index:  in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:54] Undefined variable: needle in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:54] Undefined index:  in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:54] Undefined variable: needle in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:54] Undefined index:  in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:54] Undefined variable: needle in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:55] Undefined index:  in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:55] Undefined variable: needle in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:55] Undefined index:  in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:55] Undefined variable: needle in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:55] Undefined index:  in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:55] Undefined variable: needle in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:55] Undefined index:  in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:55] Undefined variable: needle in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:55] Undefined index:  in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:55] Undefined variable: needle in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:55] Undefined index:  in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:55] Undefined variable: needle in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:55] Undefined index:  in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:55] Undefined variable: needle in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:55] Undefined index:  in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:55] Undefined variable: needle in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:55] Undefined index:  in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:55] Undefined variable: needle in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:55] Undefined index:  in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:55] Undefined variable: needle in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:55] Undefined index:  in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:55] Undefined variable: needle in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:55] Undefined index:  in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:55] Undefined variable: needle in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:55] Undefined index:  in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:55] Undefined variable: needle in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:55] Undefined index:  in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:55] Undefined variable: needle in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:55] Undefined index:  in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:55] Undefined variable: needle in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:55] Undefined index:  in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:55] Undefined variable: needle in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:55] Undefined index:  in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:55] Undefined variable: needle in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:55] Undefined index:  in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:55] Undefined variable: needle in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:55] Undefined index:  in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:55] Undefined variable: needle in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:55] Undefined index:  in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:55] Undefined variable: needle in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:55] Undefined index:  in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:55] Undefined variable: needle in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:55] Undefined index:  in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:55] Undefined variable: needle in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:55] Undefined index:  in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:55] Undefined variable: needle in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:55] Undefined index:  in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:55] Undefined variable: needle in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:55] Undefined index:  in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:55] Undefined variable: needle in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:55] Undefined index:  in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:55] Undefined variable: needle in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:55] Undefined index:  in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:55] Undefined variable: needle in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:55] Undefined index:  in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:55] Undefined variable: needle in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:55] Undefined index:  in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:55] Undefined variable: needle in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:55] Undefined index:  in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:55] Undefined variable: needle in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:55] Undefined index:  in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:55] Undefined variable: needle in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:55] Undefined index:  in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:55] Undefined variable: needle in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:55] Undefined index:  in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:55] Undefined variable: needle in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:55] Undefined index:  in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:55] Undefined variable: needle in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:55] Undefined index:  in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:55] Undefined variable: needle in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:55] Undefined index:  in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:55] Undefined variable: needle in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:55] Undefined index:  in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:55] Undefined variable: needle in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:55] Undefined index:  in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:55] Undefined variable: needle in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:55] Undefined index:  in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:55] Undefined variable: needle in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:55] Undefined index:  in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:55] Undefined variable: needle in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:55] Undefined index:  in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:55] Undefined variable: needle in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:55] Undefined index:  in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:55] Undefined variable: needle in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 20:22:55] Undefined index:  in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1550
+[Oct-03-2016 23:18:32] Undefined variable: catID in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1459
+[Oct-03-2016 23:21:35] Array to string conversion in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1468
+[Oct-03-2016 23:23:39] Undefined variable: pID in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1476
+[Oct-03-2016 23:23:39] Undefined variable: pID in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1476
+[Oct-03-2016 23:23:39] Undefined variable: pID in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1476
+[Oct-03-2016 23:23:39] Undefined variable: pID in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1476
+[Oct-03-2016 23:23:39] Undefined variable: pID in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1476
+[Oct-03-2016 23:23:39] Undefined variable: pID in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1476
+[Oct-03-2016 23:23:39] Undefined variable: pID in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1476
+[Oct-03-2016 23:23:39] Undefined variable: pID in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1476
+[Oct-03-2016 23:23:39] Undefined variable: pID in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1476
+[Oct-03-2016 23:23:39] Undefined variable: pID in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1476
+[Oct-03-2016 23:23:39] Undefined variable: pID in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1476
+[Oct-03-2016 23:23:39] Undefined variable: pID in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1476
+[Oct-03-2016 23:23:39] Undefined variable: pID in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1476
+[Oct-03-2016 23:23:39] Undefined variable: pID in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1476
+[Oct-03-2016 23:23:39] Undefined variable: pID in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1476
+[Oct-03-2016 23:23:39] Undefined variable: pID in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1476

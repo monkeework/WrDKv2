@@ -40,24 +40,14 @@ function maxDoc_library_timeline(){
 */
 }
 
-$pageDeets = '<li> ???</li>
-						<li> Review/update function checkForm(thisForm)</li>';
+$pageDeets = '<li> Review/update function checkForm(thisForm)</li>';
 
 require '../_inc/config_inc.php'; #configuration, pathing, error handling, db credentials
 
 
 $config->metaDescription = 'Marvel Cinematic Universe Timeline (alternative)'; #Fills <meta> tags.
 $config->metaKeywords = 'Marvel Super-Heroes, Superheroes, RPG, Roleplay, roleplaying, RP, PBP, PBEM, Avengers, X-Men, Iron Man, Captain America, THor, Ant-Man, Inhumans, Mutants, Black Panther, Defenders, Daredevil, Young Avengers, Fantastic Four';
-/*
-$config->metaRobots = 'no index, no follow';
-$config->loadhead = ''; #load page specific JS
-$config->banner = ''; #goes inside header
-$config->copyright = ''; #goes inside footer
-$config->sidebar1 = ''; #goes inside left side of page
-$config->sidebar2 = ''; #goes inside right side of page
-$config->nav1["page.php"] = "New Page!"; #add a new page to end of nav1 (viewable this page only)!!
-$config->nav1 = array("page.php"=>"New Page!") + $config->nav1; #add a new page to beginning of nav1 (viewable this page only)!!
-*/
+
 
 //END CONFIG AREA ----------------------------------------------------------
 
@@ -90,18 +80,22 @@ echo '
 switch ($myAction)
 {//check 'act' for type of process
 	case "add":
+		chekPrivies(4); #admin+
+
 		echo timelineAdd(); #show my silly assed timeline
 		echo get_footer();
 
 		break;
 	########################################################
 	case "edit":
+		chekPrivies(4); #admin+
 		echo timelineEdit(); #process event/add to timeline
 		echo get_footer();
 
 		break;
 	########################################################
 	case "insert":
+		chekPrivies(4); #admin+
 		echo timelineInsert(); #process event/add to timeline
 
 		#myRedirect(THIS_PAGE);
@@ -109,11 +103,13 @@ switch ($myAction)
 		break;
 	########################################################
 	case "revise":
+		chekPrivies(4); #admin+
 		echo timelineRevise(); #process event/add to timeline
 
 		break;
 	########################################################
 	case "trash":
+		chekPrivies(4); #admin+
 		echo timelineTrash(); #process event/add to timeline
 
 		break;
@@ -123,8 +119,7 @@ switch ($myAction)
 			echo get_footer();
 	}
 
-function timelineShow()
-{//Select Customer
+function timelineShow(){//Select Customer
 	# SQL statement - PREFIX is optional way to distinguish your app
 	$sql = "select
 
@@ -242,12 +237,11 @@ function timelineShow()
 
 }
 
-function timelineAdd()
-{
+function timelineAdd(){
 
 	# shows details from a single customer, and preloads their first name in a form.
 	echo '
-	<script type="text/javascript" src="' . VIRTUAL_PATH . 'include/util.js"></script>
+	<script type="text/javascript" src="' . VIRTUAL_PATH . '_inc/util.js"></script>
 
 	<script type="text/javascript">
 
@@ -325,9 +319,7 @@ function timelineAdd()
 
 }
 
-function timelineEdit()
-{
-
+function timelineEdit(){
 	#If user is logged - allow edit else send back to timeline
 	if(startSession() && isset($_SESSION['UserID']))
 	{
@@ -354,7 +346,7 @@ function timelineEdit()
 
 		# shows details from a single customer, and preloads their first name in a form.
 		echo '
-		<script type="text/javascript" src="' . VIRTUAL_PATH . 'include/util.js"></script>
+		<script type="text/javascript" src="' . VIRTUAL_PATH . '_inc/util.js"></script>
 
 		<script type="text/javascript">
 
@@ -367,13 +359,10 @@ function timelineEdit()
 				return true;//if all is passed, submit!
 			}
 
-		</script>';
+		</script>
 
-
-		echo '
-		<h4 align="center">Edit Current Event </h4>
-
-		<form action="' . THIS_PAGE . '" method="post" onsubmit="return checkForm(this);">';
+		<script src="' . VIRTUAL_PATH . '_ckEditor/ckeditor.js"></script>
+		';
 
 			while ($row = mysqli_fetch_assoc($result))
 			{//dbOut() function - 'wrapper' to strip slashes, etc. of data leaving db
@@ -383,7 +372,8 @@ function timelineEdit()
 				$entryDate  = dbOut($row['EntryDate']);
 				$entryDesc  = dbOut($row['EntryDescription']);
 
-				echo '
+				echo '<form action="' . THIS_PAGE . '" method="post" onsubmit="return checkForm(this);">
+
 				<form action="' . THIS_PAGE . '" method="post"
 					onsubmit="return checkForm(this);">
 
@@ -424,7 +414,7 @@ function timelineEdit()
 
 						<div class="col-sm-9">
 							<textarea
-								class="autoExpand col-sm-9" rows="3" data-min-rows="3"
+								class="autoExpand col-sm-9 ckeditor" rows="3" data-min-rows="3"
 								placeholder="Auto-Expanding Textarea" name="EntryDescription"" >'
 								. $entryDesc . '</textarea>
 					</div><!-- END Container -->
@@ -435,6 +425,10 @@ function timelineEdit()
 							<p class="text-right"><strong>Event Participants: </strong></p>
 						</div>
 						<div class="col-sm-9">
+
+						<br />
+						<br />
+
 							<input class="col-sm-9" type="text" name="CharTag"
 								value="' . dbOut($row['CharTag']) . '"
 
@@ -442,6 +436,9 @@ function timelineEdit()
 
 								<font color="red"><b>*</b></font>
 						</div>
+
+						<br />
+
 					</div><!-- END Container -->
 
 					<input type="hidden" name="TimelineID" value="' . $timelineID . '" />
@@ -484,7 +481,7 @@ function timelineEdit()
 
 		}else{//no records
 				echo '<div align="center">
-					<h3>Currently No Events Listed in the Timeline.</h3>
+					<h3>Currently No event found matching this timeline ID.</h3>
 				</div>';
 		}
 
@@ -558,36 +555,43 @@ function timelineInsert(){
 
 
 function timelineRevise(){
+
+	#dumpDie($_POST);
+
+
 	$TimelineID			 		= strip_tags($_POST['TimelineID']);				#int - primaryKey
 	$EntryID			 		  = strip_tags($_POST['EntryID']); 					#int
 	$EntryTitle			 		= strip_tags($_POST['EntryTitle']); 			#str
 	$EntryDate			 		= strip_tags($_POST['EntryDate']);  			#str - entered by user
-	$EntryDescription		= strip_tags($_POST['EntryDescription']); #str
+	$EntryDescription		= $_POST['EntryDescription']; #str
 	$CharTag			 			= strip_tags($_POST['CharTag']);          #str of comma sep numbers
 
 	$db = pdo(); # pdo() creates and returns a PDO object
 
+	//build string for SQL insert with replacement vars, ?
 	$sql = "UPDATE `ma_Timeline`
 		SET
-			`TimelineID` 				= :TimelineID,
-			`EntryTitle` 				= :EntryTitle,
-			`EntryDate` 				= :EntryDate,
-			`EntryDescription`  = :EntryDescription,
-			`CharTag` 					= :CharTag
+			TimelineID='$TimelineID',
+			EntryID='$EntryID',
+			EntryTitle='$EntryTitle',
+			EntryDate='$EntryDate',
+			EntryDescription='$EntryDescription',
+			CharTag='$CharTag'
 
-		WHERE `EntryID`       = :EntryID";
+		WHERE `EntryID`='$EntryID'";
 
 	$stmt = $db->prepare($sql);
-
+	//INTEGER EXAMPLE $stmt->bindValue(1, $id, PDO::PARAM_INT);
 	//The Primary Key of the row that we want to update.
 	$stmt = $db->prepare($sql);
-	 $stmt->bindParam(':TimelineID', 					$TimelineID, 				PDO::PARAM_INT);
-	 $stmt->bindValue(':EntryID',     				$EntryID, 					PDO::PARAM_INT);
 
-	 $stmt->bindValue(':EntryTitle',  				$EntryTitle, 				PDO::PARAM_STR);
-	 $stmt->bindValue(':EntryDate',   				$EntryDate, 				PDO::PARAM_STR);
-	 $stmt->bindValue(':EntryDescription',   $EntryDescription, 	PDO::PARAM_STR);
-	 $stmt->bindValue(':CharTag',     				$CharTag, 					PDO::PARAM_STR);
+	$stmt->bindValue(1, $TimelineID, PDO::PARAM_STR);
+	$stmt->bindValue(2, $EntryID, PDO::PARAM_STR);
+	$stmt->bindValue(3, $EntryTitle, PDO::PARAM_STR);
+	$stmt->bindValue(4, $EntryDate, PDO::PARAM_STR);
+	$stmt->bindValue(5, $EntryDescription, PDO::PARAM_STR);
+	$stmt->bindValue(6, $CharTag, PDO::PARAM_STR);
+
 	//INTEGER EXAMPLE $stmt->bindValue(1, $id, PDO::PARAM_INT);
 
 	try {$stmt->execute();} catch(PDOException $ex) {trigger_error($ex->getMessage(), E_USER_ERROR);}

@@ -78,7 +78,7 @@ function maxNotes($deets = '', $req='', $str = ''){
 		if($uPriv >= 7){
 
 			# deets comes form calling file
-			$str = '<div class="row" style="z-index:20000"><div class="col-sm-5 maxIt" ><h4><b>MaxDO:</b></h4>
+			$str = '<div class="row""><div class="col-sm-5 maxIt" ><h4><b>MaxDO:</b></h4>
 					<small>'. $deets . '</small>
 				</div></div>';
 		}
@@ -102,7 +102,8 @@ function getSidebar($uName = '', $uID = '', $uPriv = '', $str = ''){
 				<li class="text-muted">&nbsp; &nbsp; &nbsp; My Tags*</li>
 				<li class="text-danger"><a href="' . VIRTUAL_PATH . 'users/userUpdatePassword.php?act=edit&uID=' . $uID . '">My Password*</a></li>
 				<li class="text-danger"><a href="' . VIRTUAL_PATH . 'users/userPrefs.php?act=edit&uID=' . $uID . '">My Preferences*</a></li>
-				<li class="text-muted"><a href="' . VIRTUAL_PATH . 'users/userProfile.php">My Profile</li>
+				<li class="text-muted"><a href="' . VIRTUAL_PATH . 'users/userProfile.php">My Profile</a></li>
+				<li class="text-muted"><a href="' . VIRTUAL_PATH . 'users/userContact.php">Contact Staff</a></li>
 			</ul>';
 
 
@@ -141,4 +142,27 @@ function getSidebar($uName = '', $uID = '', $uPriv = '', $str = ''){
 
 	return $str;
 
+}
+
+function getCurrentURL($strip = true) {// filter function - get current page url
+	//used in themes/bootstrape/footer_inc.php
+
+	static $filter;
+	if ($filter == null) {
+		$filter = function($input) use($strip) {
+			$input = str_ireplace(array(
+					"\0", '%00', "\x0a", '%0a', "\x1a", '%1a'), '', urldecode($input));
+			if ($strip) {
+					$input = strip_tags($input);
+			}
+
+			// or any encoding you use instead of utf-8
+			$input = htmlspecialchars($input, ENT_QUOTES, 'utf-8');
+
+			return trim($input);
+		};
+	}
+
+	return 'http'. (($_SERVER['SERVER_PORT'] == '443') ? 's' : '')
+		.'://'. $_SERVER['SERVER_NAME'] . $filter($_SERVER['REQUEST_URI']);
 }

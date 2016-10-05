@@ -1,0 +1,61 @@
+[Sep-21-2016 9:17:55] Use of undefined constant aarCharPower - assumed 'aarCharPower' in /Applications/AMPPS/www/WrDKv2/characters/profileTEST.php on line 1288
+[Sep-21-2016 9:17:55] Use of undefined constant inc - assumed 'inc' in /Applications/AMPPS/www/WrDKv2/characters/profileTEST.php on line 1288
+[Sep-21-2016 9:17:55] Use of undefined constant php - assumed 'php' in /Applications/AMPPS/www/WrDKv2/characters/profileTEST.php on line 1288
+[Sep-21-2016 9:17:55] include(0php): failed to open stream: No such file or directory in /Applications/AMPPS/www/WrDKv2/characters/profileTEST.php on line 1288
+[Sep-21-2016 9:17:55] include(): Failed opening '0php' for inclusion (include_path='.:') in /Applications/AMPPS/www/WrDKv2/characters/profileTEST.php on line 1288
+[Sep-21-2016 10:17:43] Undefined variable: aarPowDefensive in /Applications/AMPPS/www/WrDKv2/characters/profileTEST.php on line 837
+[Sep-21-2016 10:17:43] Undefined variable: myName in /Applications/AMPPS/www/WrDKv2/characters/profileTEST.php on line 1325
+[Sep-21-2016 10:17:43] Undefined variable: myArray in /Applications/AMPPS/www/WrDKv2/characters/profileTEST.php on line 1328
+[Sep-21-2016 10:17:43] Invalid argument supplied for foreach() in /Applications/AMPPS/www/WrDKv2/characters/profileTEST.php on line 1328
+[Sep-21-2016 10:18:27] Undefined variable: aarPowDefensive in /Applications/AMPPS/www/WrDKv2/characters/profileTEST.php on line 837
+[Sep-21-2016 10:18:27] Undefined variable: myName in /Applications/AMPPS/www/WrDKv2/characters/profileTEST.php on line 1325
+[Sep-21-2016 10:18:27] Undefined variable: myArray in /Applications/AMPPS/www/WrDKv2/characters/profileTEST.php on line 1328
+[Sep-21-2016 10:18:27] Invalid argument supplied for foreach() in /Applications/AMPPS/www/WrDKv2/characters/profileTEST.php on line 1328
+[Sep-21-2016 10:18:45] Undefined variable: myName in /Applications/AMPPS/www/WrDKv2/characters/profileTEST.php on line 1326
+[Sep-21-2016 10:18:45] Undefined variable: myArray in /Applications/AMPPS/www/WrDKv2/characters/profileTEST.php on line 1329
+[Sep-21-2016 10:18:45] Invalid argument supplied for foreach() in /Applications/AMPPS/www/WrDKv2/characters/profileTEST.php on line 1329
+[Sep-21-2016 10:19:01] Undefined variable: myName in /Applications/AMPPS/www/WrDKv2/characters/profileTEST.php on line 1326
+[Sep-21-2016 10:19:01] Undefined variable: myArray in /Applications/AMPPS/www/WrDKv2/characters/profileTEST.php on line 1329
+[Sep-21-2016 10:19:01] Invalid argument supplied for foreach() in /Applications/AMPPS/www/WrDKv2/characters/profileTEST.php on line 1329
+[Sep-21-2016 10:20:18] Undefined variable: myName in /Applications/AMPPS/www/WrDKv2/characters/profileTEST.php on line 1326
+[Sep-21-2016 10:20:18] Undefined variable: myArray in /Applications/AMPPS/www/WrDKv2/characters/profileTEST.php on line 1329
+[Sep-21-2016 10:20:18] Invalid argument supplied for foreach() in /Applications/AMPPS/www/WrDKv2/characters/profileTEST.php on line 1329
+[Sep-21-2016 10:20:48] Undefined variable: myName in /Applications/AMPPS/www/WrDKv2/characters/profileTEST.php on line 1333
+[Sep-21-2016 10:20:48] Undefined variable: myArray in /Applications/AMPPS/www/WrDKv2/characters/profileTEST.php on line 1336
+[Sep-21-2016 10:20:48] Invalid argument supplied for foreach() in /Applications/AMPPS/www/WrDKv2/characters/profileTEST.php on line 1336
+[Sep-21-2016 10:20:55] Undefined variable: myName in /Applications/AMPPS/www/WrDKv2/characters/profileTEST.php on line 1332
+[Sep-21-2016 10:20:55] Undefined variable: myArray in /Applications/AMPPS/www/WrDKv2/characters/profileTEST.php on line 1335
+[Sep-21-2016 10:20:55] Invalid argument supplied for foreach() in /Applications/AMPPS/www/WrDKv2/characters/profileTEST.php on line 1335
+[Sep-21-2016 10:24:43] Undefined variable: myDropdown in /Applications/AMPPS/www/WrDKv2/characters/profileTEST.php on line 1333
+[Sep-21-2016 13:58:09] mysqli_real_escape_string() expects parameter 2 to be string, array given in /Applications/AMPPS/www/WrDKv2/_inc/common_inc.php on line 127
+[Sep-21-2016 14:09:59] Undefined variable: powerDesc in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1361
+[Sep-21-2016 14:37:26] mysqli_real_escape_string() expects parameter 2 to be string, array given in /Applications/AMPPS/www/WrDKv2/_inc/common_inc.php on line 127
+[Sep-21-2016 14:42:31] mysqli_real_escape_string() expects parameter 2 to be string, array given in /Applications/AMPPS/www/WrDKv2/_inc/common_inc.php on line 127
+[Sep-21-2016 14:43:59] mysqli_real_escape_string() expects parameter 2 to be string, array given in /Applications/AMPPS/www/WrDKv2/_inc/common_inc.php on line 127
+[Sep-21-2016 14:45:15] mysqli_real_escape_string() expects parameter 2 to be string, array given in /Applications/AMPPS/www/WrDKv2/_inc/common_inc.php on line 127
+[Sep-21-2016 15:21:47] mysqli_real_escape_string() expects parameter 2 to be string, array given in /Applications/AMPPS/www/WrDKv2/_inc/common_inc.php on line 127
+[Sep-21-2016 15:33:52] mysqli_real_escape_string() expects parameter 2 to be string, array given in /Applications/AMPPS/www/WrDKv2/_inc/common_inc.php on line 127
+[Sep-21-2016 15:34:03] mysqli_real_escape_string() expects parameter 2 to be string, array given in /Applications/AMPPS/www/WrDKv2/_inc/common_inc.php on line 127
+[Sep-21-2016 15:49:42] mysqli_real_escape_string() expects parameter 2 to be string, array given in /Applications/AMPPS/www/WrDKv2/_inc/common_inc.php on line 127
+[Sep-21-2016 15:53:57] mysqli_real_escape_string() expects parameter 2 to be string, array given in /Applications/AMPPS/www/WrDKv2/_inc/common_inc.php on line 127
+[Sep-21-2016 16:36:00] Undefined index: $descName in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1430
+[Sep-21-2016 16:36:00] Undefined index: $descName in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1430
+[Sep-21-2016 16:36:00] Undefined index: $descName in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1430
+[Sep-21-2016 18:05:07] Undefined variable: codename in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1448
+[Sep-21-2016 18:05:07] Undefined variable: revisedDesc in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1435
+[Sep-21-2016 18:05:07] Undefined variable: codename in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1448
+[Sep-21-2016 18:05:07] Undefined variable: revisedDesc in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1435
+[Sep-21-2016 18:05:07] Undefined variable: codename in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1448
+[Sep-21-2016 18:05:07] Undefined variable: revisedDesc in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1435
+[Sep-21-2016 18:06:52] Undefined variable: revisedDesc in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1432
+[Sep-21-2016 18:06:52] Undefined variable: revisedDesc in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1432
+[Sep-21-2016 18:06:52] Undefined variable: revisedDesc in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1432
+[Sep-21-2016 18:06:52] Undefined variable: codename in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1447
+[Sep-21-2016 18:07:35] Undefined variable: revisedDesc in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1432
+[Sep-21-2016 18:07:35] Undefined variable: revisedDesc in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1432
+[Sep-21-2016 18:07:35] Undefined variable: revisedDesc in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1432
+[Sep-21-2016 18:07:35] Undefined variable: codename in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1447
+[Sep-21-2016 18:08:52] Undefined variable: codename in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1447
+[Sep-21-2016 18:12:51] Undefined variable: revisedDesc in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1434
+[Sep-21-2016 18:12:51] Undefined variable: revisedDesc in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1434
+[Sep-21-2016 18:12:51] Undefined variable: revisedDesc in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1434

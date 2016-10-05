@@ -1,0 +1,92 @@
+[Sep-24-2016 9:59:55] A session had already been started - ignoring session_start() in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 3
+[Sep-24-2016 9:59:55] Undefined variable: value in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 4
+[Sep-24-2016 9:59:58] A session had already been started - ignoring session_start() in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 3
+[Sep-24-2016 9:59:58] Undefined variable: value in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 4
+[Sep-24-2016 10:07:03] A session had already been started - ignoring session_start() in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 3
+[Sep-24-2016 10:07:03] Undefined variable: value in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 4
+[Sep-24-2016 10:07:03] Undefined variable: name in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 8
+[Sep-24-2016 10:07:03] Undefined variable: email in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 9
+[Sep-24-2016 10:11:52] A session had already been started - ignoring session_start() in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 3
+[Sep-24-2016 10:11:52] Undefined variable: value in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 4
+[Sep-24-2016 10:11:52] Undefined variable: name in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 8
+[Sep-24-2016 10:11:52] Undefined variable: email in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 9
+[Sep-24-2016 10:11:52] Undefined variable: message in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 10
+[Sep-24-2016 10:11:52] Undefined variable: membership in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 11
+[Sep-24-2016 10:11:52] Undefined variable: human in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 12
+[Sep-24-2016 10:11:52] Undefined variable: urlPointer in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 13
+[Sep-24-2016 10:11:52] Undefined variable: name in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 92
+[Sep-24-2016 10:12:37] A session had already been started - ignoring session_start() in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 3
+[Sep-24-2016 10:14:21] A session had already been started - ignoring session_start() in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 3
+[Sep-24-2016 10:14:26] A session had already been started - ignoring session_start() in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 3
+[Sep-24-2016 10:15:51] A session had already been started - ignoring session_start() in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 3
+[Sep-24-2016 10:17:43] A session had already been started - ignoring session_start() in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 3
+[Sep-24-2016 10:17:45] A session had already been started - ignoring session_start() in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 3
+[Sep-24-2016 10:17:58] A session had already been started - ignoring session_start() in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 3
+[Sep-24-2016 10:18:02] A session had already been started - ignoring session_start() in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 3
+[Sep-24-2016 10:18:26] A session had already been started - ignoring session_start() in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 3
+[Sep-24-2016 10:20:00] A session had already been started - ignoring session_start() in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 3
+[Sep-24-2016 10:20:03] A session had already been started - ignoring session_start() in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 3
+[Sep-24-2016 10:44:26] A session had already been started - ignoring session_start() in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 3
+[Sep-24-2016 10:44:26] Undefined index: name in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 87
+[Sep-24-2016 10:44:26] Undefined index: email in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 94
+[Sep-24-2016 10:44:29] A session had already been started - ignoring session_start() in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 3
+[Sep-24-2016 10:44:29] Undefined index: name in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 87
+[Sep-24-2016 10:44:29] Undefined index: email in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 94
+[Sep-24-2016 10:51:56] A session had already been started - ignoring session_start() in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 3
+[Sep-24-2016 10:51:59] A session had already been started - ignoring session_start() in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 3
+[Sep-24-2016 10:54:14] A session had already been started - ignoring session_start() in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 3
+[Sep-24-2016 10:55:45] A session had already been started - ignoring session_start() in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 3
+[Sep-24-2016 11:05:07] Undefined variable: contactName in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 95
+[Sep-24-2016 11:05:10] Undefined variable: contactName in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 95
+[Sep-24-2016 11:05:40] Undefined variable: contactName in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 95
+[Sep-24-2016 11:12:45] Undefined variable: contact in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 63
+[Sep-24-2016 11:13:13] Undefined variable: contact in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 63
+[Sep-24-2016 11:13:13] Undefined variable: contact in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 97
+[Sep-24-2016 11:13:15] Undefined variable: contact in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 63
+[Sep-24-2016 11:13:15] Undefined variable: contact in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 97
+[Sep-24-2016 15:52:35] Undefined variable: name in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 102
+[Sep-24-2016 16:21:03] Undefined variable: post in /Applications/AMPPS/www/WrDKv2/contact/index.php on line 36
+[Sep-24-2016 16:21:03] Undefined index: name in /Applications/AMPPS/www/WrDKv2/contact/index.php on line 47
+[Sep-24-2016 16:26:31] Undefined variable: pageDeets in /Applications/AMPPS/www/WrDKv2/_inc/header_inc.php on line 34
+[Sep-24-2016 16:26:35] Undefined variable: pageDeets in /Applications/AMPPS/www/WrDKv2/_inc/header_inc.php on line 34
+[Sep-24-2016 16:26:50] Undefined variable: pageDeets in /Applications/AMPPS/www/WrDKv2/_inc/header_inc.php on line 34
+[Sep-24-2016 16:26:58] Undefined variable: pageDeets in /Applications/AMPPS/www/WrDKv2/_inc/header_inc.php on line 34
+[Sep-24-2016 16:27:01] Undefined variable: pageDeets in /Applications/AMPPS/www/WrDKv2/_inc/header_inc.php on line 34
+[Sep-24-2016 16:27:14] Undefined variable: pageDeets in /Applications/AMPPS/www/WrDKv2/_inc/header_inc.php on line 34
+[Sep-24-2016 16:27:51] Undefined variable: pageDeets in /Applications/AMPPS/www/WrDKv2/_inc/header_inc.php on line 34
+[Sep-24-2016 16:29:49] Undefined index: name in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 105
+[Sep-24-2016 16:29:49] Undefined index: email in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 112
+[Sep-24-2016 16:29:49] Undefined index: message in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 119
+[Sep-24-2016 16:29:57] Undefined index: name in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 105
+[Sep-24-2016 16:29:57] Undefined index: email in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 112
+[Sep-24-2016 16:29:57] Undefined index: message in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 119
+[Sep-24-2016 16:30:26] Undefined index: name in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 105
+[Sep-24-2016 16:30:26] Undefined index: email in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 112
+[Sep-24-2016 16:30:26] Undefined index: message in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 119
+[Sep-24-2016 16:31:06] A session had already been started - ignoring session_start() in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 3
+[Sep-24-2016 16:31:06] Undefined index: name in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 87
+[Sep-24-2016 16:31:06] Undefined index: email in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 94
+[Sep-24-2016 16:31:30] Undefined index: name in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 105
+[Sep-24-2016 16:31:30] Undefined index: email in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 112
+[Sep-24-2016 16:31:30] Undefined index: message in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 119
+[Sep-24-2016 16:31:39] Undefined variable: pageDeets in /Applications/AMPPS/www/WrDKv2/_inc/header_inc.php on line 34
+[Sep-24-2016 16:33:28] Undefined variable: name in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 93
+[Sep-24-2016 16:38:16] Undefined variable: name in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 104
+[Sep-24-2016 16:41:49] Undefined variable: name in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 104
+[Sep-24-2016 16:42:55] Undefined variable: name in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 104
+[Sep-24-2016 16:43:22] Undefined variable: name in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 104
+[Sep-24-2016 16:43:50] Undefined variable: name in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 104
+[Sep-24-2016 16:44:11] Undefined variable: name in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 104
+[Sep-24-2016 16:54:11] Undefined variable: name in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 104
+[Sep-24-2016 17:08:23] Undefined variable: publickey in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 153
+[Sep-24-2016 17:08:28] Undefined variable: publickey in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 153
+[Sep-24-2016 17:10:31] Use of undefined constant credentials_inc - assumed 'credentials_inc' in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 58
+[Sep-24-2016 17:10:31] Use of undefined constant php - assumed 'php' in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 58
+[Sep-24-2016 17:10:31] include_once(/Applications/AMPPS/www/WrDKv2/_inc/credentials_incphp): failed to open stream: No such file or directory in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 58
+[Sep-24-2016 17:10:31] include_once(): Failed opening '/Applications/AMPPS/www/WrDKv2/_inc/credentials_incphp' for inclusion (include_path='.:') in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 58
+[Sep-24-2016 17:10:31] Undefined variable: publickey in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 155
+[Sep-24-2016 17:11:05] Use of undefined constant credentials_inc - assumed 'credentials_inc' in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 58
+[Sep-24-2016 17:11:05] Use of undefined constant php - assumed 'php' in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 58
+[Sep-24-2016 17:11:05] require_once(/Applications/AMPPS/www/WrDKv2/_inc/credentials_incphp): failed to open stream: No such file or directory in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 58
+[Sep-24-2016 17:11:42] Undefined variable: publickey in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 155
+[Sep-24-2016 17:11:56] Undefined variable: publickey in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 155

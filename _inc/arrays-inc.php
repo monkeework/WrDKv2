@@ -77,9 +77,11 @@ $aarPrivilege = [
 	"6"  => 'owner',      #superadmin
 	"7"  => 'developer'   #all privs-db
 ];
-*/
+
 
 define('PRIV_DEVELOPER', 'developer');
+*/
+
 
 $aarPrivilege = [
 	"0"  => "visitor", 		#unknown
@@ -89,8 +91,15 @@ $aarPrivilege = [
 	"4"  => 'mod',     		#characters
 	"5"  => 'admin',   		#handles
 	"6"  => 'owner',      #superadmin
-	// "7"  => 'developer'   #all privs-db
-    "7"  => PRIV_DEVELOPER   #all privs-db
+	"7"  => 'developer'   #all privs-db
+
+	// PRIV_DEVELOPER
+	// PRIV_DEVELOPER 	// PRIV_DEVELOPER
+	// PRIV_DEVELOPER
+	// PRIV_DEVELOPER
+	// PRIV_DEVELOPER
+
+	//"7"  => PRIV_DEVELOPER   #all privs-db
 ];
 
 
@@ -211,6 +220,7 @@ $aarEducation = [
 ];
 
 $aarEye = [
+	'Set Eye Color',
 	'red, dark',
 	'red, light',
 	'orange, dark',
@@ -239,6 +249,7 @@ $aarEye = [
 	'<sup>*</sup>see description'];
 
 $aarHair = [
+	'Set Eye Color',
 	'black, jet',
 	'black, natural',
 
@@ -251,6 +262,8 @@ $aarHair = [
 	'brown, honey',
 	'brown, caramel',
 
+	'blonde, hollywood',
+	'blonde, plantinum',
 	'blonde, ash',
 	'blonde, medium',
 	'blonde, platinum',
@@ -261,28 +274,23 @@ $aarHair = [
 	'blonde, butterscotch',
 	'blonde, strawberry',
 
+	'pink, pearl',
+
+	'red, rosa',
+	'red, ruby',
 	'red, copper',
 	'red, garnet',
+	'red, burgundy',
 	'red, dark',
 
-	'blonde, hollywood',
-	'blonde, plantinum',
-
+	'purple, passion',
 	'purple, plum',
-	'blue, steel',
-	'red, burgundy',
+	'purple, ultraviolet',
 
 	'green, grape',
 	'green, turquoise',
 
-	'pink, pearl',
-
-	'purple, passion',
-
-	'red, rosa',
-	'red, ruby',
-
-	'purple, ultraviolet',
+	'blue, steel',
 
 	'white',
 

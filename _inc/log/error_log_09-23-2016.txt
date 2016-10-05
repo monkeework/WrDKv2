@@ -1,0 +1,368 @@
+[Sep-23-2016 7:09:39] You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's Power rank determines its durability and ability to resist/reduce damage. ----' at line 70 in /Applications/AMPPS/www/WrDKv2/characters/profileUpdate.php on line 461
+[Sep-23-2016 7:10:10] You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's Power rank determines its durability and ability to resist/reduce damage. ----' at line 70 in /Applications/AMPPS/www/WrDKv2/characters/profileUpdate.php on line 461
+[Sep-23-2016 7:21:14] mysqli_real_escape_string() expects parameter 2 to be string, array given in /Applications/AMPPS/www/WrDKv2/_inc/common_inc.php on line 127
+[Sep-23-2016 7:21:14] join(): Invalid arguments passed in /Applications/AMPPS/www/WrDKv2/characters/profileUpdate.php on line 182
+[Sep-23-2016 7:22:01] mysqli_real_escape_string() expects parameter 2 to be string, array given in /Applications/AMPPS/www/WrDKv2/_inc/common_inc.php on line 127
+[Sep-23-2016 7:22:01] join(): Invalid arguments passed in /Applications/AMPPS/www/WrDKv2/characters/profileUpdate.php on line 182
+[Sep-23-2016 7:25:05] You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's Power rank determines its durability and ability to resist/reduce damage. ----' at line 70 in /Applications/AMPPS/www/WrDKv2/characters/profileUpdate.php on line 461
+[Sep-23-2016 8:41:48] Use of undefined constant TRUE_NAME - assumed 'TRUE_NAME' in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 265
+[Sep-23-2016 9:32:27] Undefined variable: publickey in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 313
+[Sep-23-2016 9:32:27] Undefined variable: error in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 313
+[Sep-23-2016 9:32:36] Undefined variable: publickey in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 313
+[Sep-23-2016 9:32:36] Undefined variable: error in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 313
+[Sep-23-2016 9:36:28] require_once(./_inc/config_inc.php): failed to open stream: No such file or directory in /Applications/AMPPS/www/WrDKv2/_inc/contactForm-inc.php on line 66
+[Sep-23-2016 9:36:33] require_once(./_inc/config_inc.php): failed to open stream: No such file or directory in /Applications/AMPPS/www/WrDKv2/_inc/contactForm-inc.php on line 66
+[Sep-23-2016 9:38:21] include(): http:// wrapper is disabled in the server configuration by allow_url_include=0 in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 262
+[Sep-23-2016 9:38:21] include(http://localhost/WrDKv2/_inc/contactForm-inc.php): failed to open stream: no suitable wrapper could be found in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 262
+[Sep-23-2016 9:38:21] include(): Failed opening 'http://localhost/WrDKv2/_inc/contactForm-inc.php' for inclusion (include_path='.:') in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 262
+[Sep-23-2016 9:39:28] include(): http:// wrapper is disabled in the server configuration by allow_url_include=0 in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 262
+[Sep-23-2016 9:39:28] include(http://localhost/WrDKv2/_inc/contactForm-inc.php): failed to open stream: no suitable wrapper could be found in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 262
+[Sep-23-2016 9:39:28] include(): Failed opening 'http://localhost/WrDKv2/_inc/contactForm-inc.php' for inclusion (include_path='.:') in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 262
+[Sep-23-2016 9:42:19] include(): http:// wrapper is disabled in the server configuration by allow_url_include=0 in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 262
+[Sep-23-2016 9:42:19] include(http://localhost/WrDKv2/_inc/contactForm-inc.php): failed to open stream: no suitable wrapper could be found in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 262
+[Sep-23-2016 9:42:19] include(): Failed opening 'http://localhost/WrDKv2/_inc/contactForm-inc.php' for inclusion (include_path='.:') in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 262
+[Sep-23-2016 9:42:41] include(): http:// wrapper is disabled in the server configuration by allow_url_include=0 in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 262
+[Sep-23-2016 9:42:41] include(http://localhost/WrDKv2/_inc/contactForm-inc.php): failed to open stream: no suitable wrapper could be found in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 262
+[Sep-23-2016 9:42:41] include(): Failed opening 'http://localhost/WrDKv2/_inc/contactForm-inc.php' for inclusion (include_path='.:') in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 262
+[Sep-23-2016 9:42:43] include(): http:// wrapper is disabled in the server configuration by allow_url_include=0 in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 262
+[Sep-23-2016 9:42:43] include(http://localhost/WrDKv2/_inc/contactForm-inc.php): failed to open stream: no suitable wrapper could be found in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 262
+[Sep-23-2016 9:42:43] include(): Failed opening 'http://localhost/WrDKv2/_inc/contactForm-inc.php' for inclusion (include_path='.:') in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 262
+[Sep-23-2016 9:46:15] include(): http:// wrapper is disabled in the server configuration by allow_url_include=0 in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 50
+[Sep-23-2016 9:46:15] include(http://localhost/WrDKv2/_inc/contactForm-inc.php): failed to open stream: no suitable wrapper could be found in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 50
+[Sep-23-2016 9:46:15] include(): Failed opening 'http://localhost/WrDKv2/_inc/contactForm-inc.php' for inclusion (include_path='.:') in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 50
+[Sep-23-2016 9:48:04] include(): http:// wrapper is disabled in the server configuration by allow_url_include=0 in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 54
+[Sep-23-2016 9:48:04] include(http://localhost/WrDKv2/_inc/contactForm-inc.php): failed to open stream: no suitable wrapper could be found in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 54
+[Sep-23-2016 9:48:04] include(): Failed opening 'http://localhost/WrDKv2/_inc/contactForm-inc.php' for inclusion (include_path='.:') in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 54
+[Sep-23-2016 9:48:05] include(): http:// wrapper is disabled in the server configuration by allow_url_include=0 in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 54
+[Sep-23-2016 9:48:05] include(http://localhost/WrDKv2/_inc/contactForm-inc.php): failed to open stream: no suitable wrapper could be found in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 54
+[Sep-23-2016 9:48:05] include(): Failed opening 'http://localhost/WrDKv2/_inc/contactForm-inc.php' for inclusion (include_path='.:') in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 54
+[Sep-23-2016 10:28:37] include(): http:// wrapper is disabled in the server configuration by allow_url_include=0 in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 54
+[Sep-23-2016 10:28:37] include(http://localhost/WrDKv2/_inc/contactForm-inc.php): failed to open stream: no suitable wrapper could be found in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 54
+[Sep-23-2016 10:28:37] include(): Failed opening 'http://localhost/WrDKv2/_inc/contactForm-inc.php' for inclusion (include_path='.:') in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 54
+[Sep-23-2016 10:29:22] include(): http:// wrapper is disabled in the server configuration by allow_url_include=0 in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 52
+[Sep-23-2016 10:29:22] include(http://localhost/WrDKv2/_inc/contactForm-inc.php): failed to open stream: no suitable wrapper could be found in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 52
+[Sep-23-2016 10:29:22] include(): Failed opening 'http://localhost/WrDKv2/_inc/contactForm-inc.php' for inclusion (include_path='.:') in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 52
+[Sep-23-2016 10:48:34] Undefined variable: errName in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 122
+[Sep-23-2016 10:48:34] Undefined variable: errEmail in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 129
+[Sep-23-2016 10:48:34] Undefined variable: errMessage in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 136
+[Sep-23-2016 10:48:34] Undefined variable: errHuman in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 143
+[Sep-23-2016 10:48:34] Undefined variable: result in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 153
+[Sep-23-2016 10:50:14] Undefined variable: errName in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 61
+[Sep-23-2016 10:50:14] Undefined variable: errEmail in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 68
+[Sep-23-2016 10:50:14] Undefined variable: errMessage in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 75
+[Sep-23-2016 10:50:14] Undefined variable: errHuman in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 95
+[Sep-23-2016 10:50:14] Undefined variable: result in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 105
+[Sep-23-2016 10:50:41] Undefined variable: errEmail in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 74
+[Sep-23-2016 10:50:41] Undefined variable: errMessage in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 81
+[Sep-23-2016 10:50:41] Undefined variable: errHuman in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 101
+[Sep-23-2016 10:50:41] Undefined variable: result in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 111
+[Sep-23-2016 10:54:19] Undefined variable: errName in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 66
+[Sep-23-2016 10:54:19] Undefined variable: errEmail in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 66
+[Sep-23-2016 10:54:19] Undefined variable: errMessage in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 66
+[Sep-23-2016 10:54:19] Undefined variable: errName in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 105
+[Sep-23-2016 10:54:19] Undefined variable: errEmail in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 112
+[Sep-23-2016 10:54:19] Undefined variable: errMessage in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 119
+[Sep-23-2016 10:54:19] Undefined variable: result in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 149
+[Sep-23-2016 10:59:06] Undefined variable: errName in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 66
+[Sep-23-2016 10:59:07] Undefined variable: errEmail in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 66
+[Sep-23-2016 10:59:07] Undefined variable: errMessage in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 66
+[Sep-23-2016 10:59:07] Undefined variable: errName in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 105
+[Sep-23-2016 10:59:07] Undefined variable: errEmail in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 112
+[Sep-23-2016 10:59:07] Undefined variable: errMessage in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 119
+[Sep-23-2016 10:59:07] Undefined variable: result in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 149
+[Sep-23-2016 10:59:13] Undefined variable: errName in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 66
+[Sep-23-2016 10:59:13] Undefined variable: errEmail in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 66
+[Sep-23-2016 10:59:13] Undefined variable: errMessage in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 66
+[Sep-23-2016 10:59:13] Undefined variable: errName in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 105
+[Sep-23-2016 10:59:13] Undefined variable: errEmail in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 112
+[Sep-23-2016 10:59:13] Undefined variable: errMessage in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 119
+[Sep-23-2016 10:59:13] Undefined variable: result in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 149
+[Sep-23-2016 11:05:30] Undefined variable: errName in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 67
+[Sep-23-2016 11:05:30] Undefined variable: errEmail in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 67
+[Sep-23-2016 11:05:30] Undefined variable: errMessage in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 67
+[Sep-23-2016 11:05:30] Undefined variable: errName in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 106
+[Sep-23-2016 11:05:30] Undefined variable: errEmail in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 113
+[Sep-23-2016 11:05:30] Undefined variable: errMessage in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 120
+[Sep-23-2016 11:05:30] Undefined variable: result in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 150
+[Sep-23-2016 11:06:39] Undefined variable: result in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 150
+[Sep-23-2016 12:04:26] Undefined index: name in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 105
+[Sep-23-2016 12:04:26] Undefined index: email in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 112
+[Sep-23-2016 12:04:26] Undefined index: message in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 119
+[Sep-23-2016 12:08:39] Undefined index: name in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 105
+[Sep-23-2016 12:08:39] Undefined index: email in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 112
+[Sep-23-2016 12:08:39] Undefined index: message in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 119
+[Sep-23-2016 12:08:41] Undefined index: name in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 105
+[Sep-23-2016 12:08:41] Undefined index: email in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 112
+[Sep-23-2016 12:08:41] Undefined index: message in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 119
+[Sep-23-2016 12:10:48] Undefined index: name in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 105
+[Sep-23-2016 12:10:48] Undefined index: email in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 112
+[Sep-23-2016 12:10:48] Undefined index: message in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 119
+[Sep-23-2016 12:15:01] Undefined index: name in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 112
+[Sep-23-2016 12:15:01] Undefined index: email in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 119
+[Sep-23-2016 12:15:01] Undefined index: message in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 126
+[Sep-23-2016 12:15:56] Undefined index: name in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 112
+[Sep-23-2016 12:15:56] Undefined index: email in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 119
+[Sep-23-2016 12:15:56] Undefined index: message in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 126
+[Sep-23-2016 12:18:32] Undefined index: name in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 63
+[Sep-23-2016 12:18:32] Undefined variable: errName in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 64
+[Sep-23-2016 12:18:32] Undefined index: email in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 70
+[Sep-23-2016 12:18:32] Undefined variable: errEmail in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 71
+[Sep-23-2016 12:18:32] Undefined index: message in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 77
+[Sep-23-2016 12:18:32] Undefined variable: errMessage in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 78
+[Sep-23-2016 12:18:32] Undefined variable: errHuman in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 93
+[Sep-23-2016 12:18:32] Undefined variable: result in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 103
+[Sep-23-2016 12:21:32] Undefined index: name in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 124
+[Sep-23-2016 12:21:32] Undefined variable: errName in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 125
+[Sep-23-2016 12:21:32] Undefined index: email in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 131
+[Sep-23-2016 12:21:32] Undefined variable: errEmail in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 132
+[Sep-23-2016 12:21:32] Undefined index: message in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 138
+[Sep-23-2016 12:21:32] Undefined variable: errMessage in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 139
+[Sep-23-2016 12:21:32] Undefined variable: errHuman in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 146
+[Sep-23-2016 12:21:32] Undefined variable: result in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 156
+[Sep-23-2016 12:22:13] Undefined index: name in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 120
+[Sep-23-2016 12:22:13] Undefined variable: errName in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 121
+[Sep-23-2016 12:22:13] Undefined index: email in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 127
+[Sep-23-2016 12:22:13] Undefined variable: errEmail in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 128
+[Sep-23-2016 12:22:13] Undefined index: message in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 134
+[Sep-23-2016 12:22:13] Undefined variable: errMessage in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 135
+[Sep-23-2016 12:22:13] Undefined variable: errHuman in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 142
+[Sep-23-2016 12:22:13] Undefined variable: result in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 152
+[Sep-23-2016 12:22:15] Undefined index: name in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 120
+[Sep-23-2016 12:22:15] Undefined variable: errName in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 121
+[Sep-23-2016 12:22:15] Undefined index: email in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 127
+[Sep-23-2016 12:22:15] Undefined variable: errEmail in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 128
+[Sep-23-2016 12:22:15] Undefined index: message in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 134
+[Sep-23-2016 12:22:15] Undefined variable: errMessage in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 135
+[Sep-23-2016 12:22:15] Undefined variable: errHuman in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 142
+[Sep-23-2016 12:22:15] Undefined variable: result in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 152
+[Sep-23-2016 12:26:50] Undefined index: name in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 120
+[Sep-23-2016 12:26:50] Undefined variable: errName in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 121
+[Sep-23-2016 12:26:50] Undefined index: email in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 127
+[Sep-23-2016 12:26:50] Undefined variable: errEmail in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 128
+[Sep-23-2016 12:26:50] Undefined index: message in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 134
+[Sep-23-2016 12:26:50] Undefined variable: errMessage in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 135
+[Sep-23-2016 12:26:50] Undefined variable: errHuman in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 142
+[Sep-23-2016 12:26:50] Undefined variable: result in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 152
+[Sep-23-2016 12:26:52] Undefined index: name in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 120
+[Sep-23-2016 12:26:52] Undefined variable: errName in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 121
+[Sep-23-2016 12:26:52] Undefined index: email in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 127
+[Sep-23-2016 12:26:52] Undefined variable: errEmail in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 128
+[Sep-23-2016 12:26:52] Undefined index: message in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 134
+[Sep-23-2016 12:26:52] Undefined variable: errMessage in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 135
+[Sep-23-2016 12:26:52] Undefined variable: errHuman in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 142
+[Sep-23-2016 12:26:52] Undefined variable: result in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 152
+[Sep-23-2016 12:29:33] Undefined index: name in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 107
+[Sep-23-2016 12:29:33] Undefined variable: errName in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 108
+[Sep-23-2016 12:29:33] Undefined index: email in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 114
+[Sep-23-2016 12:29:33] Undefined variable: errEmail in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 115
+[Sep-23-2016 12:29:33] Undefined index: message in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 121
+[Sep-23-2016 12:29:33] Undefined variable: errMessage in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 122
+[Sep-23-2016 12:29:33] Undefined variable: errHuman in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 129
+[Sep-23-2016 12:29:33] Undefined variable: result in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 139
+[Sep-23-2016 12:30:19] Undefined index: name in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 107
+[Sep-23-2016 12:30:19] Undefined variable: errName in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 108
+[Sep-23-2016 12:30:19] Undefined index: email in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 114
+[Sep-23-2016 12:30:19] Undefined variable: errEmail in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 115
+[Sep-23-2016 12:30:19] Undefined index: message in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 121
+[Sep-23-2016 12:30:19] Undefined variable: errMessage in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 122
+[Sep-23-2016 12:30:19] Undefined variable: errHuman in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 129
+[Sep-23-2016 12:30:19] Undefined variable: result in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 139
+[Sep-23-2016 12:32:14] Undefined index: name in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 108
+[Sep-23-2016 12:32:14] Undefined variable: errName in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 109
+[Sep-23-2016 12:32:14] Undefined index: email in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 115
+[Sep-23-2016 12:32:14] Undefined variable: errEmail in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 116
+[Sep-23-2016 12:32:14] Undefined index: message in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 122
+[Sep-23-2016 12:32:14] Undefined variable: errMessage in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 123
+[Sep-23-2016 12:32:14] Undefined variable: errHuman in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 130
+[Sep-23-2016 12:32:14] Undefined variable: result in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 140
+[Sep-23-2016 14:00:06] Undefined variable: errName in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 110
+[Sep-23-2016 14:00:06] Undefined index: email in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 116
+[Sep-23-2016 14:00:06] Undefined variable: errEmail in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 117
+[Sep-23-2016 14:00:06] Undefined index: message in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 123
+[Sep-23-2016 14:00:06] Undefined variable: errMessage in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 124
+[Sep-23-2016 14:00:06] Undefined variable: errHuman in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 131
+[Sep-23-2016 14:00:06] Undefined variable: result in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 141
+[Sep-23-2016 14:03:27] Undefined variable: errName in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 111
+[Sep-23-2016 14:03:27] Undefined variable: errEmail in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 118
+[Sep-23-2016 14:03:27] Undefined variable: errMessage in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 125
+[Sep-23-2016 14:03:27] Undefined variable: errHuman in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 132
+[Sep-23-2016 14:03:27] Undefined variable: result in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 142
+[Sep-23-2016 14:12:23] Undefined variable: errEmail in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 122
+[Sep-23-2016 14:12:23] Undefined variable: errMessage in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 129
+[Sep-23-2016 14:12:23] Undefined variable: errHuman in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 136
+[Sep-23-2016 14:12:23] Undefined variable: result in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 146
+[Sep-23-2016 14:15:18] Undefined variable: errName in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 116
+[Sep-23-2016 14:15:18] Undefined variable: errName in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 116
+[Sep-23-2016 14:15:18] Undefined variable: errEmail in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 125
+[Sep-23-2016 14:15:18] Undefined variable: errMessage in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 132
+[Sep-23-2016 14:15:18] Undefined variable: errHuman in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 139
+[Sep-23-2016 14:15:18] Undefined variable: result in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 149
+[Sep-23-2016 14:17:25] Undefined variable: errName in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 115
+[Sep-23-2016 14:17:25] Undefined variable: errEmail in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 127
+[Sep-23-2016 14:17:25] Undefined variable: errMessage in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 134
+[Sep-23-2016 14:17:25] Undefined variable: errHuman in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 141
+[Sep-23-2016 14:17:25] Undefined variable: result in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 151
+[Sep-23-2016 14:17:46] Undefined variable: errName in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 115
+[Sep-23-2016 14:17:46] Undefined variable: errEmail in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 127
+[Sep-23-2016 14:17:46] Undefined variable: errMessage in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 134
+[Sep-23-2016 14:17:46] Undefined variable: errHuman in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 141
+[Sep-23-2016 14:17:46] Undefined variable: result in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 151
+[Sep-23-2016 14:18:45] Undefined variable: errEmail in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 127
+[Sep-23-2016 14:18:45] Undefined variable: errMessage in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 134
+[Sep-23-2016 14:18:45] Undefined variable: errHuman in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 141
+[Sep-23-2016 14:18:45] Undefined variable: result in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 151
+[Sep-23-2016 14:18:47] Undefined variable: errEmail in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 127
+[Sep-23-2016 14:18:47] Undefined variable: errMessage in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 134
+[Sep-23-2016 14:18:47] Undefined variable: errHuman in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 141
+[Sep-23-2016 14:18:47] Undefined variable: result in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 151
+[Sep-23-2016 14:28:41] Undefined variable: errName in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 98
+[Sep-23-2016 14:28:41] Undefined variable: errEmail in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 98
+[Sep-23-2016 14:28:41] Undefined variable: errMessage in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 98
+[Sep-23-2016 14:28:41] Undefined variable: errHuman in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 98
+[Sep-23-2016 14:29:24] Undefined variable: errName in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 98
+[Sep-23-2016 14:29:25] Undefined variable: errEmail in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 98
+[Sep-23-2016 14:29:25] Undefined variable: errMessage in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 98
+[Sep-23-2016 14:29:25] Undefined variable: errHuman in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 98
+[Sep-23-2016 14:30:13] Undefined variable: errName in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 98
+[Sep-23-2016 14:30:13] Undefined variable: errEmail in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 98
+[Sep-23-2016 14:30:13] Undefined variable: errMessage in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 98
+[Sep-23-2016 14:30:13] Undefined variable: errHuman in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 98
+[Sep-23-2016 14:32:46] Undefined variable: errName in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 98
+[Sep-23-2016 14:32:46] Undefined variable: errEmail in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 98
+[Sep-23-2016 14:32:46] Undefined variable: errMessage in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 98
+[Sep-23-2016 14:32:46] Undefined variable: errHuman in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 98
+[Sep-23-2016 14:33:08] Undefined variable: errName in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 98
+[Sep-23-2016 14:33:08] Undefined variable: errEmail in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 98
+[Sep-23-2016 14:33:08] Undefined variable: errMessage in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 98
+[Sep-23-2016 14:33:08] Undefined variable: errHuman in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 98
+[Sep-23-2016 14:35:28] Undefined variable: errName in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 98
+[Sep-23-2016 14:35:28] Undefined variable: errEmail in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 98
+[Sep-23-2016 14:35:28] Undefined variable: errMessage in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 98
+[Sep-23-2016 14:35:28] Undefined variable: errHuman in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 98
+[Sep-23-2016 14:41:34] Undefined variable: errName in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 98
+[Sep-23-2016 14:41:34] Undefined variable: errEmail in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 98
+[Sep-23-2016 14:41:34] Undefined variable: errMessage in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 98
+[Sep-23-2016 14:41:34] Undefined variable: result in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 159
+[Sep-23-2016 14:42:55] Undefined variable: result in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 164
+[Sep-23-2016 14:42:55] Undefined variable: result in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 164
+[Sep-23-2016 14:43:07] Undefined variable: result in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 164
+[Sep-23-2016 14:43:16] Undefined variable: result in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 164
+[Sep-23-2016 15:21:42] Undefined variable: errName in /Applications/AMPPS/www/WrDKv2/contactHandler.php on line 165
+[Sep-23-2016 15:21:42] Undefined variable: errEmail in /Applications/AMPPS/www/WrDKv2/contactHandler.php on line 165
+[Sep-23-2016 15:21:42] Undefined variable: errMessage in /Applications/AMPPS/www/WrDKv2/contactHandler.php on line 165
+[Sep-23-2016 15:23:16] Undefined index: URL in /Applications/AMPPS/www/WrDKv2/contactHandler.php on line 126
+[Sep-23-2016 15:23:16] Undefined variable: errName in /Applications/AMPPS/www/WrDKv2/contactHandler.php on line 173
+[Sep-23-2016 15:23:16] Undefined variable: errEmail in /Applications/AMPPS/www/WrDKv2/contactHandler.php on line 173
+[Sep-23-2016 15:23:16] Undefined variable: errMessage in /Applications/AMPPS/www/WrDKv2/contactHandler.php on line 173
+[Sep-23-2016 15:23:35] Undefined index: URL in /Applications/AMPPS/www/WrDKv2/contactHandler.php on line 126
+[Sep-23-2016 15:23:35] Undefined variable: errName in /Applications/AMPPS/www/WrDKv2/contactHandler.php on line 173
+[Sep-23-2016 15:23:35] Undefined variable: errEmail in /Applications/AMPPS/www/WrDKv2/contactHandler.php on line 173
+[Sep-23-2016 15:23:35] Undefined variable: errMessage in /Applications/AMPPS/www/WrDKv2/contactHandler.php on line 173
+[Sep-23-2016 15:23:57] Undefined index: URL in /Applications/AMPPS/www/WrDKv2/contactHandler.php on line 126
+[Sep-23-2016 15:25:04] Undefined index: URL in /Applications/AMPPS/www/WrDKv2/contactHandler.php on line 126
+[Sep-23-2016 15:59:48] Undefined variable: errName in /Applications/AMPPS/www/WrDKv2/contactHandler.php on line 182
+[Sep-23-2016 16:18:46] Undefined index: URL in /Applications/AMPPS/www/WrDKv2/contactHandler.php on line 111
+[Sep-23-2016 16:32:24] Undefined variable: errName in /Applications/AMPPS/www/WrDKv2/contactHandler.php on line 152
+[Sep-23-2016 16:33:41] Undefined variable: errName in /Applications/AMPPS/www/WrDKv2/contactHandler.php on line 152
+[Sep-23-2016 16:33:41] Undefined variable: errName in /Applications/AMPPS/www/WrDKv2/contactHandler.php on line 175
+[Sep-23-2016 16:40:52] Undefined variable: publickey in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 94
+[Sep-23-2016 16:40:52] Undefined variable: error in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 94
+[Sep-23-2016 16:47:26] Use of undefined constant privatekey - assumed 'privatekey' in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 109
+[Sep-23-2016 16:47:30] Use of undefined constant privatekey - assumed 'privatekey' in /Applications/AMPPS/www/WrDKv2/_themes/Bootswatch/footer_inc.php on line 109
+[Sep-23-2016 16:48:48] Undefined variable: errName in /Applications/AMPPS/www/WrDKv2/contactHandler.php on line 152
+[Sep-23-2016 16:48:48] Undefined variable: errEmail in /Applications/AMPPS/www/WrDKv2/contactHandler.php on line 152
+[Sep-23-2016 16:48:48] Undefined variable: errMessage in /Applications/AMPPS/www/WrDKv2/contactHandler.php on line 152
+[Sep-23-2016 16:48:48] Undefined variable: errHuman in /Applications/AMPPS/www/WrDKv2/contactHandler.php on line 152
+[Sep-23-2016 16:48:48] Undefined variable: errName in /Applications/AMPPS/www/WrDKv2/contactHandler.php on line 175
+[Sep-23-2016 16:57:31] Undefined variable: errName in /Applications/AMPPS/www/WrDKv2/contactHandler.php on line 122
+[Sep-23-2016 16:57:31] Undefined variable: errEmail in /Applications/AMPPS/www/WrDKv2/contactHandler.php on line 122
+[Sep-23-2016 16:57:31] Undefined variable: errMessage in /Applications/AMPPS/www/WrDKv2/contactHandler.php on line 122
+[Sep-23-2016 16:57:31] Undefined variable: errHuman in /Applications/AMPPS/www/WrDKv2/contactHandler.php on line 122
+[Sep-23-2016 16:57:31] Undefined variable: errName in /Applications/AMPPS/www/WrDKv2/contactHandler.php on line 234
+[Sep-23-2016 17:00:55] Undefined variable: errName in /Applications/AMPPS/www/WrDKv2/contactHandler.php on line 118
+[Sep-23-2016 17:00:55] Undefined variable: errEmail in /Applications/AMPPS/www/WrDKv2/contactHandler.php on line 118
+[Sep-23-2016 17:00:55] Undefined variable: errMessage in /Applications/AMPPS/www/WrDKv2/contactHandler.php on line 118
+[Sep-23-2016 17:00:55] Undefined variable: errHuman in /Applications/AMPPS/www/WrDKv2/contactHandler.php on line 118
+[Sep-23-2016 17:00:55] Undefined variable: errName in /Applications/AMPPS/www/WrDKv2/contactHandler.php on line 171
+[Sep-23-2016 17:00:55] Undefined variable: errEmail in /Applications/AMPPS/www/WrDKv2/contactHandler.php on line 178
+[Sep-23-2016 17:00:55] Undefined variable: errMessage in /Applications/AMPPS/www/WrDKv2/contactHandler.php on line 185
+[Sep-23-2016 17:00:55] Undefined variable: errHuman in /Applications/AMPPS/www/WrDKv2/contactHandler.php on line 192
+[Sep-23-2016 17:01:02] Undefined variable: myURL in /Applications/AMPPS/www/WrDKv2/contactHandler.php on line 159
+[Sep-23-2016 17:01:02] Undefined index: name in /Applications/AMPPS/www/WrDKv2/contactHandler.php on line 170
+[Sep-23-2016 17:01:02] Undefined variable: errName in /Applications/AMPPS/www/WrDKv2/contactHandler.php on line 171
+[Sep-23-2016 17:01:02] Undefined index: email in /Applications/AMPPS/www/WrDKv2/contactHandler.php on line 177
+[Sep-23-2016 17:01:02] Undefined variable: errEmail in /Applications/AMPPS/www/WrDKv2/contactHandler.php on line 178
+[Sep-23-2016 17:01:02] Undefined index: message in /Applications/AMPPS/www/WrDKv2/contactHandler.php on line 184
+[Sep-23-2016 17:01:02] Undefined variable: errMessage in /Applications/AMPPS/www/WrDKv2/contactHandler.php on line 185
+[Sep-23-2016 17:01:02] Undefined variable: errHuman in /Applications/AMPPS/www/WrDKv2/contactHandler.php on line 192
+[Sep-23-2016 17:01:02] Undefined variable: result in /Applications/AMPPS/www/WrDKv2/contactHandler.php on line 205
+[Sep-23-2016 17:01:37] Undefined index: name in /Applications/AMPPS/www/WrDKv2/contactHandler.php on line 168
+[Sep-23-2016 17:01:37] Undefined variable: errName in /Applications/AMPPS/www/WrDKv2/contactHandler.php on line 169
+[Sep-23-2016 17:01:37] Undefined index: email in /Applications/AMPPS/www/WrDKv2/contactHandler.php on line 175
+[Sep-23-2016 17:01:37] Undefined variable: errEmail in /Applications/AMPPS/www/WrDKv2/contactHandler.php on line 176
+[Sep-23-2016 17:01:37] Undefined index: message in /Applications/AMPPS/www/WrDKv2/contactHandler.php on line 182
+[Sep-23-2016 17:01:37] Undefined variable: errMessage in /Applications/AMPPS/www/WrDKv2/contactHandler.php on line 183
+[Sep-23-2016 17:01:37] Undefined variable: errHuman in /Applications/AMPPS/www/WrDKv2/contactHandler.php on line 190
+[Sep-23-2016 17:01:37] Undefined variable: result in /Applications/AMPPS/www/WrDKv2/contactHandler.php on line 203
+[Sep-23-2016 17:02:12] Undefined index: submit in /Applications/AMPPS/www/WrDKv2/contactHandler.php on line 86
+[Sep-23-2016 17:02:12] Undefined variable: myURL in /Applications/AMPPS/www/WrDKv2/contactHandler.php on line 214
+[Sep-23-2016 17:02:12] Undefined variable: errName in /Applications/AMPPS/www/WrDKv2/contactHandler.php on line 234
+[Sep-23-2016 17:02:38] Undefined index: submit in /Applications/AMPPS/www/WrDKv2/contactHandler.php on line 86
+[Sep-23-2016 17:02:38] Undefined variable: myURL in /Applications/AMPPS/www/WrDKv2/contactHandler.php on line 214
+[Sep-23-2016 17:02:38] Undefined variable: errName in /Applications/AMPPS/www/WrDKv2/contactHandler.php on line 234
+[Sep-23-2016 17:03:54] Undefined index: submit in /Applications/AMPPS/www/WrDKv2/contactHandler.php on line 87
+[Sep-23-2016 17:03:54] Undefined variable: myURL in /Applications/AMPPS/www/WrDKv2/contactHandler.php on line 166
+[Sep-23-2016 17:03:54] Undefined variable: errName in /Applications/AMPPS/www/WrDKv2/contactHandler.php on line 186
+[Sep-23-2016 17:06:32] Undefined variable: errName in /Applications/AMPPS/www/WrDKv2/contactHandler.php on line 139
+[Sep-23-2016 17:13:18] Undefined index: submit in /Applications/AMPPS/www/WrDKv2/contactHandler.php on line 115
+[Sep-23-2016 17:13:18] Undefined variable: from in /Applications/AMPPS/www/WrDKv2/contactHandler.php on line 163
+[Sep-23-2016 17:13:18] Undefined variable: errName in /Applications/AMPPS/www/WrDKv2/contactHandler.php on line 174
+[Sep-23-2016 17:15:43] Undefined index: submit in /Applications/AMPPS/www/WrDKv2/contactHandler.php on line 115
+[Sep-23-2016 17:15:43] Undefined variable: from in /Applications/AMPPS/www/WrDKv2/contactHandler.php on line 163
+[Sep-23-2016 17:15:43] Undefined variable: errName in /Applications/AMPPS/www/WrDKv2/contactHandler.php on line 180
+[Sep-23-2016 17:16:43] Undefined variable: from in /Applications/AMPPS/www/WrDKv2/contactHandler.php on line 115
+[Sep-23-2016 17:16:43] Undefined index: submit in /Applications/AMPPS/www/WrDKv2/contactHandler.php on line 122
+[Sep-23-2016 17:16:43] Undefined variable: errName in /Applications/AMPPS/www/WrDKv2/contactHandler.php on line 178
+[Sep-23-2016 17:17:09] Undefined variable: from in /Applications/AMPPS/www/WrDKv2/contactHandler.php on line 115
+[Sep-23-2016 17:20:07] Undefined variable: from in /Applications/AMPPS/www/WrDKv2/contactHandler.php on line 115
+[Sep-23-2016 17:20:53] Undefined variable: from in /Applications/AMPPS/www/WrDKv2/contactHandler.php on line 115
+[Sep-23-2016 17:27:13] Undefined index: CharID in /Applications/AMPPS/www/WrDKv2/characters/profileUpdate.php on line 76
+[Sep-23-2016 17:27:13] Undefined variable: CodeName in /Applications/AMPPS/www/WrDKv2/characters/profileUpdate.php on line 70
+[Sep-23-2016 17:27:13] Undefined variable: CharID in /Applications/AMPPS/www/WrDKv2/characters/profileUpdate.php on line 70
+[Sep-23-2016 17:27:13] Undefined index: submit in /Applications/AMPPS/www/WrDKv2/contactHandler.php on line 97
+[Sep-23-2016 17:27:13] Undefined index: submit in /Applications/AMPPS/www/WrDKv2/contactHandler.php on line 195
+[Sep-23-2016 17:27:13] Undefined variable: errName in /Applications/AMPPS/www/WrDKv2/contactHandler.php on line 251
+[Sep-23-2016 17:28:55] Undefined index: submit in /Applications/AMPPS/www/WrDKv2/contactHandler.php on line 97
+[Sep-23-2016 17:28:55] Undefined index: submit in /Applications/AMPPS/www/WrDKv2/contactHandler.php on line 195
+[Sep-23-2016 17:28:55] Undefined variable: errName in /Applications/AMPPS/www/WrDKv2/contactHandler.php on line 251
+[Sep-23-2016 18:09:26] Undefined index: CharID in /Applications/AMPPS/www/WrDKv2/characters/profileUpdate.php on line 76
+[Sep-23-2016 18:09:26] Undefined variable: CodeName in /Applications/AMPPS/www/WrDKv2/characters/profileUpdate.php on line 70
+[Sep-23-2016 18:09:26] Undefined variable: CharID in /Applications/AMPPS/www/WrDKv2/characters/profileUpdate.php on line 70
+[Sep-23-2016 18:09:29] Undefined index: CharID in /Applications/AMPPS/www/WrDKv2/characters/profileUpdate.php on line 76
+[Sep-23-2016 18:09:29] Undefined variable: CodeName in /Applications/AMPPS/www/WrDKv2/characters/profileUpdate.php on line 70
+[Sep-23-2016 18:09:29] Undefined variable: CharID in /Applications/AMPPS/www/WrDKv2/characters/profileUpdate.php on line 70
+[Sep-23-2016 18:09:39] Undefined index:  in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1425
+[Sep-23-2016 18:09:39] Undefined index:  in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1427
+[Sep-23-2016 18:09:45] Undefined index:  in /Applications/AMPPS/www/WrDKv2/characters/profileX.php on line 1432
+[Sep-23-2016 18:10:07] join(): Invalid arguments passed in /Applications/AMPPS/www/WrDKv2/characters/profileUpdate.php on line 180
+[Sep-23-2016 18:21:48] Undefined index: urlPointer in /Applications/AMPPS/www/WrDKv2/contactTest/index.php on line 15
+[Sep-23-2016 18:21:48] Undefined variable: errName in /Applications/AMPPS/www/WrDKv2/contactTest/index.php on line 43
+[Sep-23-2016 18:21:48] Undefined variable: errEmail in /Applications/AMPPS/www/WrDKv2/contactTest/index.php on line 43
+[Sep-23-2016 18:21:48] Undefined variable: errName in /Applications/AMPPS/www/WrDKv2/contactTest/index.php on line 83
+[Sep-23-2016 18:21:48] Undefined variable: errEmail in /Applications/AMPPS/www/WrDKv2/contactTest/index.php on line 90
+[Sep-23-2016 18:21:48] Undefined variable: errHuman in /Applications/AMPPS/www/WrDKv2/contactTest/index.php on line 104
+[Sep-23-2016 18:21:48] Undefined index: urlPointer in /Applications/AMPPS/www/WrDKv2/contactTest/index.php on line 110
+[Sep-23-2016 18:21:48] Undefined variable: result in /Applications/AMPPS/www/WrDKv2/contactTest/index.php on line 116
+[Sep-23-2016 18:21:58] Undefined index: urlPointer in /Applications/AMPPS/www/WrDKv2/contactTest/index.php on line 15
+[Sep-23-2016 18:21:58] Undefined variable: errName in /Applications/AMPPS/www/WrDKv2/contactTest/index.php on line 43
+[Sep-23-2016 18:21:58] Undefined variable: errEmail in /Applications/AMPPS/www/WrDKv2/contactTest/index.php on line 43
+[Sep-23-2016 18:21:58] Undefined variable: errName in /Applications/AMPPS/www/WrDKv2/contactTest/index.php on line 83
+[Sep-23-2016 18:21:58] Undefined variable: errEmail in /Applications/AMPPS/www/WrDKv2/contactTest/index.php on line 90
+[Sep-23-2016 18:21:58] Undefined variable: errHuman in /Applications/AMPPS/www/WrDKv2/contactTest/index.php on line 104
+[Sep-23-2016 18:21:58] Undefined index: urlPointer in /Applications/AMPPS/www/WrDKv2/contactTest/index.php on line 110
+[Sep-23-2016 18:21:58] Undefined variable: result in /Applications/AMPPS/www/WrDKv2/contactTest/index.php on line 116
+[Sep-23-2016 18:26:00] Undefined variable: errName in /Applications/AMPPS/www/WrDKv2/contactTest/index.php on line 44
+[Sep-23-2016 18:26:00] Undefined variable: errName in /Applications/AMPPS/www/WrDKv2/contactTest/index.php on line 84
+[Sep-23-2016 18:26:00] Undefined variable: errMessage in /Applications/AMPPS/www/WrDKv2/contactTest/index.php on line 98
+[Sep-23-2016 18:26:00] Undefined variable: errHuman in /Applications/AMPPS/www/WrDKv2/contactTest/index.php on line 105
+[Sep-23-2016 18:26:00] Undefined variable: result in /Applications/AMPPS/www/WrDKv2/contactTest/index.php on line 117

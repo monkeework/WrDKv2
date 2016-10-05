@@ -1,0 +1,137 @@
+[Sep-22-2016 9:59:35] mysqli_real_escape_string() expects parameter 2 to be string, array given in /Applications/AMPPS/www/WrDKv2/_inc/common_inc.php on line 127
+[Sep-22-2016 10:04:22] mysqli_real_escape_string() expects parameter 2 to be string, array given in /Applications/AMPPS/www/WrDKv2/_inc/common_inc.php on line 127
+[Sep-22-2016 10:04:24] Undefined index:  in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1420
+[Sep-22-2016 10:05:10] Undefined index:  in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1420
+[Sep-22-2016 10:05:46] Undefined index:  in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1418
+[Sep-22-2016 10:09:27] Undefined index:  in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1417
+[Sep-22-2016 10:10:20] Undefined index:  in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1417
+[Sep-22-2016 10:10:35] Undefined index:  in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1417
+[Sep-22-2016 10:11:21] Undefined index:  in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1417
+[Sep-22-2016 10:12:46] Undefined index:  in /Applications/AMPPS/www/WrDKv2/characters/profileX.php on line 1432
+[Sep-22-2016 10:13:08] Undefined index:  in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1417
+[Sep-22-2016 10:15:12] Undefined index:  in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1432
+[Sep-22-2016 10:15:43] mysqli_real_escape_string() expects parameter 2 to be string, array given in /Applications/AMPPS/www/WrDKv2/_inc/common_inc.php on line 127
+[Sep-22-2016 10:15:46] Undefined index:  in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1432
+[Sep-22-2016 10:17:09] Undefined index:  in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1432
+[Sep-22-2016 10:17:38] Undefined index:  in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1432
+[Sep-22-2016 10:23:55] Undefined index:  in /Applications/AMPPS/www/WrDKv2/characters/profileA.php on line 1417
+[Sep-22-2016 10:24:09] mysqli_real_escape_string() expects parameter 2 to be string, array given in /Applications/AMPPS/www/WrDKv2/_inc/common_inc.php on line 127
+[Sep-22-2016 10:24:12] Undefined index:  in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1432
+[Sep-22-2016 10:24:34] Undefined index:  in /Applications/AMPPS/www/WrDKv2/characters/profileA.php on line 1417
+[Sep-22-2016 10:24:51] mysqli_real_escape_string() expects parameter 2 to be string, array given in /Applications/AMPPS/www/WrDKv2/_inc/common_inc.php on line 127
+[Sep-22-2016 10:24:53] Undefined index:  in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1435
+[Sep-22-2016 10:25:28] Undefined index:  in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1435
+[Sep-22-2016 10:26:19] Undefined index:  in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1438
+[Sep-22-2016 10:26:33] Undefined index:  in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1438
+[Sep-22-2016 10:29:59] Undefined index:  in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1440
+[Sep-22-2016 10:37:36] mysqli_real_escape_string() expects parameter 2 to be string, array given in /Applications/AMPPS/www/WrDKv2/_inc/common_inc.php on line 127
+[Sep-22-2016 11:10:10] Undefined variable: myReturn in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1399
+[Sep-22-2016 11:10:10] Invalid argument supplied for foreach() in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1404
+[Sep-22-2016 11:10:21] Invalid argument supplied for foreach() in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1404
+[Sep-22-2016 11:11:04] Invalid argument supplied for foreach() in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1404
+[Sep-22-2016 11:11:14] Invalid argument supplied for foreach() in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1404
+[Sep-22-2016 11:11:27] Invalid argument supplied for foreach() in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1404
+[Sep-22-2016 11:12:48] Invalid argument supplied for foreach() in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1404
+[Sep-22-2016 11:26:41] Invalid argument supplied for foreach() in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1415
+[Sep-22-2016 12:04:50] Undefined offset: 0 in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1421
+[Sep-22-2016 12:05:41] Undefined offset: 0 in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1421
+[Sep-22-2016 12:10:05] Undefined offset: 0 in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1410
+[Sep-22-2016 12:10:13] Undefined offset: 0 in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1399
+[Sep-22-2016 12:15:34] Undefined variable: myName in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1380
+[Sep-22-2016 12:16:53] Undefined offset: 2 in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1392
+[Sep-22-2016 12:21:17] Undefined variable: itemKey in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1383
+[Sep-22-2016 13:31:41] Undefined variable: myUnknown in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1381
+[Sep-22-2016 13:34:55] Undefined variable: myChek in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1368
+[Sep-22-2016 13:34:55] Undefined variable: myChek in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1374
+[Sep-22-2016 13:35:51] Array to string conversion in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1374
+[Sep-22-2016 13:36:20] Array to string conversion in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1375
+[Sep-22-2016 13:56:19] Undefined variable: <a href="http://localhost/WrDKv2//library/powers.php?CodeName=Iron Heart&CharID=59" target="_blank" >select powers in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1373
+[Sep-22-2016 14:03:23] Undefined variable: count in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1331
+[Sep-22-2016 14:03:23] Undefined variable: count in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1331
+[Sep-22-2016 14:03:23] Undefined variable: count in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1331
+[Sep-22-2016 14:03:23] Undefined variable: count in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1331
+[Sep-22-2016 14:03:23] Undefined variable: count in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1331
+[Sep-22-2016 14:03:23] Undefined variable: count in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1331
+[Sep-22-2016 14:03:23] Undefined variable: count in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1331
+[Sep-22-2016 14:03:23] Undefined variable: count in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1331
+[Sep-22-2016 14:03:23] Undefined variable: count in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1331
+[Sep-22-2016 14:03:23] Undefined variable: count in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1331
+[Sep-22-2016 14:06:49] Array to string conversion in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1384
+[Sep-22-2016 14:08:59] Array to string conversion in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1384
+[Sep-22-2016 14:08:59] Array to string conversion in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1394
+[Sep-22-2016 14:08:59] Array to string conversion in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1394
+[Sep-22-2016 14:08:59] Array to string conversion in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1394
+[Sep-22-2016 14:09:06] Array to string conversion in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1394
+[Sep-22-2016 14:09:06] Array to string conversion in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1394
+[Sep-22-2016 14:09:06] Array to string conversion in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1394
+[Sep-22-2016 14:10:21] in_array() expects parameter 2 to be array, string given in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1392
+[Sep-22-2016 14:10:21] in_array() expects parameter 2 to be array, string given in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1392
+[Sep-22-2016 14:10:21] in_array() expects parameter 2 to be array, string given in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1392
+[Sep-22-2016 14:10:21] in_array() expects parameter 2 to be array, string given in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1392
+[Sep-22-2016 14:10:21] in_array() expects parameter 2 to be array, string given in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1392
+[Sep-22-2016 14:10:21] in_array() expects parameter 2 to be array, string given in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1392
+[Sep-22-2016 14:10:21] in_array() expects parameter 2 to be array, string given in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1392
+[Sep-22-2016 14:10:21] in_array() expects parameter 2 to be array, string given in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1392
+[Sep-22-2016 14:10:21] in_array() expects parameter 2 to be array, string given in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1392
+[Sep-22-2016 14:10:21] in_array() expects parameter 2 to be array, string given in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1392
+[Sep-22-2016 14:10:53] Array to string conversion in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1384
+[Sep-22-2016 15:00:15] Illegal string offset 'body armor (artificial)' in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1377
+[Sep-22-2016 15:00:15] Illegal string offset 'resistance (emotion attacks)' in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1377
+[Sep-22-2016 15:00:15] Illegal string offset 'resistance (physical attack)' in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1377
+[Sep-22-2016 15:00:15] Illegal string offset 'resistance (Vampirism)' in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1377
+[Sep-22-2016 15:00:52] Illegal string offset 'body armor (artificial)' in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1380
+[Sep-22-2016 15:00:52] Illegal string offset 'resistance (emotion attacks)' in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1380
+[Sep-22-2016 15:00:52] Illegal string offset 'resistance (physical attack)' in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1380
+[Sep-22-2016 15:00:52] Illegal string offset 'resistance (Vampirism)' in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1380
+[Sep-22-2016 15:03:52] Illegal string offset 'body armor (artificial)' in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1380
+[Sep-22-2016 15:03:52] Illegal string offset 'resistance (emotion attacks)' in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1380
+[Sep-22-2016 15:03:52] Illegal string offset 'resistance (physical attack)' in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1380
+[Sep-22-2016 15:03:52] Illegal string offset 'resistance (Vampirism)' in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1380
+[Sep-22-2016 15:20:17] Undefined variable: keys in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1361
+[Sep-22-2016 15:20:17] Undefined index:  in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1379
+[Sep-22-2016 15:24:35] Undefined variable: pieces in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1375
+[Sep-22-2016 15:24:35] Invalid argument supplied for foreach() in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1375
+[Sep-22-2016 15:35:26] Undefined variable: myStr in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1375
+[Sep-22-2016 16:10:05] str_replace() expects at least 3 parameters, 2 given in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1389
+[Sep-22-2016 16:10:05] str_replace() expects at least 3 parameters, 2 given in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1389
+[Sep-22-2016 16:10:05] str_replace() expects at least 3 parameters, 2 given in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1389
+[Sep-22-2016 16:10:05] str_replace() expects at least 3 parameters, 2 given in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1389
+[Sep-22-2016 18:50:41] Undefined index: PowerDesc in /Applications/AMPPS/www/WrDKv2/characters/profileUpdate.php on line 174
+[Sep-22-2016 18:51:37] Undefined index: PowerDesc in /Applications/AMPPS/www/WrDKv2/characters/profileUpdate.php on line 174
+[Sep-22-2016 18:53:02] Undefined index: PowerDesc in /Applications/AMPPS/www/WrDKv2/characters/profileUpdate.php on line 39
+[Sep-22-2016 18:56:38] Undefined variable: name in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1364
+[Sep-22-2016 18:56:38] Undefined variable: name in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1364
+[Sep-22-2016 18:56:38] Undefined variable: name in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1364
+[Sep-22-2016 18:56:38] Undefined variable: name in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1364
+[Sep-22-2016 18:58:13] strip_tags() expects parameter 1 to be string, array given in /Applications/AMPPS/www/WrDKv2/characters/profileUpdate.php on line 175
+[Sep-22-2016 19:00:20] You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's rank.  can reduce The effectiveness of the vampire's attack by deducting   Pow' at line 70 in /Applications/AMPPS/www/WrDKv2/characters/profileUpdate.php on line 454
+[Sep-22-2016 19:02:21] strip_tags() expects parameter 1 to be string, array given in /Applications/AMPPS/www/WrDKv2/characters/profileUpdate.php on line 175
+[Sep-22-2016 19:02:45] strip_tags() expects parameter 1 to be string, array given in /Applications/AMPPS/www/WrDKv2/characters/profileUpdate.php on line 175
+[Sep-22-2016 19:03:40] mysqli_real_escape_string() expects parameter 2 to be string, array given in /Applications/AMPPS/www/WrDKv2/_inc/common_inc.php on line 127
+[Sep-22-2016 19:04:26] You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's Power rank determines its durability and ability to resist/reduce damage., has' at line 70 in /Applications/AMPPS/www/WrDKv2/characters/profileUpdate.php on line 455
+[Sep-22-2016 19:08:11] You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's Power rank determines its durability and ability to resist/reduce damage.+++ h' at line 70 in /Applications/AMPPS/www/WrDKv2/characters/profileUpdate.php on line 455
+[Sep-22-2016 19:09:06] Array to string conversion in /Applications/AMPPS/www/WrDKv2/characters/profileUpdate.php on line 452
+[Sep-22-2016 19:12:53] Undefined index: CharID in /Applications/AMPPS/www/WrDKv2/characters/profileUpdate.php on line 76
+[Sep-22-2016 19:12:53] Undefined variable: CodeName in /Applications/AMPPS/www/WrDKv2/characters/profileUpdate.php on line 70
+[Sep-22-2016 19:12:53] Undefined variable: CharID in /Applications/AMPPS/www/WrDKv2/characters/profileUpdate.php on line 70
+[Sep-22-2016 19:13:11] Undefined property: stdClass::$adminDashboard in /Applications/AMPPS/www/WrDKv2/users/validateUser.php on line 99
+[Sep-22-2016 19:13:15] Undefined index: CharID in /Applications/AMPPS/www/WrDKv2/characters/profileUpdate.php on line 76
+[Sep-22-2016 19:13:15] Undefined variable: CodeName in /Applications/AMPPS/www/WrDKv2/characters/profileUpdate.php on line 70
+[Sep-22-2016 19:13:15] Undefined variable: CharID in /Applications/AMPPS/www/WrDKv2/characters/profileUpdate.php on line 70
+[Sep-22-2016 19:13:15] Undefined index: CharID in /Applications/AMPPS/www/WrDKv2/characters/profileUpdate.php on line 76
+[Sep-22-2016 19:13:15] Undefined variable: CodeName in /Applications/AMPPS/www/WrDKv2/characters/profileUpdate.php on line 70
+[Sep-22-2016 19:13:15] Undefined variable: CharID in /Applications/AMPPS/www/WrDKv2/characters/profileUpdate.php on line 70
+[Sep-22-2016 19:23:54] Undefined variable: val in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1367
+[Sep-22-2016 19:23:54] Undefined variable: val in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1367
+[Sep-22-2016 19:23:54] Undefined variable: val in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1367
+[Sep-22-2016 19:23:54] Undefined variable: val in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1367
+[Sep-22-2016 19:31:50] You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's Power rank determines its durability and ability to resist/reduce damage. --++' at line 70 in /Applications/AMPPS/www/WrDKv2/characters/profileUpdate.php on line 459
+[Sep-22-2016 19:33:57] You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's Power rank determines its durability and ability to resist/reduce damage. --++' at line 70 in /Applications/AMPPS/www/WrDKv2/characters/profileUpdate.php on line 461
+[Sep-22-2016 19:34:19] You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's Power rank determines its durability and ability to resist/reduce damage. ----' at line 70 in /Applications/AMPPS/www/WrDKv2/characters/profileUpdate.php on line 461
+[Sep-22-2016 19:35:25] You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's Power rank determines its durability and ability to resist/reduce damage. ----' at line 70 in /Applications/AMPPS/www/WrDKv2/characters/profileUpdate.php on line 461
+[Sep-22-2016 19:44:42] Undefined variable: catName in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1350
+[Sep-22-2016 19:44:42] Undefined variable: descName in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1350
+[Sep-22-2016 19:45:38] Undefined variable: descName in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1351
+[Sep-22-2016 20:03:54] You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's Power rank determines its durability and ability to resist/reduce damage. ----' at line 70 in /Applications/AMPPS/www/WrDKv2/characters/profileUpdate.php on line 461
+[Sep-22-2016 20:04:22] Undefined variable: dumpDie in /Applications/AMPPS/www/WrDKv2/characters/profileUpdate.php on line 177
+[Sep-22-2016 20:11:21] You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's Power rank determines its durability and ability to resist/reduce damage. ----' at line 70 in /Applications/AMPPS/www/WrDKv2/characters/profileUpdate.php on line 461

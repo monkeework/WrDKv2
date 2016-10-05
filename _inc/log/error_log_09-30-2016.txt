@@ -1,0 +1,37 @@
+[Sep-30-2016 7:50:11] Undefined index: Privilege in /Applications/AMPPS/www/WrDKv2/_inc/custom_inc.php on line 37
+[Sep-30-2016 7:50:31] Undefined property: stdClass::$adminDashboard in /Applications/AMPPS/www/WrDKv2/users/validateUser.php on line 100
+[Sep-30-2016 11:54:50] Unknown column 'defensive' in 'where clause' in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1389
+[Sep-30-2016 12:03:01] You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '== `defensive`' at line 1 in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1389
+[Sep-30-2016 12:05:02] You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`defensive`' at line 1 in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1389
+[Sep-30-2016 12:06:38] You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`defensive`' at line 1 in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1389
+[Sep-30-2016 12:07:28] You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''defensive'' at line 1 in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1389
+[Sep-30-2016 12:07:56] You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''combat'' at line 1 in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1389
+[Sep-30-2016 12:08:24] You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''combat'' at line 1 in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1389
+[Sep-30-2016 12:08:45] Unknown column 'combat' in 'where clause' in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1389
+[Sep-30-2016 12:08:55] You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '==combat' at line 1 in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1389
+[Sep-30-2016 12:09:24] Undefined variable: powResult in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1390
+[Sep-30-2016 12:09:24] mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1390
+[Sep-30-2016 12:10:06] Undefined variable: powResult in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1391
+[Sep-30-2016 12:10:06] mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1391
+[Sep-30-2016 12:12:02] You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '=='combat'' at line 1 in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1389
+[Sep-30-2016 12:12:37] Undefined variable: powResult in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1390
+[Sep-30-2016 12:12:37] mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1390
+[Sep-30-2016 12:24:21] Undefined index: CharID in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1398
+[Sep-30-2016 12:24:21] Undefined index: PlayerName in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1399
+[Sep-30-2016 12:24:21] Undefined index: CharID in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1398
+[Sep-30-2016 12:24:21] Undefined index: PlayerName in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1399
+[Sep-30-2016 12:24:21] Undefined index: CharID in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1398
+[Sep-30-2016 12:24:21] Undefined index: PlayerName in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1399
+[Sep-30-2016 12:24:21] Undefined index: CharID in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1398
+[Sep-30-2016 12:24:21] Undefined index: PlayerName in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1399
+[Sep-30-2016 12:24:21] Undefined index: CharID in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1398
+[Sep-30-2016 12:24:21] Undefined index: PlayerName in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1399
+[Sep-30-2016 12:24:21] Undefined index: CharID in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1398
+[Sep-30-2016 12:24:21] Undefined index: PlayerName in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1399
+[Sep-30-2016 15:10:05] Undefined variable: urlTitle in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1420
+[Sep-30-2016 15:10:05] Undefined variable: str in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1423
+[Sep-30-2016 15:10:05] Undefined variable: myValue in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1425
+[Sep-30-2016 15:10:05] Undefined variable: myArr in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1428
+[Sep-30-2016 15:10:05] Invalid argument supplied for foreach() in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1428
+[Sep-30-2016 15:10:05] mysqli_free_result(): Couldn't fetch mysqli_result in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1440
+[Sep-30-2016 16:13:41] Array to string conversion in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1396

@@ -1,0 +1,120 @@
+[Oct-04-2016 8:52:27] Undefined variable: kTitle in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1548
+[Oct-04-2016 8:52:27] Undefined index:  in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1548
+[Oct-04-2016 8:52:27] Undefined variable: kTitle in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1548
+[Oct-04-2016 8:52:27] Undefined index:  in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1548
+[Oct-04-2016 8:52:27] Undefined variable: kTitle in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1548
+[Oct-04-2016 8:52:27] Undefined index:  in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1548
+[Oct-04-2016 8:52:27] Undefined variable: kTitle in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1548
+[Oct-04-2016 8:52:27] Undefined index:  in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1548
+[Oct-04-2016 8:52:27] Undefined variable: kTitle in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1548
+[Oct-04-2016 8:52:27] Undefined index:  in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1548
+[Oct-04-2016 9:24:26] Undefined index: Privilege in /Applications/AMPPS/www/WrDKv2/_inc/custom_inc.php on line 37
+[Oct-04-2016 9:31:25] Undefined property: stdClass::$adminDashboard in /Applications/AMPPS/www/WrDKv2/users/validateUser.php on line 100
+[Oct-04-2016 10:08:33] Undefined variable: powName in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1447
+[Oct-04-2016 10:08:33] Undefined variable: powName in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1447
+[Oct-04-2016 10:08:33] Undefined variable: powName in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1447
+[Oct-04-2016 10:08:33] Undefined variable: powName in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1447
+[Oct-04-2016 10:08:33] Undefined variable: powName in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1447
+[Oct-04-2016 10:08:33] Undefined variable: powName in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1447
+[Oct-04-2016 10:08:33] Undefined variable: powName in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1447
+[Oct-04-2016 10:08:33] Undefined variable: powName in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1447
+[Oct-04-2016 10:08:33] Undefined variable: powName in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1447
+[Oct-04-2016 10:08:33] Undefined variable: powName in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1447
+[Oct-04-2016 10:08:33] Undefined variable: powName in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1447
+[Oct-04-2016 10:08:33] Undefined variable: powName in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1447
+[Oct-04-2016 10:08:33] Undefined variable: powName in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1447
+[Oct-04-2016 10:08:33] Undefined variable: powName in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1447
+[Oct-04-2016 10:08:33] Undefined variable: powName in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1447
+[Oct-04-2016 10:08:33] Undefined variable: powName in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1447
+[Oct-04-2016 10:10:29] Undefined index: PowerDesc in /Applications/AMPPS/www/WrDKv2/characters/profileUpdate.php on line 208
+[Oct-04-2016 10:10:29] implode(): Invalid arguments passed in /Applications/AMPPS/www/WrDKv2/characters/profileUpdate.php on line 208
+[Oct-04-2016 10:33:02] Undefined index: PowerDesc in /Applications/AMPPS/www/WrDKv2/characters/profileUpdate.php on line 208
+[Oct-04-2016 10:33:02] implode(): Invalid arguments passed in /Applications/AMPPS/www/WrDKv2/characters/profileUpdate.php on line 208
+[Oct-04-2016 10:43:07] Undefined index: Privilege in /Applications/AMPPS/www/WrDKv2/_inc/custom_inc.php on line 37
+[Oct-04-2016 10:45:40] Undefined index: PowerDesc in /Applications/AMPPS/www/WrDKv2/characters/profileUpdate.php on line 208
+[Oct-04-2016 10:45:40] implode(): Invalid arguments passed in /Applications/AMPPS/www/WrDKv2/characters/profileUpdate.php on line 208
+[Oct-04-2016 11:22:12] Undefined index: PowerDesc in /Applications/AMPPS/www/WrDKv2/characters/profileUpdate.php on line 208
+[Oct-04-2016 11:22:12] implode(): Invalid arguments passed in /Applications/AMPPS/www/WrDKv2/characters/profileUpdate.php on line 208
+[Oct-04-2016 12:13:26] Undefined index: PowerDesc in /Applications/AMPPS/www/WrDKv2/characters/profileUpdate.php on line 208
+[Oct-04-2016 12:13:26] implode(): Invalid arguments passed in /Applications/AMPPS/www/WrDKv2/characters/profileUpdate.php on line 208
+[Oct-04-2016 13:24:26] Undefined index: name in /Applications/AMPPS/www/WrDKv2/contact/index.php on line 310
+[Oct-04-2016 13:24:26] Undefined variable: errName in /Applications/AMPPS/www/WrDKv2/contact/index.php on line 311
+[Oct-04-2016 13:24:26] Undefined index: email in /Applications/AMPPS/www/WrDKv2/contact/index.php on line 317
+[Oct-04-2016 13:24:26] Undefined variable: errEmail in /Applications/AMPPS/www/WrDKv2/contact/index.php on line 318
+[Oct-04-2016 13:24:26] Undefined index: message in /Applications/AMPPS/www/WrDKv2/contact/index.php on line 324
+[Oct-04-2016 13:24:26] Undefined variable: errMessage in /Applications/AMPPS/www/WrDKv2/contact/index.php on line 325
+[Oct-04-2016 13:24:26] Undefined variable: urlPointer in /Applications/AMPPS/www/WrDKv2/contact/index.php on line 494
+[Oct-04-2016 13:24:26] Undefined variable: urlPointer in /Applications/AMPPS/www/WrDKv2/contact/index.php on line 496
+[Oct-04-2016 14:02:26] Undefined index: name in /Applications/AMPPS/www/WrDKv2/contact/index.php on line 310
+[Oct-04-2016 14:02:26] Undefined variable: errName in /Applications/AMPPS/www/WrDKv2/contact/index.php on line 311
+[Oct-04-2016 14:02:26] Undefined index: email in /Applications/AMPPS/www/WrDKv2/contact/index.php on line 317
+[Oct-04-2016 14:02:26] Undefined variable: errEmail in /Applications/AMPPS/www/WrDKv2/contact/index.php on line 318
+[Oct-04-2016 14:02:26] Undefined index: message in /Applications/AMPPS/www/WrDKv2/contact/index.php on line 324
+[Oct-04-2016 14:02:26] Undefined variable: errMessage in /Applications/AMPPS/www/WrDKv2/contact/index.php on line 325
+[Oct-04-2016 14:02:26] Undefined variable: urlPointer in /Applications/AMPPS/www/WrDKv2/contact/index.php on line 494
+[Oct-04-2016 14:02:26] Undefined variable: urlPointer in /Applications/AMPPS/www/WrDKv2/contact/index.php on line 496
+[Oct-04-2016 14:08:48] Constant PRIV_DEVELOPER already defined in /Applications/AMPPS/www/WrDKv2/_inc/arrays-inc.php on line 82
+[Oct-04-2016 14:08:48] Constant PRIV_DEVELOPER already defined in /Applications/AMPPS/www/WrDKv2/_inc/arrays-inc.php on line 82
+[Oct-04-2016 14:08:48] Constant PRIV_DEVELOPER already defined in /Applications/AMPPS/www/WrDKv2/_inc/arrays-inc.php on line 82
+[Oct-04-2016 14:08:48] Constant PRIV_DEVELOPER already defined in /Applications/AMPPS/www/WrDKv2/_inc/arrays-inc.php on line 82
+[Oct-04-2016 14:08:48] Constant PRIV_DEVELOPER already defined in /Applications/AMPPS/www/WrDKv2/_inc/arrays-inc.php on line 82
+[Oct-04-2016 14:08:48] Constant PRIV_DEVELOPER already defined in /Applications/AMPPS/www/WrDKv2/_inc/arrays-inc.php on line 82
+[Oct-04-2016 14:08:48] Constant PRIV_DEVELOPER already defined in /Applications/AMPPS/www/WrDKv2/_inc/arrays-inc.php on line 82
+[Oct-04-2016 14:08:48] Constant PRIV_DEVELOPER already defined in /Applications/AMPPS/www/WrDKv2/_inc/arrays-inc.php on line 82
+[Oct-04-2016 14:08:48] Constant PRIV_DEVELOPER already defined in /Applications/AMPPS/www/WrDKv2/_inc/arrays-inc.php on line 82
+[Oct-04-2016 14:08:48] Constant PRIV_DEVELOPER already defined in /Applications/AMPPS/www/WrDKv2/_inc/arrays-inc.php on line 82
+[Oct-04-2016 14:08:48] Constant PRIV_DEVELOPER already defined in /Applications/AMPPS/www/WrDKv2/_inc/arrays-inc.php on line 82
+[Oct-04-2016 14:08:48] Constant PRIV_DEVELOPER already defined in /Applications/AMPPS/www/WrDKv2/_inc/arrays-inc.php on line 82
+[Oct-04-2016 14:08:48] Constant PRIV_DEVELOPER already defined in /Applications/AMPPS/www/WrDKv2/_inc/arrays-inc.php on line 82
+[Oct-04-2016 14:08:48] Constant PRIV_DEVELOPER already defined in /Applications/AMPPS/www/WrDKv2/_inc/arrays-inc.php on line 82
+[Oct-04-2016 14:08:48] Constant PRIV_DEVELOPER already defined in /Applications/AMPPS/www/WrDKv2/_inc/arrays-inc.php on line 82
+[Oct-04-2016 14:08:48] Constant PRIV_DEVELOPER already defined in /Applications/AMPPS/www/WrDKv2/_inc/arrays-inc.php on line 82
+[Oct-04-2016 14:08:48] Constant PRIV_DEVELOPER already defined in /Applications/AMPPS/www/WrDKv2/_inc/arrays-inc.php on line 82
+[Oct-04-2016 14:08:48] Constant PRIV_DEVELOPER already defined in /Applications/AMPPS/www/WrDKv2/_inc/arrays-inc.php on line 82
+[Oct-04-2016 14:08:48] Constant PRIV_DEVELOPER already defined in /Applications/AMPPS/www/WrDKv2/_inc/arrays-inc.php on line 82
+[Oct-04-2016 14:08:48] Constant PRIV_DEVELOPER already defined in /Applications/AMPPS/www/WrDKv2/_inc/arrays-inc.php on line 82
+[Oct-04-2016 14:08:48] Constant PRIV_DEVELOPER already defined in /Applications/AMPPS/www/WrDKv2/_inc/arrays-inc.php on line 82
+[Oct-04-2016 14:08:48] Constant PRIV_DEVELOPER already defined in /Applications/AMPPS/www/WrDKv2/_inc/arrays-inc.php on line 82
+[Oct-04-2016 14:08:48] Constant PRIV_DEVELOPER already defined in /Applications/AMPPS/www/WrDKv2/_inc/arrays-inc.php on line 82
+[Oct-04-2016 14:08:48] Constant PRIV_DEVELOPER already defined in /Applications/AMPPS/www/WrDKv2/_inc/arrays-inc.php on line 82
+[Oct-04-2016 14:12:41] Use of undefined constant PRIV_DEVELOPER - assumed 'PRIV_DEVELOPER' in /Applications/AMPPS/www/WrDKv2/_inc/arrays-inc.php on line 96
+[Oct-04-2016 14:12:41] Use of undefined constant PRIV_DEVELOPER - assumed 'PRIV_DEVELOPER' in /Applications/AMPPS/www/WrDKv2/_inc/arrays-inc.php on line 96
+[Oct-04-2016 14:12:41] Use of undefined constant PRIV_DEVELOPER - assumed 'PRIV_DEVELOPER' in /Applications/AMPPS/www/WrDKv2/_inc/arrays-inc.php on line 96
+[Oct-04-2016 14:12:41] Use of undefined constant PRIV_DEVELOPER - assumed 'PRIV_DEVELOPER' in /Applications/AMPPS/www/WrDKv2/_inc/arrays-inc.php on line 96
+[Oct-04-2016 14:12:41] Use of undefined constant PRIV_DEVELOPER - assumed 'PRIV_DEVELOPER' in /Applications/AMPPS/www/WrDKv2/_inc/arrays-inc.php on line 96
+[Oct-04-2016 14:12:41] Use of undefined constant PRIV_DEVELOPER - assumed 'PRIV_DEVELOPER' in /Applications/AMPPS/www/WrDKv2/_inc/arrays-inc.php on line 96
+[Oct-04-2016 14:12:41] Use of undefined constant PRIV_DEVELOPER - assumed 'PRIV_DEVELOPER' in /Applications/AMPPS/www/WrDKv2/_inc/arrays-inc.php on line 96
+[Oct-04-2016 14:12:41] Use of undefined constant PRIV_DEVELOPER - assumed 'PRIV_DEVELOPER' in /Applications/AMPPS/www/WrDKv2/_inc/arrays-inc.php on line 96
+[Oct-04-2016 14:12:41] Use of undefined constant PRIV_DEVELOPER - assumed 'PRIV_DEVELOPER' in /Applications/AMPPS/www/WrDKv2/_inc/arrays-inc.php on line 96
+[Oct-04-2016 14:12:41] Use of undefined constant PRIV_DEVELOPER - assumed 'PRIV_DEVELOPER' in /Applications/AMPPS/www/WrDKv2/_inc/arrays-inc.php on line 96
+[Oct-04-2016 14:12:41] Use of undefined constant PRIV_DEVELOPER - assumed 'PRIV_DEVELOPER' in /Applications/AMPPS/www/WrDKv2/_inc/arrays-inc.php on line 96
+[Oct-04-2016 14:12:41] Use of undefined constant PRIV_DEVELOPER - assumed 'PRIV_DEVELOPER' in /Applications/AMPPS/www/WrDKv2/_inc/arrays-inc.php on line 96
+[Oct-04-2016 14:12:41] Use of undefined constant PRIV_DEVELOPER - assumed 'PRIV_DEVELOPER' in /Applications/AMPPS/www/WrDKv2/_inc/arrays-inc.php on line 96
+[Oct-04-2016 14:12:41] Use of undefined constant PRIV_DEVELOPER - assumed 'PRIV_DEVELOPER' in /Applications/AMPPS/www/WrDKv2/_inc/arrays-inc.php on line 96
+[Oct-04-2016 14:12:41] Use of undefined constant PRIV_DEVELOPER - assumed 'PRIV_DEVELOPER' in /Applications/AMPPS/www/WrDKv2/_inc/arrays-inc.php on line 96
+[Oct-04-2016 14:12:41] Use of undefined constant PRIV_DEVELOPER - assumed 'PRIV_DEVELOPER' in /Applications/AMPPS/www/WrDKv2/_inc/arrays-inc.php on line 96
+[Oct-04-2016 14:12:41] Use of undefined constant PRIV_DEVELOPER - assumed 'PRIV_DEVELOPER' in /Applications/AMPPS/www/WrDKv2/_inc/arrays-inc.php on line 96
+[Oct-04-2016 14:12:41] Use of undefined constant PRIV_DEVELOPER - assumed 'PRIV_DEVELOPER' in /Applications/AMPPS/www/WrDKv2/_inc/arrays-inc.php on line 96
+[Oct-04-2016 14:12:41] Use of undefined constant PRIV_DEVELOPER - assumed 'PRIV_DEVELOPER' in /Applications/AMPPS/www/WrDKv2/_inc/arrays-inc.php on line 96
+[Oct-04-2016 14:12:41] Use of undefined constant PRIV_DEVELOPER - assumed 'PRIV_DEVELOPER' in /Applications/AMPPS/www/WrDKv2/_inc/arrays-inc.php on line 96
+[Oct-04-2016 14:12:41] Use of undefined constant PRIV_DEVELOPER - assumed 'PRIV_DEVELOPER' in /Applications/AMPPS/www/WrDKv2/_inc/arrays-inc.php on line 96
+[Oct-04-2016 14:12:41] Use of undefined constant PRIV_DEVELOPER - assumed 'PRIV_DEVELOPER' in /Applications/AMPPS/www/WrDKv2/_inc/arrays-inc.php on line 96
+[Oct-04-2016 14:12:41] Use of undefined constant PRIV_DEVELOPER - assumed 'PRIV_DEVELOPER' in /Applications/AMPPS/www/WrDKv2/_inc/arrays-inc.php on line 96
+[Oct-04-2016 14:12:41] Use of undefined constant PRIV_DEVELOPER - assumed 'PRIV_DEVELOPER' in /Applications/AMPPS/www/WrDKv2/_inc/arrays-inc.php on line 96
+[Oct-04-2016 14:12:41] Use of undefined constant PRIV_DEVELOPER - assumed 'PRIV_DEVELOPER' in /Applications/AMPPS/www/WrDKv2/_inc/arrays-inc.php on line 96
+[Oct-04-2016 14:14:49] Undefined index: PG13 in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1248
+[Oct-04-2016 14:18:12] Undefined index: Power in /Applications/AMPPS/www/WrDKv2/characters/profileUpdate.php on line 179
+[Oct-04-2016 14:18:12] implode(): Invalid arguments passed in /Applications/AMPPS/www/WrDKv2/characters/profileUpdate.php on line 179
+[Oct-04-2016 14:18:12] Undefined index: PowerDesc in /Applications/AMPPS/www/WrDKv2/characters/profileUpdate.php on line 208
+[Oct-04-2016 14:18:12] implode(): Invalid arguments passed in /Applications/AMPPS/www/WrDKv2/characters/profileUpdate.php on line 208
+[Oct-04-2016 14:18:12] Undefined index: PG in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1248
+[Oct-04-2016 14:19:15] Undefined index: PG in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1248
+[Oct-04-2016 14:26:10] Undefined variable: myArr in /Applications/AMPPS/www/WrDKv2/characters/profile.php on line 1248
+[Oct-04-2016 14:29:52] Undefined index: Power in /Applications/AMPPS/www/WrDKv2/characters/profileUpdate.php on line 179
+[Oct-04-2016 14:29:52] implode(): Invalid arguments passed in /Applications/AMPPS/www/WrDKv2/characters/profileUpdate.php on line 179
+[Oct-04-2016 14:29:52] Undefined index: PowerDesc in /Applications/AMPPS/www/WrDKv2/characters/profileUpdate.php on line 208
+[Oct-04-2016 14:29:52] implode(): Invalid arguments passed in /Applications/AMPPS/www/WrDKv2/characters/profileUpdate.php on line 208
+[Oct-04-2016 14:30:06] Undefined index: Power in /Applications/AMPPS/www/WrDKv2/characters/profileUpdate.php on line 179
+[Oct-04-2016 14:30:06] implode(): Invalid arguments passed in /Applications/AMPPS/www/WrDKv2/characters/profileUpdate.php on line 179
+[Oct-04-2016 14:30:06] Undefined index: PowerDesc in /Applications/AMPPS/www/WrDKv2/characters/profileUpdate.php on line 208
+[Oct-04-2016 14:30:06] implode(): Invalid arguments passed in /Applications/AMPPS/www/WrDKv2/characters/profileUpdate.php on line 208

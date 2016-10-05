@@ -1,5 +1,12 @@
 <?php
 
+function test_input($data) {
+	$data = trim($data);
+	$data = stripslashes($data);
+	$data = htmlspecialchars($data);
+	return $data;
+}
+
 function maxDoc_characters_profileUpdate(){
 	/**
 	 * character_edit.php, based on edit.php is a single page web application that allows us to select a character
@@ -36,11 +43,13 @@ require '../_inc/config_inc.php'; #configuration, pathing, error handling, db cr
 
 
 
+#dumpDie($_POST['PowerDesc']);
+
 
 //set access priv needed for this page by member
 		#chekPrivies(3); #mods+
 
-
+#dumpDie($_POST);
 
 
 
@@ -59,7 +68,6 @@ switch ($myAction)
 
 	case "update": //3) Change character's first name
 
-		#dumpDie($_POST);
 
 
 		update();
@@ -165,8 +173,85 @@ function update() {
 
 
 	#section 6 - abilities
-	$Power			    	= strip_tags(iformReq('Power', 						$iConn), '<a><b><br /><em><i><strong><u>');
-	$PowerDesc    		= strip_tags(iformReq('PowerDesc', 				$iConn), '<a><b><br /><em><i><strong><u>');
+
+	//store array here....
+	//$Power			    	= strip_tags(iformReq('Power', 						$iConn), '<a><b><br /><em><i><strong><u>');
+	$Power = implode(",", $_POST['Power']);
+
+	//$PowerDesc     		= strip_tags(iformReq('PowerDesc', 				$iConn), '<a><b><br /><em><i><strong><u>');
+	//$PowerDesc    		= strip_tags($_POST['PowerDesc']);
+
+	#dumpDie($_POST['PowerDesc']);
+	//$PowerDesc =  $_POST['PowerDesc'];
+	#$PowerDesc = implode("+++++", $PowerDesc);
+	#$PowerDesc =  serialize($_POST['PowerDesc']);
+
+/*
+$trimmed = array_map('trim', $_POST['PowerDesc']);
+$store_in_database = serialize($trimmed);
+
+$PowerDesc = $store_in_database;
+
+Ultimately, what we need to do deal with the array saving is:
+
+ generates a string representation of your object (in this case, an array).  It just so happens that your array contains elements that have single quotes.  Those aren't escaped with serialize.  So you need to call mysqli::escape_string() on the result of serialize() (or the PDO equivalent if that's what you're using).  Same goes for using implode or anything else.
+
+
+ #$PowerDesc =  serialize($_POST['PowerDesc']);
+
+ mysqli::escape_string()
+
+*/
+
+
+//$PowerDesc =  $_POST['PowerDesc'];
+$data = implode("+++++", $_POST['PowerDesc']);
+//$PowerDesc =  test_input($PowerDesc);
+
+$data = trim($data);
+$data = stripslashes($data);
+$data = htmlspecialchars($data);
+$data = str_replace("'","&lsquo;",$data);
+
+#var_dump($data);
+#dumpDie($data);
+
+
+$PowerDesc =  $data;
+#dumpDie($PowerDesc);
+
+
+
+
+
+
+
+
+
+//$PowerDesc =  test_input($_POST['PowerDesc']);
+//dumpDie($PowerDesc);
+
+
+#$PowerDesc = join(" ---- ", $_POST['PowerDesc']);
+
+#$PowerDesc     		= strip_tags(($PowerDesc), '<a><b><br /><em><i><strong><u>');
+
+
+//$PowerDesc = implode("+++++", $PowerDesc);
+
+//$PowerDesc = implode("+++++", $_POST['PowerDesc']);
+//$PowerDesc = htmlspecialchars($PowerDesc);
+
+//$PowerDesc = mysqli_rea($PowerDesc);
+
+//dumpDie($PowerDesc);
+
+//print_r($PowerDesc);
+//die;
+
+
+
+
 	$Aptitude     		= strip_tags(iformReq('Aptitude', 				$iConn), '<a><b><br /><em><i><strong><u>');
 	$Merit      			= strip_tags(iformReq('Merit', 						$iConn), '<a><b><br /><em><i><strong><u>');
 	$Flaw    					= strip_tags(iformReq('Flaw', 						$iConn), '<a><b><br /><em><i><strong><u>');

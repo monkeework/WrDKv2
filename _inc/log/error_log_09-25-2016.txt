@@ -1,0 +1,7 @@
+[Sep-25-2016 13:56:28] include(functions-themes.php): failed to open stream: No such file or directory in /Applications/AMPPS/www/WrDKv2/_themes/testBoard/header_inc.php on line 16
+[Sep-25-2016 13:56:28] include(): Failed opening 'functions-themes.php' for inclusion (include_path='.:') in /Applications/AMPPS/www/WrDKv2/_themes/testBoard/header_inc.php on line 16
+[Sep-25-2016 14:09:18] Undefined index: UserID in /Applications/AMPPS/www/WrDKv2/users/dashboard.php on line 27
+[Sep-25-2016 14:09:18] Undefined index: UserName in /Applications/AMPPS/www/WrDKv2/users/dashboard.php on line 28
+[Sep-25-2016 14:09:18] Undefined index: Privilege in /Applications/AMPPS/www/WrDKv2/users/dashboard.php on line 29
+[Sep-25-2016 14:09:18] Undefined index: Privilege in /Applications/AMPPS/www/WrDKv2/_inc/custom_inc.php on line 37
+[Sep-25-2016 14:09:48] Undefined property: stdClass::$adminDashboard in /Applications/AMPPS/www/WrDKv2/users/validateUser.php on line 99

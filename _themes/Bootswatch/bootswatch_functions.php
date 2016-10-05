@@ -328,11 +328,6 @@ $compMenu .= '</ul>
 <!-- END THREADS dropdown -->
 
 
-<!-- BEGIN MODAL -->
-<li><a href="#" data-toggle="modal" data-target="#myModal">MODAL</a></li>
-<!-- END MODAL dropdown -->
-
-
 <!-- BEGIN LIBRARY dropdown -->
 
 <li class="dropdown ' . myTab('library') . '">
@@ -373,7 +368,10 @@ $compMenu .= '</ul>
 <!-- END LIBRARY dropdown -->
 
 
-<li><a href="' . VIRTUAL_PATH . 'contact.php" class="nav-item">Contact</a></li>';
+<!-- BEGIN MODAL -->
+<!-- SEE bootstwatch_functions / footer_inc      -->
+<li><a href="#" data-toggle="modal" data-target="#modalContact">Contact</a></li>
+<!-- END MODAL dropdown -->';
 
 
 if(startSession() && isset($_SESSION['UserID']) && ($_SESSION['UserID'])==1){

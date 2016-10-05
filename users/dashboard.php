@@ -31,7 +31,6 @@ $uPriv = $_SESSION['Privilege'];
 
 $pageDeets = '<ol>
 	<li> Updgrade dashboard sidebar with collapsible navs </li>
-	<li> user tab - show their chracters for super quick access</li>
 	<li> mod tabs - if something in tab needs action hightlight</li>
 	<li> if post or character ready for review list in the side tab</li>
 

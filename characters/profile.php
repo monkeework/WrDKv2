@@ -1,6 +1,7 @@
 <?php // maps currently too profile-rdSTAT.php
 
 require '../_inc/config_inc.php';
+include INCLUDE_PATH . 'aarCharPower-inc.php';
 
 $config->loadhead = ''; #load page specific JS
 
@@ -28,8 +29,8 @@ function maxDoc_characters_profile(){
 }
 
 $pageDeets = '<ol>
-	<li> Review the upload image with Andrew :: compare and review.</li>
 	<li> Add word counters for limited text areas</li>
+	<li> unique skill/power not in list</i>
 	<li> -thumbnail will display most current character mood /post association?</li>
 	<li> REWORK weight - in pounds, convert to tons</li>
 
@@ -37,7 +38,6 @@ $pageDeets = '<ol>
 
 	<!--
 		<ul>
-			<li> m2 - extended layout?</li>
 			<li> m2 - notifications-mail</li>
 			<li> m2 - character posting styles</li>
 			<li> m2 - Classes/PDO</li>
@@ -259,19 +259,20 @@ if($foundRecord){#only load data if record found
 	#$config->metaKeywords = $MetaKeywords . ',Muffins,PHP,Fun,Bran,Regular,Regular Expressions,'. $config->metaKeywords;
 }
 
-$config->metaDescription = 'Marvel Adventures Character Profile for ' . $CodeName; #Fills <meta> tags.
+$config->metaDescription = 'Marvel Champions Character Profile for ' . $CodeName; #Fills <meta> tags.
 $config->metaKeywords = $CodeName . ', ' . $FirstName . ' ' . $LastName . ', ' . $config->metaKeywords;
 
 # END CONFIG AREA ---------------------------------------
 
 get_header(); #defaults to theme header or header_inc.php
 
-echo MaxNotes($pageDeets); #notes to me!
+echo MaxNotes($pageDeets); #set in theme
 
-# Read 'act' value, if it is passed via $_POST or $_GET with $_REQUEST
+
+// Incase act is somehow unset, send user back to view (shoW)
+if(!isset($_REQUEST['act'])){$_REQUEST = ['act'=> 'show'];}
+// Read 'act' value, if it is passed via $_POST or $_GET with $_REQUEST
 if(isset($_REQUEST['act'])){$myAction = (trim($_REQUEST['act']));}else{$myAction = "";}
-
-#notes to self
 
 
 //Get header element after myAction processed to determine if we show button or not.
@@ -422,10 +423,11 @@ switch ($myAction)
 
 		#Abilities
 		if( !empty($Classification) || !empty($PowerSource) ||!empty($RankPower) ||
-			!empty($RankFighting) || !empty($RankAgility) ||!empty($RankStrength) || !empty($RankEndurance) || !empty($RankReason) ||!empty($RankIntuition) || !empty($RankPsyche) ||
-			!empty($RankExpertise) ||!empty($RankAsset) ||
-			!empty($SkillLevel) || !empty($PowerDesc) ||
-			!empty($Aptitude) || !empty($Merit) || !empty($Flaw)
+			!empty($RankFighting) || !empty($RankAgility) ||!empty($RankStrength) ||
+			!empty($RankEndurance) || !empty($RankReason) ||!empty($RankIntuition) ||
+			!empty($RankPsyche) || !empty($RankExpertise) ||!empty($RankAsset) ||
+			!empty($SkillLevel) || !empty($PowerDesc) || !empty($Aptitude) ||
+			!empty($Merit) || !empty($Flaw)
 		){
 			echo charLabel('abilities');
 
@@ -520,6 +522,8 @@ break; #END SHOW
 				. '/library/index.php?CodeName='
 				. $CodeName . '&CharID='
 				. $CharID . '&' ;
+
+			$pathLibPowers = 'library/powers.php';
 
 
 			echo '<style> form div.row {margin-bottom: 5px;} </style>';
@@ -806,6 +810,7 @@ break; #END SHOW
 			echo makeDropDown('education', 'Education', $aarEducation, $Education);
 			echo makeDropDown('Character Class', 'Classification', $aarClassification, $Classification);
 
+
 			#section 5 - abilities
 			echo charLabel('power ranks'); #Abilities
 #http://www.menucool.com/tooltip/javascript-tooltip
@@ -827,9 +832,78 @@ break; #END SHOW
 			#section 6 - abilities
 			echo charLabel('abilities');
 
-			echo makeInput($pathLibraryPowers . '  powers</a>', $Power, 'Power');
 
-			echo makeInput($pathLibraryPowers . '  power descriptions</a>', $PowerDesc, 'PowerDesc');
+#($urlTitle ='', $myName ='', $catID ='', $myValue ='' )
+			echo mkTraitCk($pathLibraryPowers,     'Power', 'combat', $Power);
+			echo mkTraitSet($pathLibPowers, $CodeName, $CharID, $Gender, 'combat', $Power, 'PowerDesc', $PowerDesc);
+
+			echo mkTraitCk($pathLibraryPowers,	'Power', 								 'defensive', $Power);
+			echo mkTraitSet($pathLibPowers, $CodeName, $CharID, $Gender, 'defensive', $Power, 'PowerDesc', $PowerDesc);
+
+			echo mkTraitCk($pathLibraryPowers,	'Power', 								 'detection', $Power);
+			echo mkTraitSet($pathLibPowers, $CodeName, $CharID, $Gender, 'detection', $Power, 'PowerDesc', $PowerDesc);
+
+			echo mkTraitCk($pathLibraryPowers,	'Power', 								 'energy control', $Power);
+			echo mkTraitSet($pathLibPowers, $CodeName, $CharID, $Gender, 'energy control', $Power, 'PowerDesc', $PowerDesc);
+
+			echo mkTraitCk($pathLibraryPowers,	'Power', 								 'energy emission', $Power);
+			echo mkTraitSet($pathLibPowers, $CodeName, $CharID, $Gender, 'energy emission', $Power, 'PowerDesc', $PowerDesc);
+
+			echo mkTraitCk($pathLibraryPowers,	'Power', 								 'faith', $Power);
+			echo mkTraitSet($pathLibPowers, $CodeName, $CharID, $Gender, 'faith', $Power, 'PowerDesc', $PowerDesc);
+
+			echo mkTraitCk($pathLibraryPowers,	'Power', 								 'illusions', $Power);
+			echo mkTraitSet($pathLibPowers, $CodeName, $CharID, $Gender, 'illusions', $Power, 'PowerDesc', $PowerDesc);
+
+			echo mkTraitCk($pathLibraryPowers,	'Power', 								 'life form control', $Power);
+			echo mkTraitSet($pathLibPowers, $CodeName, $CharID, $Gender, 'life form control', $Power, 'PowerDesc', $PowerDesc);
+
+			echo mkTraitCk($pathLibraryPowers,	'Power', 								 'magical', $Power);
+			echo mkTraitSet($pathLibPowers, $CodeName, $CharID, $Gender, 'magical', $Power, 'PowerDesc', $PowerDesc);
+
+			echo mkTraitCk($pathLibraryPowers,	'Power', 								 'matter control', $Power);
+			echo mkTraitSet($pathLibPowers, $CodeName, $CharID, $Gender, 'matter control', $Power, 'PowerDesc', $PowerDesc);
+
+			echo mkTraitCk($pathLibraryPowers,	'Power', 								 'matter conversion', $Power);
+			echo mkTraitSet($pathLibPowers, $CodeName, $CharID, $Gender, 'matter conversion', $Power, 'PowerDesc', $PowerDesc);
+
+			echo mkTraitCk($pathLibraryPowers,	'Power', 								 'matter creation', $Power);
+			echo mkTraitSet($pathLibPowers, $CodeName, $CharID, $Gender, 'matter creation', $Power, 'PowerDesc', $PowerDesc);
+
+			echo mkTraitCk($pathLibraryPowers,	'Power', 								 'mental enhancement', $Power);
+			echo mkTraitSet($pathLibPowers, $CodeName, $CharID, $Gender, 'mental enhancement', $Power, 'PowerDesc', $PowerDesc);
+
+			echo mkTraitCk($pathLibraryPowers,	'Power', 								 'physical enhancement', $Power);
+			echo mkTraitSet($pathLibPowers, $CodeName, $CharID, $Gender, 'physical enhancement', $Power, 'PowerDesc', $PowerDesc);
+
+
+
+			echo mkTraitCk($pathLibraryPowers,	'Power', 								 'self-alteration', $Power);
+			echo mkTraitSet($pathLibPowers, $CodeName, $CharID, $Gender, 'self-alteration', $Power, 'PowerDesc', $PowerDesc);
+
+
+
+			echo mkTraitCk($pathLibraryPowers,	'Power', 								 'travel', $Power);
+
+			echo mkTraitSet(
+
+				$pathLibPowers,
+				$CodeName,
+				$CharID,
+				$Gender,
+
+				$Power,
+				'PowerDesc',
+				$PowerDesc
+			);
+
+/*
+'combat', 'defensive', 'detection', 'energy control', 'energy emission', 'faith', 'illusions',
+'life form control', 'magical', 'matter control', 'matter conversion', 'matter creation',
+'mental enhancement', 'physical enhancement', 'self-alteration', 'travel'
+*/
+
+
 
 			echo makeInput($pathLibraryIndex . 'act=trait-aptitudes" target="_blank" >Aptitudes</a>', $Aptitude, 'Aptitude');
 
@@ -987,6 +1061,7 @@ function getJumboBg($imgID, $str=''){ #create background image
 	return $str; #return gallery images
 }
 
+/*
 function getHero($imgID, $str=''){
 	#id - series - suffix
 	#HEADR   2-h0.jpg    teddy header/background
@@ -1017,6 +1092,7 @@ function getHero($imgID, $str=''){
 		}
 	return $str; #return gallery images
 }
+*/
 
 function getJumbotron($myID ='', $CodeName=''){
 	echo '<style>
@@ -1135,7 +1211,7 @@ function charLabel($str){
 
 
 
-//
+//echo varChekDisplay('availability', $StatusID, $aarStatus);
 function varChekDisplay($myTitle, $str='', $myCarrier=''){
 /*
  * Display current settings IF not empty/null/void
@@ -1155,6 +1231,7 @@ function varChekDisplay($myTitle, $str='', $myCarrier=''){
 	if(!empty($str)){
 		$fromArr = '';
 
+
 		#if array make array
 		if(is_array($myCarrier) && (!empty($myCarrier))){
 			$myArr = $myCarrier;
@@ -1166,10 +1243,16 @@ function varChekDisplay($myTitle, $str='', $myCarrier=''){
 
 		if(!empty($str) && ($str!='')){#if array exists, use array value
 			if(!empty($myArr)){
+
+
+				#dumpDie($myArr);
+
+				$str = in_array($str . "  -  ", $myArr);
+
+
 				//$str = (int)$str;    #cast to int
-				$str .= $myArr[$str]; #get value from array
-
-
+				//replace with value of what is in array cause we got stuff!
+				$str = $myArr[$str]; #get value from array
 			}
 		}
 
@@ -1180,6 +1263,7 @@ function varChekDisplay($myTitle, $str='', $myCarrier=''){
 		#return with array info of gender notation
 		return '<div class="row hoverHighlight">
 			<div class="col-sm-3 text-right text-muted"><p class="text-right"><strong>' . ucwords($myTitle) . ':</strong></p></div>
+
 			<div class="col-sm-9"><p>' . nl2br($str) .  nl2br($fromArr) . '</p></div>
 		</div>';
 
@@ -1275,6 +1359,333 @@ function makeInput($myTitle, $str='', $name=''){
 	}
 
 
+// Power in db table ma_Characters set to varchar(1000) NULL
+function mkTraitCk($urlTitle ='', $myName='', $catID='', $myValue ='', $str='' ){
+	/*
+	 * creak mulitple checkboxes total equal to amount in given array
+	 * save selected values to comma delineated string
+	 * so we can then then make rich text edit areas for those descripts
+	 *
+	 * we save everything as a string and turn it into arrays and back to strings.
+	 *
+	 */
+
+	$str .= '<div class="row hoverHighlight">
+		<div class="col-sm-3 text-right text-muted">
+			<p class="text-right"><strong>' . ucwords($catID) . '</strong>
+			<br /><small>Select from...</small></a></p>
+		</div>
+
+		<div class="col-sm-7">';
+
+	//get master list
+	$sqlPow = "select PowID, CatID, PowName FROM ma_CharPower WHERE CatID='$catID'; ";
+	$foundRecord = FALSE; # Will change to true, if record found!
+	# connection comes first in mysqli (improved) function
+	$result = mysqli_query(IDB::conn(),$sqlPow) or die(trigger_error(mysqli_error(IDB::conn()), E_USER_ERROR));
+
+	if(mysqli_num_rows($result) > 0){#records exist - process
+		$foundRecord = TRUE;
+
+		while ($row = mysqli_fetch_assoc($result)) {
+			#added user id here...
+			$PowID  	= (int)$row['PowID'];
+			$CatID  	= dbOut($row['CatID']);
+			$powName  = dbOut($row['PowName']);
+
+			#creat test variable to see if value of chekbx = prior value
+			$iChek = explode(",", $myValue);
+
+			#if chek was prior selected from prior edit/creation/et al.
+			if(in_array($powName, $iChek)){
+				$str .= '<label class="checkbox-inline"><input type="checkbox"name="' . $myName . '[]"
+					value="' . $powName . '" checked="checked">' . ucwords($powName) . '</label>';
+			}else{
+				$str .= '<label class="checkbox-inline"><input type="checkbox"name="' . $myName . '[]"
+					value="' . $powName . '">' . ucwords($powName) . '</label>';
+			}
+		#closing formating here...
+		}
+	}else{//no records
+		echo '<p><h3>Currently No listings in Database.</h3></p>';
+	}
+	#	echo '<div align="center"><a href="' . THIS_PAGE . '?act=add">ADD CUSTOMER</a></div>';
+	$str .= '<br /><br /><input class="btn btn-xs " type="submit" value="Update '. ucwords($CatID) .' selection(s)"><br /><br /></div>
+		</div><!-- END Container -->';
+
+	return $str;
+}
+//END mkTraitCk
+
+function mkTraitSet($pathLibPowers='', $charName='', $charID='', $charGender='', 	 # character gender
+
+										$catName='', 		   # category name
+										$powKeys='', 		   # 'PowerDesc',
+										$PowerDesc='',     #
+										$attName='', 	 # $powerDesc
+
+										$PowName='', 		   #
+										$uPowDesc='',      #
+										$str ='' 		       #
+
+										){
+
+	//gotta fix this...
+
+
+
+
+
+	/*
+	 What we are trying to do
+	 for each box the user has checked - create a textarea
+	 - if we have no user pre-genateded content, load generic description from database
+	 - if we have user generated cotent already, load that from ma_Characters
+		 - if we have user generated content, explode the string into array and search it for matching content to the power name in a catagory.
+	*/
+	$attName=$PowerDesc;
+
+	#dumpDie($PowerDesc);
+
+
+
+	#refactor in to lots of little functions so we build it up in small bits - easier to maintain i think
+	//getCat - to get a catagory
+	//then get the power
+	//then get the descption
+	//etc al
+
+
+
+
+	// # COULD THIS BE A FUNCTION?
+	//make needed url paths
+	#EX: http://localhost/WrDKv2/library/powers.php?CodeName=Iron Heart&CharID=59
+	$pathPower =  VIRTUAL_PATH . $pathLibPowers . '?CodeName='
+		. $charName .'&CharID='
+		. $charID . '&catID='
+		. $catName . '&powerName='
+		. $PowName;
+
+	#EX: http://localhost/WrDKv2/library/powers.php?CodeName=Iron Heart&CharID=59
+	$pathCat   =  VIRTUAL_PATH . $pathLibPowers . '?CodeName='
+		. $charName .'&CharID='
+		. $charID . '&catID='
+		. $catName . '';
+
+	#1 - get specific array key
+	#make powers key string an array to use in foreach
+
+	//get user Power Writeups (PowerDesc)
+	$sql = "SELECT CharID, PowerDesc FROM ma_Characters WHERE CharID='$charID';";
+
+
+	$result = mysqli_query(IDB::conn(),$sql) or die(trigger_error(mysqli_error(IDB::conn()), E_USER_ERROR));
+	if (mysqli_num_rows($result) > 0){ //at least one record- get result
+		while ($row = mysqli_fetch_assoc($result))
+		{//dbOut() function is a 'wrapper' designed to strip slashes, etc. of data leaving db
+			//get any user pre-existing content
+			$uPowDesc = dbOut($row['PowerDesc']);
+		}
+	}
+	@mysqli_free_result($result); //free resources
+
+	//dumpDie($uPowDesc);
+
+
+
+
+	//get name of all powers listed under this category
+	$sqlCat = "SELECT CatID, PowName FROM ma_CharPower WHERE CatID='$catName';"; #string 'weapons tinkering' (length=17)
+
+
+	$aarCatList = [];
+	$result = mysqli_query(IDB::conn(),$sqlCat) or die(trigger_error(mysqli_error(IDB::conn()), E_USER_ERROR));
+	if (mysqli_num_rows($result) > 0){ //at least one record- get result
+		while ($row = mysqli_fetch_assoc($result))
+		{//dbOut() function is a 'wrapper' designed to strip slashes, etc. of data leaving db
+			//get any user pre-existing content
+			$aarCatList[] = dbOut($row['PowName']);
+		}
+	}
+	@mysqli_free_result($result); //free resources
+
+
+//delete after testing
+	$uPowDesc = 'BESERKER :: XcharnameX user data user data user user data user data user.+++++WEAPONS TINKERING :: XcharnameX can devise data user data user data user datauser data user d....';
+//delete after testing
+
+
+	$keys = explode(",", $powKeys); //"aa, bb, cc" becomes 'aa', 'bb', 'cc', et al
+
+	foreach ($keys as $pID) {
+		//using power name as the key to match too...
+		$sqlPow = "SELECT PowID, CatID, PowName, PowDesc FROM ma_CharPower WHERE PowName='$pID';";
+
+		$foundRecord = FALSE; # Will change to true, if record found!
+		# connection comes first in mysqli (improved) function
+		$result = mysqli_query(IDB::conn(), $sqlPow) or die(trigger_error(mysqli_error(IDB::conn()), E_USER_ERROR));
+
+		//chek for result
+		if(mysqli_num_rows($result) > 0){#records exist - process
+			$foundRecord = TRUE;
+
+			while ($row = mysqli_fetch_assoc($result)) {//check if matching category...
+				//get category name which the power/skill/abilty is in...
+				$catID = dbOut($row['CatID']);
+				//get name of trait (powr/skill/ability name)
+				$powName  = dbOut($row['PowName']);
+
+					//chek trait in THIS category
+					if(in_array($powName, $aarCatList)){
+						//if in catagory - show
+
+						// 1a. chek - user content exists?
+						if($uPowDesc ){
+
+						//test - show 'have' if we have the user data...
+						//echo 'have ' . $powName . '<br />';
+
+
+
+
+						// 2. Is it the data we want? Chek
+						$arrFullEntry = explode("+++++", $uPowDesc);
+
+						//3. get index position
+						$arPowindex = [];
+						foreach($arrFullEntry as $uKey){
+							//make it a key index to chek against
+							//string trait name to lower to use as comparison chek
+							$arPowindex[] .= strtolower(strstr($uKey, ' ::', true)) ?: $uKey;
+						}
+
+
+
+
+						//4. get the user description
+						$arChkDesc = [];
+						foreach($arrFullEntry as $uDesc){
+							$arChkDesc[] .= $uDesc;
+						}
+
+						//The user data - array search gives us the position in the data in the array we created
+						$kTitle = array_search($powName, $arPowindex);
+						$uniqueData = $arChkDesc[$kTitle];
+
+						//5. if we have unique user created data, AND it matches/passes test 'TRAITNAME :: '
+						if(($uniqueData) && (strpos($uniqueData, strtoupper($powName) . ' :: ') !== false)){
+
+							//show us a text area!
+							$str .= '<div class="row hoverHighlight">
+								<div class="col-sm-3 text-right text-muted">
+									<p class="text-right"><small>
+										<strong>
+											<!-- power name -->
+											<a href="#" title="#" target="_blank">' . ucwords($powName) . '</a>
+											<br />
+											<!-- cat name -->
+											<a href="#" target="_blank" >'. ucwords($catName) .'</a></small>
+									</p>
+								</div>
+
+								<div class="col-sm-9">
+								<textarea class="autoExpand col-sm-9"
+									name="'  . $attName . '[]"
+									rows="3" data-min-rows="3"
+									>' . $uniqueData . '</textarea>
+								</div>
+							</div>';
+
+						}else{
+							//5b. no user generated content - get generic content to start user off with
+
+							//echo '+need ' . $powName . '<br />';
+
+
+							//get generic trait trait description
+							$powDesc  = dbOut($row['PowDesc']);
+
+							//process/clean up/personalize description
+							$genDesc = personalizeString($powDesc, $charName, $charGender);
+
+							//add power name to description
+							$genDesc = strtoupper($powName) . ' :: ' . $genDesc;
+
+							$str .= '<div class="row hoverHighlight">
+								<div class="col-sm-3 text-right text-muted">
+									<p class="text-right"><small>
+										<strong>
+											<!-- power name -->
+											<a href="' . $pathPower . '" title="' . $genDesc . '" target="_blank">' . ucwords($powName) . '</a>
+											<br />
+											<!-- cat name -->
+											<a href="' . $pathCat . '" target="_blank" >'. ucwords($catName) .'</a></small>
+									</p>
+								</div>
+
+								<div class="col-sm-9">
+
+								<textarea class="autoExpand col-sm-9"
+									name="'  . $attName . '[]"
+
+									rows="3"
+									data-min-rows="3"
+									>' . $genDesc . '</textarea>
+								</div>
+							</div>';
+
+						}//END IF/ELSE - show trait data
+
+					} //?
+
+				}//close chek trait in THIS category
+			}//close out while loop
+		} //END if result
+	} //END foreach
+	@mysqli_free_result($result); //free resources
+
+	return $str .= '<div class="clearfix"></div>';
+} //END mkTraitSet
+
+
+
+
+
+#personalizeString($myDesc, $codename, $gender);
+function personalizeString($str='', $codename='', $gender=''){
+/*
+
+// Provides: <body text='black'>
+$bodytag = str_replace("%body%", "black", "<body text='%body%'>");
+
+// Provides: Hll Wrld f PHP
+$vowels = array("a", "e", "i", "o", "u", "A", "E", "I", "O", "U");
+$onlyconsonants = str_replace($vowels, "", "Hello World of PHP");
+
+// Provides: You should eat pizza, beer, and ice cream every day
+$phrase  = "You should eat fruits, vegetables, and fiber every day.";
+$healthy = array("fruits", "vegetables", "fiber");
+$yummy   = array("pizza", "beer", "ice cream");
+
+$newphrase = str_replace($healthy, $yummy, $phrase);
+
+*/
+
+	$str = str_replace('XcharnameX', $codename, $str);
+
+
+	if ($gender == 'male'){ $str = str_replace('Xhim-her-themX', 'him', $str);}
+	if ($gender == 'female'){ $str = str_replace('Xhim-her-themX', 'her', $str);}
+	if ($str    != ''){ $str = str_replace('Xhim-her-themX', 'them', $str);}
+
+	#clean up formatting used in arrays for display on other pages
+	//$str = strip_tags($str, '<p>');
+	//$str = strip_tags($str, '<strong>');
+
+	return $str;
+}
+
 function makeTextArea($myTitle, $str = '', $name=''){
 	#create input
 		return '<div class="row hoverHighlight">
@@ -1291,8 +1702,11 @@ function makeTextArea($myTitle, $str = '', $name=''){
 				/>' .  $str . '</textarea>
 
 			</div>
+		</div>
 
-		</div>';
+		<div class=clearfix> &nbsp;</div>
+
+		';
 	}
 #autoExpand col-sm-9 myTextarea
 
@@ -1317,17 +1731,17 @@ function mkDDinput($myTitle = '', $myName='', $myArr = '', $myVal = '', $count =
 			if($count == $myVal){
 				#we have set this to select
 				$myReturn .= '<option
-					data-imagesrc="../_img/_' . $myTitle . '/' . $myTitle . 'Color-' . $count++ . '.png"
+					data-imagesrc="../_img/_' . $myTitle . '/' . $myTitle . 'Color-' . $count . '.png"
 					selected="selected"
-					value="0">
+					value="' . $count++ . '">
 						' . $item . '
 				</option>';
 
 			}else{
 			 #if not set, make general li setting
 				$myReturn .= '<option
-					data-imagesrc="../_img/_' . $myTitle . '/' . $myTitle . 'Color-' . $count++ . '.png"
-					value="0">
+					data-imagesrc="../_img/_' . $myTitle . '/' . $myTitle . 'Color-' . $count . '.png"
+					value="' . $count++ . '">
 						' . $item . '
 				</option>';
 			}
@@ -1540,8 +1954,6 @@ function handlerDropDown($PlayerName, $HandlerUserID, $myDropdown = ''){//Select
 	@mysqli_free_result($result); # We're done with the data!
 }
 
-
-
 function getImgGallery($imgID = '', $CodeName = '', $str = '', $imgHero = '', $modal = FALSE){
 /**
 	* Take CharID, check upload __DIR__, return all images found meeint criteria of search given
@@ -1575,6 +1987,22 @@ function getImgGallery($imgID = '', $CodeName = '', $str = '', $imgHero = '', $m
 							#no image, no modal
 						}
 					}
+
+					if(($_REQUEST['act']) == 'edit'){
+						#make gallery of 4 random images
+
+						if(file_exists($imgPath)){
+							$imgHero = $imgPath;
+							$modal = TRUE;
+						}else{ #show static
+							$imgHero = VIRTUAL_PATH . '_img/_dims/dims170x170phf.jpg';
+							#no image, no modal
+						}
+					}
+
+
+
+
 
 				$str .= $imgHero . '" alt="'
 				. $CodeName . '"
@@ -1686,8 +2114,6 @@ function getImgGallery($imgID = '', $CodeName = '', $str = '', $imgHero = '', $m
 
 	return $str;
 }
-
-
 
 //scripts must site outside php so the browser can properly read the script tags
 ?>
